@@ -1217,9 +1217,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- https://purl.archive.org/oquo#LexicallySuggestLogicallyDefine -->
+    <!-- https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric -->
 
-    <owl:Class rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefine">
+    <owl:Class rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1235,7 +1235,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric is related to the design principle of the same name, which we interpret as follows: what is expressed in natural language for humans should be expressed as logical axioms for the machine. It is calculated as the ratio in which an LR class is semantically related to other classes exhibiting its lexical regularity. Here, two classes are semantically related if there exist a path of an arbitrary length between them through the axioms in the ontology (i.e. subclass of, equivalency, or domain/range property). For computational reasons, we limited the length of the path between classes up to 5 steps; thus, classes semantically related between them through longer paths will be considered as not semantically related. In this case, positive cases are classes exhibiting a lexical regularity and that are semantically linked with the corresponding LR class. Negative cases are classes exhibiting a lexical regularity and that are not semantically linked with the corresponding LR class. The value of the metric is calculated by dividing the positive cases by the total number of cases. This metric is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
         <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LSLD</rdf1:acronym>
-        <rdfs:label>lexically suggest logically define</rdfs:label>
+        <rdfs:label>lexically suggest logically define metric</rdfs:label>
     </owl:Class>
     
 
@@ -1550,9 +1550,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularities -->
+    <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric -->
 
-    <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularities">
+    <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1562,14 +1562,14 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric examines the names of the ontology classes, stabished by using &apos;rdfs:label&apos;, and identifies the number of lexical regularities appearing in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>NLR</rdf1:acronym>
-        <rdfs:label>number of lexical regularities</rdfs:label>
+        <rdfs:label>number of lexical regularities metric</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularityClasses -->
+    <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric -->
 
-    <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClasses">
+    <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1579,7 +1579,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric returns the number of ontology classes whose complete name, set by using &apos;rdfs:label&apos;, is a lexical regularity.</obo:IAO_0000115>
         <rdf1:acronym>NLRC</rdf1:acronym>
-        <rdfs:label>number of lexical regularity classes</rdfs:label>
+        <rdfs:label>number of lexical regularity classes metric</rdfs:label>
     </owl:Class>
     
 
@@ -2196,9 +2196,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- https://purl.archive.org/oquo#SystematicNaming -->
+    <!-- https://purl.archive.org/oquo#SystematicNamingMetric -->
 
-    <owl:Class rdf:about="https://purl.archive.org/oquo#SystematicNaming">
+    <owl:Class rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2214,7 +2214,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric is related to the ontology design principle that states that classes in the same taxonomy should share part of their name, since subclasses are specializations of the parent class. In other words, class names should follow a genus-differentia style. This metric is calculated as the ratio of subclasses of an LR class that exhibit the lexical regularity of the parent class. This requires to calculate how many subclasses of a given LR class exhibit the lexical regularity in their name (positive cases) and how many do not (negative cases). The value of the metric is calculated by dividing the positive cases by the total number of cases. It is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
         <rdf1:acronym>SYSNAM</rdf1:acronym>
-        <rdfs:label>systematic naming</rdfs:label>
+        <rdfs:label>systematic naming metric</rdfs:label>
     </owl:Class>
     
 
@@ -2454,9 +2454,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant">
         <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
-        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
-        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
         <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
+        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
+        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
         <rdfs:label xml:lang="en">Time instant</rdfs:label>
         <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
     </rdf:Description>
@@ -2496,15 +2496,15 @@ We also have the outstanding issue of how to aim different definitions to differ
             <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#LackOfCohesionInMethodsMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefine"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerClassMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerDataPropertyMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerObjectPropertyMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfAncestorClassesMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfChildrenClassesMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularities"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClasses"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfPropertiesMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#PropertiesRichnessMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#RelationshipRichnessMetric"/>
@@ -2514,7 +2514,7 @@ We also have the outstanding issue of how to aim different definitions to differ
             <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerClassMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerDataPropertyMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#SystematicNaming"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#Tangledness2Metric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric"/>
