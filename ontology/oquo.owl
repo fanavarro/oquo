@@ -29,10 +29,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
         <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
@@ -48,6 +50,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
         <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
@@ -59,6 +62,7 @@
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
@@ -94,6 +98,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -107,6 +112,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
@@ -123,6 +129,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -138,6 +145,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.cropontology.org/rdf/acronym -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.cropontology.org/rdf/acronym">
         <rdfs:label>acronym</rdfs:label>
     </owl:AnnotationProperty>
@@ -145,6 +153,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
         <oboInOwl:hasDbXref>
@@ -156,6 +165,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDefinition -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDefinition">
         <oboInOwl:hasDbXref>
@@ -171,6 +181,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
         <oboInOwl:hasDbXref>
@@ -192,6 +203,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
+
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
         <rdfs:label>comment</rdfs:label>
     </rdf:Description>
@@ -199,6 +211,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
         <rdfs:comment>The defininition of the subject resource.</rdfs:comment>
@@ -210,6 +223,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
+
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:comment>A human-readable name for the subject.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
@@ -219,6 +233,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
@@ -236,10 +251,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/net/QualityModel#measuresCharacteristic -->
+
 
     <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#measuresCharacteristic"/>
     
@@ -253,16 +270,19 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/net/QualityModel#DerivedMeasure -->
+
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#DerivedMeasure"/>
     
 
 
     <!-- http://purl.org/net/QualityModel#QualityCharacteristic -->
+
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#QualityCharacteristic"/>
     
@@ -276,1154 +296,1524 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
-    <!-- https://purl.archive.org/oquo#AdaptabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#adaptabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#adaptabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can be adapted for different specified environments (languages, expresivity levels) without applying actions or means other than those provided for this purpose for the Ontology considered.</obo:IAO_0000115>
+        <rdfs:label>adaptability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#AnalysabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#analysabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#analysabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can be diagnosed for deficiencies or causes of failures (inconsistences), or for the parts to be modified to be identified.</obo:IAO_0000115>
+        <rdfs:label>analysability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#AncestorsPerClassMetric -->
+    <!-- https://purl.archive.org/oquo#ancestorsPerClassMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AncestorsPerClassMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ancestorsPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
+        <obo:IAO_0000115 xml:lang="en">Mean number of direct ancestor per class POnto=∑|SupCi| /∑|Ci| </obo:IAO_0000115>
+        <rdf1:acronym>POnto</rdf1:acronym>
+        <rdfs:label>ancestors per class metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetric -->
+    <!-- https://purl.archive.org/oquo#annotationPropertiesWithNoDescriptionMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#annotationPropertiesWithNoDescriptionMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of annotation properties lacking a description in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>APWND</rdf1:acronym>
+        <rdfs:label>annotation properties with no description metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetric -->
+    <!-- https://purl.archive.org/oquo#annotationPropertiesWithNoNameMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#annotationPropertiesWithNoNameMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of annotation properties lacking a name in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>APWNN</rdf1:acronym>
+        <rdfs:label>annotation properties with no name metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetric -->
+    <!-- https://purl.archive.org/oquo#annotationPropertiesWithNoSynonymMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#annotationPropertiesWithNoSynonymMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of annotation properties lacking a synonym in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>APWNS</rdf1:acronym>
+        <rdfs:label>annotation properties with no synonym metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#AnnotationRichnessMetric -->
+    <!-- https://purl.archive.org/oquo#annotationRichnessMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationRichnessMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#annotationRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ClusteringCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#clusteringCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#consistentSearchAndQueryCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#controlledVocabularyCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeAcquisitionRepresentationCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Mean number of annotation properties per class ANOnto=∑|ACi| /∑|Ci|; where Ci is the i-th class in the ontology </obo:IAO_0000115>
+        <rdf1:acronym>ANOnto</rdf1:acronym>
+        <rdfs:label>annotation richness metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#appropriatenessRecognisabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#appropriatenessRecognisabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which the Ontology enables users to recognise whether it is appropriate for their needs.</obo:IAO_0000115>
+        <rdfs:label>appropriateness recognisability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#AttributeRichnessMetric -->
+    <!-- https://purl.archive.org/oquo#attributeRichnessMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AttributeRichnessMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#attributeRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#GuidanceCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#consistentSearchAndQueryCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#decisionTreesCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#guidanceCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#resultsRepresentationCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#schemaAndValueReconciliationCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#similarityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Number of restrictions of the ontology per classes AROnto=∑|AttCi| / ∑|Ci |; where AttCi, is the set of Attributes of the Ci </obo:IAO_0000115>
+        <rdf1:acronym>AROnto</rdf1:acronym>
+        <rdfs:label>attribute richness metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ChangeabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#changeabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#changeabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which The Ontology enables a specified modification to be implemented. The ease with which a The ontology can be modified.</obo:IAO_0000115>
+        <rdfs:label>changeability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ClassRichnessMetric -->
+    <!-- https://purl.archive.org/oquo#classRichnessMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassRichnessMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#classRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#InferenceCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#inferenceCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#resultsRepresentationCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Mean number of individuals per class CROnto=∑| ICi| / ∑|Ci |; where ICi, is the set ofindividuals of the Ci </obo:IAO_0000115>
+        <rdf1:acronym>CROnto</rdf1:acronym>
+        <rdfs:label>class richness metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ClassesWithNoDescriptionMetric -->
+    <!-- https://purl.archive.org/oquo#classesWithNoDescriptionMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoDescriptionMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#classesWithNoDescriptionMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of classes lacking a description in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>CWND</rdf1:acronym>
+        <rdfs:label>classes with no description metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ClassesWithNoNameMetric -->
+    <!-- https://purl.archive.org/oquo#classesWithNoNameMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoNameMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#classesWithNoNameMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of classes lacking a name in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>CWNN</rdf1:acronym>
+        <rdfs:label>classes with no name metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ClassesWithNoSynonymMetric -->
+    <!-- https://purl.archive.org/oquo#classesWithNoSynonymMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoSynonymMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#classesWithNoSynonymMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of classes lacking a synonym in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>CWNS</rdf1:acronym>
+        <rdfs:label>classes with no synonym metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic -->
+    <!-- https://purl.archive.org/oquo#classifyingInstancesCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#classifyingInstancesCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Degree in which ontology Instances can be recognized as member of a certain class.</obo:IAO_0000115>
+        <rdfs:label>classifying instances characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ClusteringCharacteristic -->
+    <!-- https://purl.archive.org/oquo#clusteringCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClusteringCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#clusteringCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Degree in which the annotations of data with respect to ontology terms can be used for clustering such data against the aspects of the ontology.</obo:IAO_0000115>
+        <rdfs:label>clustering characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic -->
+    <!-- https://purl.archive.org/oquo#cognitiveSatisfactionCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#cognitiveSatisfactionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Cognitive satisfaction</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Likability characteristic</oboInOwl:hasExactSynonym>
+        <rdfs:label>cognitive satisfaction characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#CohesionCharacteristic -->
+    <!-- https://purl.archive.org/oquo#cohesionCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CohesionCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#cohesionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">An ontology has a high cohesion if the classes are strongly related.</obo:IAO_0000115>
+        <rdfs:label>cohesion characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#CompatibilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#compatibilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CompatibilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#compatibilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#InteroperabilityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#interoperabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#replaceabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The ability of two or more software components to exchange information and/or to perform their required functions while sharing the same hardware or software environment.</obo:IAO_0000115>
+        <rdfs:label>compatibility characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ConsistencyCharacteristic -->
+    <!-- https://purl.archive.org/oquo#consistencyCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ConsistencyCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#consistencyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Degree of the consistency of the ontology.</obo:IAO_0000115>
+        <rdfs:label>consistency characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic -->
+    <!-- https://purl.archive.org/oquo#consistentSearchAndQueryCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#consistentSearchAndQueryCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree which the formal model and structure of the ontology provide a semantic context to evaluate which are the data wanted by the users, allowing better querying and searching methods.</obo:IAO_0000115>
+        <rdfs:label>consistent search and query characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ContextConformityInUseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#contextConformityInUseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#contextConformityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which usability in use meets requirements in all the intended contexts of use.</obo:IAO_0000115>
+        <rdfs:label>context conformity in use characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#contextExtendibilityInUseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#contextExtendibilityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree of usability in use in contexts beyond those initially intended.</obo:IAO_0000115>
+        <rdfs:label>context extendibility in use characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ControlledVocabularyCharacteristic -->
+    <!-- https://purl.archive.org/oquo#controlledVocabularyCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#controlledVocabularyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the ontology to avoid heterogeneity of the terms.</obo:IAO_0000115>
+        <rdfs:label>controlled vocabulary characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#CouplingBetweenObjectsMetric -->
+    <!-- https://purl.archive.org/oquo#couplingBetweenObjectsMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CouplingBetweenObjectsMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#couplingBetweenObjectsMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ModularityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#adaptabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#analysabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#changeabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#modificaionStabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#modularityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#reusabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#testabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Number of related classes. Number of direct ancestor of classes divided by the number of classes minus subclasses of Thing CBOOnto=∑|SupCi|/(∑|Ci| -| RThing|) </obo:IAO_0000115>
+        <rdf1:acronym>CBOOnto</rdf1:acronym>
+        <rdfs:label>coupling between objects metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#CyclesCharacteristic -->
+    <!-- https://purl.archive.org/oquo#cyclesCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CyclesCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#cyclesCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The existence of cycles through a particular semantic relation is usually a sign of bad design, since they may lead to inconsistencies.</obo:IAO_0000115>
+        <rdfs:label>cycles characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetric -->
+    <!-- https://purl.archive.org/oquo#dataPropertiesWithNoDescriptionMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#dataPropertiesWithNoDescriptionMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of data properties lacking a description in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>DPWND</rdf1:acronym>
+        <rdfs:label>data properties with no description metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DataPropertiesWithNoNameMetric -->
+    <!-- https://purl.archive.org/oquo#dataPropertiesWithNoNameMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoNameMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#dataPropertiesWithNoNameMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of data properties lacking a name in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>DPWNN</rdf1:acronym>
+        <rdfs:label>data properties with no name metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetric -->
+    <!-- https://purl.archive.org/oquo#dataPropertiesWithNoSynonymMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#dataPropertiesWithNoSynonymMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of data properties lacking a synonym in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>DPWNS</rdf1:acronym>
+        <rdfs:label>data properties with no synonym metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DecisionTreesCharacteristic -->
+    <!-- https://purl.archive.org/oquo#decisionTreesCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#decisionTreesCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the ontology to be used building Decision trees.</obo:IAO_0000115>
+        <rdfs:label>decision trees characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetric -->
+    <!-- https://purl.archive.org/oquo#depthOfSubsumptionHierarchyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#depthOfSubsumptionHierarchyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#adaptabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#analysabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#changeabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#replaceabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#reusabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#testabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Length of the largest path from Thing to a leaf class DITOnto=Max (∑D|Ci|), where Ci are the classes and D|Ci| is the length of the path from the i-thleaf class of the ontology to Thing </obo:IAO_0000115>
+        <rdf1:acronym>DITOnto</rdf1:acronym>
+        <rdfs:label>depth of subsumption hierarchy metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#descriptionsPerAnnotationPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#descriptionsPerAnnotationPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with annotation properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>DxAP</rdf1:acronym>
+        <rdfs:label>descriptions per annotation property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DescriptionsPerClassMetric -->
+    <!-- https://purl.archive.org/oquo#descriptionsPerClassMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerClassMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#descriptionsPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with classes, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>DxC</rdf1:acronym>
+        <rdfs:label>descriptions per class metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#descriptionsPerDataPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#descriptionsPerDataPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with data type properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>DxDP</rdf1:acronym>
+        <rdfs:label>descriptions per data property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#descriptionsPerObjectPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#descriptionsPerObjectPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with object properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>DxOP</rdf1:acronym>
+        <rdfs:label>descriptions per object property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DescriptionsPerPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#descriptionsPerPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#descriptionsPerPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>DxP</rdf1:acronym>
+        <rdfs:label>descriptions per property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#DomainCoverageCharacteristic -->
+    <!-- https://purl.archive.org/oquo#domainCoverageCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DomainCoverageCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#domainCoverageCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which The ontology cover the specified domain</obo:IAO_0000115>
+        <rdfs:label>domain coverage characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#EaseOfUseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#easeOfUseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#easeOfUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which the ontology makes it easy for users to operate and control it.</obo:IAO_0000115>
+        <rdfs:label>ease of use characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#EffectivenessInUseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#effectivenessInUseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#effectivenessInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which specified users can achieve specified goals with accuracy and completeness in a specified context of use.</obo:IAO_0000115>
+        <rdfs:label>effectiveness in use characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#EfficiencyInUseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#efficiencyInUseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#efficiencyInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which specified users expend appropriate amounts of resources in relation to the effectiveness achieved in a specified context of use.</obo:IAO_0000115>
+        <rdfs:label>efficiency in use characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic -->
+    <!-- https://purl.archive.org/oquo#emotionalSatisfactionCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#emotionalSatisfactionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Emotional satisfaction</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Pleasure characteristic</oboInOwl:hasExactSynonym>
+        <rdfs:label>emotional satisfaction characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#FlexibilityInUseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#flexibilityInUseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#flexibilityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#contextConformityInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#contextExtendibilityInUseCharacteristic"/>
+        <rdfs:label>flexibility in use characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#FormalRelationSupportCharacteristic -->
+    <!-- https://purl.archive.org/oquo#formalRelationSupportCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#formalRelationSupportCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the ontology to represent relations supported for formal theories different to the formal support for taxonomy.</obo:IAO_0000115>
+        <rdfs:label>formal relation support characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#FormalisationCharacteristic -->
+    <!-- https://purl.archive.org/oquo#formalisationCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#FormalisationCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#formalisationCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the ontology to support reasoning</obo:IAO_0000115>
+        <rdfs:label>formalisation characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic -->
+    <!-- https://purl.archive.org/oquo#functionalAdequacyCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#functionalAdequacyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ClusteringCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#GuidanceCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#InferenceCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#PrecisionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ReferenceOntologyCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#classifyingInstancesCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#clusteringCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#consistentSearchAndQueryCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#controlledVocabularyCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#decisionTreesCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#guidanceCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#inferenceCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeAcquisitionRepresentationCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#precisionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#referenceOntologyCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#resultsRepresentationCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#schemaAndValueReconciliationCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#similarityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The capability of the ontologies to provide concrete functions.</obo:IAO_0000115>
+        <rdfs:label>functional adequacy characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#GuidanceCharacteristic -->
+    <!-- https://purl.archive.org/oquo#guidanceCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#GuidanceCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#guidanceCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the ontology to guide the specification of domain theories.</obo:IAO_0000115>
+        <rdfs:label>guidance characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#HelpfulnessCharacteristic -->
+    <!-- https://purl.archive.org/oquo#helpfulnessCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#helpfulnessCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which the Ontology provides help when users need assistance.</obo:IAO_0000115>
+        <rdfs:label>helpfulness characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic -->
+    <!-- https://purl.archive.org/oquo#indexingAndLinkingCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Degree in which the classes defined in the ontology can act as indexes for quick information retrieval.</obo:IAO_0000115>
+        <rdfs:label>indexing and linking characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#InferenceCharacteristic -->
+    <!-- https://purl.archive.org/oquo#inferenceCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#InferenceCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#inferenceCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which The formal model of the ontology can be used by reasoners to make implicit knowledge explicit.</obo:IAO_0000115>
+        <rdfs:label>inference characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#InteroperabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#interoperabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#InteroperabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#interoperabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which the ontology can be cooperatively operable combining its knowledge with one or more other ontologies.</obo:IAO_0000115>
+        <rdfs:label>interoperability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic -->
+    <!-- https://purl.archive.org/oquo#knowledgeAcquisitionRepresentationCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#knowledgeAcquisitionRepresentationCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the Ontology to represent the knowledge acquired.</obo:IAO_0000115>
+        <rdfs:label>knowledge acquisition representation characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#KnowledgeReuseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#knowledgeReuseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#knowledgeReuseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which The ontology knowledge can be used to build other ontologies.</obo:IAO_0000115>
+        <rdfs:label>knowledge reuse characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#LackOfCohesionInMethodsMetric -->
+    <!-- https://purl.archive.org/oquo#lackOfCohesionInMethodsMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LackOfCohesionInMethodsMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#lackOfCohesionInMethodsMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#CohesionCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#analysabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#changeabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#cohesionCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Semantic and conceptual relatedness of classes. It can be used to measure the separation of responsibilities and independence of components of ontologies LCOMOnto=∑Lenght(path(|C(leaf)i|))/m , where Lenght(path|C(leaf)i|) is the length of the path from the leaf class i to Thing, and m is the total number of paths in the ontology </obo:IAO_0000115>
+        <rdf1:acronym>LCOMOnto</rdf1:acronym>
+        <rdfs:label>lack of cohesion in methods metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#LearnabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#learnabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#learnabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which the ontology enables users to learn its application.</obo:IAO_0000115>
+        <rdfs:label>learnability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric -->
+    <!-- https://purl.archive.org/oquo#lexicallySuggestLogicallyDefineMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#lexicallySuggestLogicallyDefineMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#structuralAccuracyCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric is related to the design principle of the same name, which we interpret as follows: what is expressed in natural language for humans should be expressed as logical axioms for the machine. It is calculated as the ratio in which an LR class is semantically related to other classes exhibiting its lexical regularity. Here, two classes are semantically related if there exist a path of an arbitrary length between them through the axioms in the ontology (i.e. subclass of, equivalency, or domain/range property). For computational reasons, we limited the length of the path between classes up to 5 steps; thus, classes semantically related between them through longer paths will be considered as not semantically related. In this case, positive cases are classes exhibiting a lexical regularity and that are semantically linked with the corresponding LR class. Negative cases are classes exhibiting a lexical regularity and that are not semantically linked with the corresponding LR class. The value of the metric is calculated by dividing the positive cases by the total number of cases. This metric is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
+        <rdf1:acronym>LSLD</rdf1:acronym>
+        <rdfs:label>lexically suggest logically define metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#MaintainabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#maintainabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#MaintainabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#maintainabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ModularityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#analysabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#changeabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#modificaionStabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#modularityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#reusabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#testabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The capability of ontologies to be modified for changes in environments, in requirements or in functional specifications.</obo:IAO_0000115>
+        <rdfs:label>maintainability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ModificaionStabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#modificaionStabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#modificaionStabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can avoid unexpected effects from modifications of the software or knowledge.</obo:IAO_0000115>
+        <rdfs:label>modificaion stability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ModularityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#modularityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#modularityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which the ontology is composed of discrete components such that a change to one component has minimal impact on other components.</obo:IAO_0000115>
+        <rdfs:label>modularity characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#namesPerAnnotationPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#namesPerAnnotationPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with annotation properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are annotation properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are annotation properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
+        <rdf1:acronym>NxAP</rdf1:acronym>
+        <rdfs:label>names per annotation property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NamesPerClassMetric -->
+    <!-- https://purl.archive.org/oquo#namesPerClassMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerClassMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#namesPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with classes, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are classes without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are classes with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
+        <rdf1:acronym>NxC</rdf1:acronym>
+        <rdfs:label>names per class metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NamesPerDataPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#namesPerDataPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerDataPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#namesPerDataPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with data type properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are data type properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are data type properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
+        <rdf1:acronym>NxDP</rdf1:acronym>
+        <rdfs:label>names per data property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NamesPerObjectPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#namesPerObjectPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerObjectPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#namesPerObjectPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with object properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are object properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are object properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
+        <rdf1:acronym>NxOP</rdf1:acronym>
+        <rdfs:label>names per object property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NamesPerPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#namesPerPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#namesPerPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with properties, which can also be provided by using different annotation properties used by the community to include names (rdfs:label, skos:prefLabel, foaf:name, etc.). This metric is calculated as the total number of names associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>DxP</rdf1:acronym>
+        <rdfs:label>names per property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NumberOfAncestorClassesMetric -->
+    <!-- https://purl.archive.org/oquo#numberOfAncestorClassesMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfAncestorClassesMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#numberOfAncestorClassesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Mean number of ancestor classes per leaf class. It is the number of direct superclasses per leaf class NACOnto=∑|SupC(Leaf)i|/∑|C(leaf)i)| </obo:IAO_0000115>
+        <rdf1:acronym>NACOnto</rdf1:acronym>
+        <rdfs:label>number of ancestor classes metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NumberOfChildrenClassesMetric -->
+    <!-- https://purl.archive.org/oquo#numberOfChildrenClassesMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfChildrenClassesMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#numberOfChildrenClassesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#changeabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#modificaionStabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#replaceabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#reusabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Number of the direct subclasses divided by the number of classes minus the number of leaf classes NOCOnto=∑|RCi|/(∑|Ci| - ∑|C(leaf)i)|) </obo:IAO_0000115>
+        <rdf1:acronym>NOCOnto</rdf1:acronym>
+        <rdfs:label>number of children classes metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NumberOfClassesMetric -->
-
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfClassesMetric">
-        <rdf:type rdf:resource="http://purl.org/net/QualityModel#BaseMeasure"/>
-    </owl:NamedIndividual>
-    
+    <!-- https://purl.archive.org/oquo#numberOfClassesMetric -->
 
 
-    <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric -->
-
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric">
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#numberOfClassesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
+        <obo:IAO_0000115>This metric calculates the number of classes asserted in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>NCLASSES</rdf1:acronym>
+        <rdfs:label>number of classes metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric -->
+    <!-- https://purl.archive.org/oquo#numberOfLexicalRegularitiesMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#numberOfLexicalRegularitiesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#controlledVocabularyCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric examines the names of the ontology classes, stabished by using &apos;rdfs:label&apos;, and identifies the number of lexical regularities appearing in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>NLR</rdf1:acronym>
+        <rdfs:label>number of lexical regularities metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#NumberOfPropertiesMetric -->
+    <!-- https://purl.archive.org/oquo#numberOfLexicalRegularityClassesMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfPropertiesMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#numberOfLexicalRegularityClassesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#controlledVocabularyCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric returns the number of ontology classes whose complete name, set by using &apos;rdfs:label&apos;, is a lexical regularity.</obo:IAO_0000115>
+        <rdf1:acronym>NLRC</rdf1:acronym>
+        <rdfs:label>number of lexical regularity classes metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetric -->
+    <!-- https://purl.archive.org/oquo#numberOfPropertiesMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#numberOfPropertiesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#analysabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#changeabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeAcquisitionRepresentationCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#modificaionStabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#replaceabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#reusabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#testabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Number of properties per class. Mean number of object and data property usages per class NOMOnto=∑| PCi|∕∑|Ci| </obo:IAO_0000115>
+        <rdf1:acronym>NOMOnto</rdf1:acronym>
+        <rdfs:label>number of properties metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetric -->
+    <!-- https://purl.archive.org/oquo#objectPropertiesWithNoDescriptionMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#objectPropertiesWithNoDescriptionMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of object properties lacking a description in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>OPWND</rdf1:acronym>
+        <rdfs:label>object properties with no description metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetric -->
+    <!-- https://purl.archive.org/oquo#objectPropertiesWithNoNameMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#objectPropertiesWithNoNameMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of object properties lacking a name in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>OPWNN</rdf1:acronym>
+        <rdfs:label>object properties with no name metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#OperabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#objectPropertiesWithNoSynonymMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OperabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#objectPropertiesWithNoSynonymMetric">
+        <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115>The Percentage of object properties lacking a synonym in the ontology.</obo:IAO_0000115>
+        <rdf1:acronym>OPWNS</rdf1:acronym>
+        <rdfs:label>object properties with no synonym metric</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#operabilityCharacteristic -->
+
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#operabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#appropriatenessRecognisabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#helpfulnessCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Effort needed for use, and on the individual assessment of such use, by a stated or implied set of users.</obo:IAO_0000115>
+        <rdfs:label>operability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic -->
+    <!-- https://purl.archive.org/oquo#physicalSatisfactionCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#physicalSatisfactionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Physical satisfaction</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Comfort characteristic</oboInOwl:hasExactSynonym>
+        <rdfs:label>physical satisfaction characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#PortabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#portabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PortabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#portabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree in which an Ontology or one part of the ontology can be transferred from one hardware or software environment to another.</obo:IAO_0000115>
+        <rdfs:label>portability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#PrecisionCharacteristic -->
+    <!-- https://purl.archive.org/oquo#precisionCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PrecisionCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#precisionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which The ontology provides the right or specified results with the needed degree of accuracy.</obo:IAO_0000115>
+        <rdfs:label>precision characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#PropertiesRichnessMetric -->
+    <!-- https://purl.archive.org/oquo#propertiesRichnessMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PropertiesRichnessMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#propertiesRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
+        <obo:IAO_0000115 xml:lang="en">Number of usages of object and data properties divided by the number of subclassof relations and properties PROnto=∑|PCi| ∕∑(|RCi| + ∑|PCi|) </obo:IAO_0000115>
+        <rdf1:acronym>PROnto</rdf1:acronym>
+        <rdfs:label>properties richness metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#QualityInUseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#qualityInUseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#QualityInUseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#qualityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#UsabilityInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#cognitiveSatisfactionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#contextConformityInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#contextExtendibilityInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#effectivenessInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#emotionalSatisfactionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#flexibilityInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#physicalSatisfactionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#satisfactionInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#usabilityInUseCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Quality in a particular context of use. Quality in use is the degree to which a product used by specific users meets their needs to achieve specific goals.</obo:IAO_0000115>
+        <rdfs:label>quality in use characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#RedundancyCharacteristic -->
+    <!-- https://purl.archive.org/oquo#redundancyCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#RedundancyCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#redundancyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the ontology to be informative</obo:IAO_0000115>
+        <rdfs:label>redundancy characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ReferenceOntologyCharacteristic -->
+    <!-- https://purl.archive.org/oquo#referenceOntologyCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ReferenceOntologyCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#referenceOntologyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Degree in which the ontology can be used as a reference resource for the particular domain the ontology is built for.</obo:IAO_0000115>
+        <rdfs:label>reference ontology characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#RelationshipRichnessMetric -->
+    <!-- https://purl.archive.org/oquo#relationshipRichnessMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#RelationshipRichnessMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#relationshipRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#InferenceCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#consistentSearchAndQueryCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#formalRelationSupportCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#inferenceCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeAcquisitionRepresentationCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#schemaAndValueReconciliationCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#similarityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Number of subclassof relationships divided by the number of subclassof relationships and properties RROnto=∑|RCi| ∕∑(|RCi| + ∑|PCi|) </obo:IAO_0000115>
+        <rdf1:acronym>RROnto</rdf1:acronym>
+        <rdfs:label>relationship richness metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#RelationshipsPerClassMetric -->
+    <!-- https://purl.archive.org/oquo#relationshipsPerClassMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#RelationshipsPerClassMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#relationshipsPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#GuidanceCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#consistentSearchAndQueryCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#decisionTreesCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#guidanceCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Mean number of subclasses per class INROnto=∑| RCi| /∑|Ci| </obo:IAO_0000115>
+        <rdf1:acronym>INROnto</rdf1:acronym>
+        <rdfs:label>relationships per class metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ReplaceabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#replaceabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#replaceabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can be used in place of another specified Ontology for the same purpose in the same environment.</obo:IAO_0000115>
+        <rdfs:label>replaceability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ResponseForAClassMetric -->
+    <!-- https://purl.archive.org/oquo#responseForAClassMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ResponseForAClassMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#responseForAClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#adaptabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#analysabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#changeabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#modificaionStabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#reusabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#testabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Number of properties that can be directly accessed from the class. number of usages of object and data properties and superclasses divided by the number of classes RFCOnto=(∑|PCi|+∑|SupCi|/(∑|Ci| </obo:IAO_0000115>
+        <rdf1:acronym>RFCOnto</rdf1:acronym>
+        <rdfs:label>response for a class metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ResultsRepresentationCharacteristic -->
+    <!-- https://purl.archive.org/oquo#resultsRepresentationCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#resultsRepresentationCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the ontology to analize complex results such as microarrays experiments.</obo:IAO_0000115>
+        <rdfs:label>results representation characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#ReusabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#reusabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#reusabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which an asset (part of) the ontology can be used in more than one ontology, or in building other assets.</obo:IAO_0000115>
+        <rdfs:label>reusability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#SatisfactionInUseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#satisfactionInUseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#satisfactionInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#cognitiveSatisfactionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#emotionalSatisfactionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#physicalSatisfactionCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which users are satisfied in a especified context of use.</obo:IAO_0000115>
+        <rdfs:label>satisfaction in use characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic -->
+    <!-- https://purl.archive.org/oquo#schemaAndValueReconciliationCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#schemaAndValueReconciliationCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Degree in which ontology provide a common data model that can be applied to reconciliation and integration.</obo:IAO_0000115>
+        <rdfs:label>schema and value reconciliation characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#SimilarityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#similarityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SimilarityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#similarityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the component of the ontology to be compared for similarity.</obo:IAO_0000115>
+        <rdfs:label>similarity characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#StructuralAccuracyCharacteristic -->
+    <!-- https://purl.archive.org/oquo#structuralAccuracyCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#structuralAccuracyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Degree of the correctness of the terms used in the ontology.</obo:IAO_0000115>
+        <rdfs:label>structural accuracy characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#StructuralCharacteristic -->
+    <!-- https://purl.archive.org/oquo#structuralCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#StructuralCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#structuralCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#CohesionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ConsistencyCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#CyclesCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#DomainCoverageCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#FormalisationCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#RedundancyCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#cohesionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#consistencyCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#cyclesCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#domainCoverageCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#formalRelationSupportCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#formalisationCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#redundancyCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#structuralAccuracyCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#tanglednessCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The structural characteristic accounts for ontology quality factors such as consistency, formalisation, redundancy or tangledness.</obo:IAO_0000115>
+        <rdfs:label>structural characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#synonymsPerAnnotationPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#synonymsPerAnnotationPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with annotation properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>SxAP</rdf1:acronym>
+        <rdfs:label>synonyms per annotation property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#SynonymsPerClassMetric -->
+    <!-- https://purl.archive.org/oquo#synonymsPerClassMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerClassMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#synonymsPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with classes, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>SxC</rdf1:acronym>
+        <rdfs:label>synonyms per class metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#SynonymsPerDataPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#synonymsPerDataPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerDataPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#synonymsPerDataPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with data type properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>SxDP</rdf1:acronym>
+        <rdfs:label>synonyms per data property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#synonymsPerObjectPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#synonymsPerObjectPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with object properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>SxOP</rdf1:acronym>
+        <rdfs:label>synonyms per object property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#SynonymsPerPropertyMetric -->
+    <!-- https://purl.archive.org/oquo#synonymsPerPropertyMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerPropertyMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#synonymsPerPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#easeOfUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#indexingAndLinkingCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#knowledgeReuseCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
+        <rdf1:acronym>SxC</rdf1:acronym>
+        <rdfs:label>synonyms per property metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#SystematicNamingMetric -->
+    <!-- https://purl.archive.org/oquo#systematicNamingMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#systematicNamingMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#structuralAccuracyCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#textAnalysisCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This metric is related to the ontology design principle that states that classes in the same taxonomy should share part of their name, since subclasses are specializations of the parent class. In other words, class names should follow a genus-differentia style. This metric is calculated as the ratio of subclasses of an LR class that exhibit the lexical regularity of the parent class. This requires to calculate how many subclasses of a given LR class exhibit the lexical regularity in their name (positive cases) and how many do not (negative cases). The value of the metric is calculated by dividing the positive cases by the total number of cases. It is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
+        <rdf1:acronym>SYSNAM</rdf1:acronym>
+        <rdfs:label>systematic naming metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#Tangledness2Metric -->
+    <!-- https://purl.archive.org/oquo#tangledness2Metric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#Tangledness2Metric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#tangledness2Metric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#decisionTreesCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#tanglednessCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Mean number of direct ancestor of classes with more than 1 direct ancestor. TMOnto2=∑|SUP(CDP)i|/∑|CDPi|; where Ci is the i-th class in the ontology and SUP(CDP)i is the supperclass of the thei-th class in the ontology with more than one direct parent </obo:IAO_0000115>
+        <rdf1:acronym>TMOnto2</rdf1:acronym>
+        <rdfs:label>tangledness 2 metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#TanglednessCharacteristic -->
+    <!-- https://purl.archive.org/oquo#tanglednessCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TanglednessCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#tanglednessCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">This measures the distribution of multiple parent categories, so that it is related to the existence of multiple inheritance.</obo:IAO_0000115>
+        <rdfs:label>tangledness characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#TanglednessMetric -->
+    <!-- https://purl.archive.org/oquo#tanglednessMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TanglednessMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#tanglednessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#decisionTreesCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#tanglednessCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Mean number of classes with more than 1 direct ancestor TMOnto=∑|C(DP)i|/∑|Ci|-1; where Ci is the i-th class in the ontology and C(DP)i is thei-th class in the ontology with more than one direct parent </obo:IAO_0000115>
+        <rdf1:acronym>TMOnto</rdf1:acronym>
+        <rdfs:label>tangledness metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#TestabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#testabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#testabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which the ontology modified can be validated.</obo:IAO_0000115>
+        <rdfs:label>testability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#TextAnalysisCharacteristic -->
+    <!-- https://purl.archive.org/oquo#textAnalysisCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#textAnalysisCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Capability of the structure of the ontology to helps detecting associations between words or concepts and classifying word types.</obo:IAO_0000115>
+        <rdfs:label>text analysis characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#TransferabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#transferabilityCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TransferabilityCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#transferabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#PortabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#adaptabilityCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#portabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">The degree to which the software product can be transferred from one environment to another.</obo:IAO_0000115>
+        <rdfs:label>transferability characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#UsabilityInUseCharacteristic -->
+    <!-- https://purl.archive.org/oquo#usabilityInUseCharacteristic -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#UsabilityInUseCharacteristic">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#usabilityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
-        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#cognitiveSatisfactionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#effectivenessInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#efficiencyInUseCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#emotionalSatisfactionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#physicalSatisfactionCharacteristic"/>
+        <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#satisfactionInUseCharacteristic"/>
+        <rdfs:label>usability in use characteristic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetric -->
+    <!-- https://purl.archive.org/oquo#weigthMethodPerClassMetric -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#weigthMethodPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ModularityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#adaptabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#analysabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#changeabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#modificaionStabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#modularityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#replaceabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#reusabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#testabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Mean length of the path from Thing to a leaf class WMCOnto=∑Lenght(path(|C(leaf)i|))/∑|C(leaf)i|, where Lenght(path|C(leaf)i|) is the length of the path from the leaf class i to Thing </obo:IAO_0000115>
+        <rdf1:acronym>WMCOnto</rdf1:acronym>
+        <rdfs:label>weigth method per class metric</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetric2 -->
+    <!-- https://purl.archive.org/oquo#weigthMethodPerClassMetric2 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric2">
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#weigthMethodPerClassMetric2">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ModularityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
-        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#adaptabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#analysabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#changeabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#learnabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#modificaionStabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#modularityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#replaceabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#reusabilityCharacteristic"/>
+        <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#testabilityCharacteristic"/>
+        <obo:IAO_0000115 xml:lang="en">Mean number of path from Thing to a leaf class per leaf class WMCOnto2=∑path(|C(leaf)i|)/∑|C(leaf)i| , where path|C(leaf)i| is the number of the path from the leaf class i to Thing </obo:IAO_0000115>
+        <rdf1:acronym>WMCOnto2</rdf1:acronym>
+        <rdfs:label>weigth method per class metric 2</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1436,17 +1826,19 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant">
-        <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
-        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
         <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
-        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
+        <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
         <rdfs:label xml:lang="en">Time instant</rdfs:label>
+        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
         <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
+        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 5.1.10.2019-03-12T22:31:15Z) https://github.com/owlcs/owlapi/ -->
+
 
