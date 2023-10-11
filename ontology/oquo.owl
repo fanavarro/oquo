@@ -29,12 +29,10 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
-
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
         <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
@@ -50,7 +48,6 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
-
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
         <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
@@ -62,7 +59,6 @@
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
-
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
@@ -98,7 +94,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
-
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -112,7 +107,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
-
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
@@ -129,7 +123,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
-
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -145,7 +138,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.cropontology.org/rdf/acronym -->
 
-
     <owl:AnnotationProperty rdf:about="http://www.cropontology.org/rdf/acronym">
         <rdfs:label>acronym</rdfs:label>
     </owl:AnnotationProperty>
@@ -153,7 +145,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
-
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
         <oboInOwl:hasDbXref>
@@ -165,7 +156,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDefinition -->
-
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDefinition">
         <oboInOwl:hasDbXref>
@@ -181,7 +171,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
-
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
         <oboInOwl:hasDbXref>
@@ -203,7 +192,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
-
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
         <rdfs:label>comment</rdfs:label>
     </rdf:Description>
@@ -211,7 +199,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
-
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
         <rdfs:comment>The defininition of the subject resource.</rdfs:comment>
@@ -223,7 +210,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:comment>A human-readable name for the subject.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
@@ -233,7 +219,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
-
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
@@ -251,12 +236,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     
 
 
     <!-- http://purl.org/net/QualityModel#measuresCharacteristic -->
-
 
     <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#measuresCharacteristic"/>
     
@@ -270,19 +253,16 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     
 
 
     <!-- http://purl.org/net/QualityModel#DerivedMeasure -->
-
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#DerivedMeasure"/>
     
 
 
     <!-- http://purl.org/net/QualityModel#QualityCharacteristic -->
-
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#QualityCharacteristic"/>
     
@@ -296,12 +276,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     
 
 
     <!-- https://purl.archive.org/oquo#AdaptabilityCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -313,7 +291,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#AnalysabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can be diagnosed for deficiencies or causes of failures (inconsistences), or for the parts to be modified to be identified.</obo:IAO_0000115>
@@ -323,7 +300,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#AncestorsPerClassMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AncestorsPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -335,7 +311,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -354,7 +329,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -370,7 +344,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -388,7 +361,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#AnnotationRichnessMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ClusteringCharacteristic"/>
@@ -405,7 +377,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the Ontology enables users to recognise whether it is appropriate for their needs.</obo:IAO_0000115>
@@ -415,7 +386,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#AttributeRichnessMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AttributeRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -436,7 +406,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ChangeabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The Ontology enables a specified modification to be implemented. The ease with which a The ontology can be modified.</obo:IAO_0000115>
@@ -446,7 +415,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ClassRichnessMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -460,7 +428,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ClassesWithNoDescriptionMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoDescriptionMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -479,7 +446,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ClassesWithNoNameMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoNameMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -495,7 +461,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ClassesWithNoSynonymMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoSynonymMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -513,7 +478,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which ontology Instances can be recognized as member of a certain class.</obo:IAO_0000115>
@@ -524,7 +488,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ClusteringCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClusteringCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which the annotations of data with respect to ontology terms can be used for clustering such data against the aspects of the ontology.</obo:IAO_0000115>
@@ -534,7 +497,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -547,7 +509,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#CohesionCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CohesionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">An ontology has a high cohesion if the classes are strongly related.</obo:IAO_0000115>
@@ -557,7 +518,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#CompatibilityCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CompatibilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -571,7 +531,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ConsistencyCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ConsistencyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree of the consistency of the ontology.</obo:IAO_0000115>
@@ -581,7 +540,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -593,7 +551,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ContextConformityInUseCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which usability in use meets requirements in all the intended contexts of use.</obo:IAO_0000115>
@@ -603,7 +560,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -615,7 +571,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ControlledVocabularyCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to avoid heterogeneity of the terms.</obo:IAO_0000115>
@@ -625,7 +580,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#CouplingBetweenObjectsMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CouplingBetweenObjectsMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -646,7 +600,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#CyclesCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CyclesCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The existence of cycles through a particular semantic relation is usually a sign of bad design, since they may lead to inconsistencies.</obo:IAO_0000115>
@@ -656,7 +609,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -675,7 +627,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#DataPropertiesWithNoNameMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoNameMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -691,7 +642,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -709,7 +659,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#DecisionTreesCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to be used building Decision trees.</obo:IAO_0000115>
@@ -719,7 +668,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -738,7 +686,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -755,7 +702,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerClassMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -774,7 +720,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -791,7 +736,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -810,7 +754,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerPropertyMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -828,7 +771,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#DomainCoverageCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DomainCoverageCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology cover the specified domain</obo:IAO_0000115>
@@ -838,7 +780,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#EaseOfUseCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -850,7 +791,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#EffectivenessInUseCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which specified users can achieve specified goals with accuracy and completeness in a specified context of use.</obo:IAO_0000115>
@@ -861,7 +801,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#EfficiencyInUseCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which specified users expend appropriate amounts of resources in relation to the effectiveness achieved in a specified context of use.</obo:IAO_0000115>
@@ -871,7 +810,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -884,7 +822,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#FlexibilityInUseCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
@@ -896,7 +833,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#FormalRelationSupportCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to represent relations supported for formal theories different to the formal support for taxonomy.</obo:IAO_0000115>
@@ -907,7 +843,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#FormalisationCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#FormalisationCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to support reasoning</obo:IAO_0000115>
@@ -917,7 +852,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -945,7 +879,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#GuidanceCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#GuidanceCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to guide the specification of domain theories.</obo:IAO_0000115>
@@ -955,7 +888,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#HelpfulnessCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -967,7 +899,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which the classes defined in the ontology can act as indexes for quick information retrieval.</obo:IAO_0000115>
@@ -977,7 +908,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#InferenceCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#InferenceCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -989,7 +919,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#InteroperabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#InteroperabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology can be cooperatively operable combining its knowledge with one or more other ontologies.</obo:IAO_0000115>
@@ -999,7 +928,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -1011,7 +939,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#KnowledgeReuseCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology knowledge can be used to build other ontologies.</obo:IAO_0000115>
@@ -1021,7 +948,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#LackOfCohesionInMethodsMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LackOfCohesionInMethodsMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1039,7 +965,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#LearnabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology enables users to learn its application.</obo:IAO_0000115>
@@ -1049,7 +974,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1063,7 +987,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#MaintainabilityCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#MaintainabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -1081,7 +1004,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ModificaionStabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can avoid unexpected effects from modifications of the software or knowledge.</obo:IAO_0000115>
@@ -1092,7 +1014,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ModularityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology is composed of discrete components such that a change to one component has minimal impact on other components.</obo:IAO_0000115>
@@ -1102,7 +1023,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1120,7 +1040,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#NamesPerClassMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -1136,7 +1055,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#NamesPerDataPropertyMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerDataPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1154,7 +1072,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#NamesPerObjectPropertyMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerObjectPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -1170,7 +1087,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#NamesPerPropertyMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1189,7 +1105,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#NumberOfAncestorClassesMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfAncestorClassesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
@@ -1201,7 +1116,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#NumberOfChildrenClassesMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfChildrenClassesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1219,9 +1133,8 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#NumberOfClassesMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfClassesMetric">
-        <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
+        <rdf:type rdf:resource="http://purl.org/net/QualityModel#BaseMeasure"/>
         <obo:IAO_0000115>This metric calculates the number of classes asserted in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>NCLASSES</rdf1:acronym>
         <rdfs:label>number of classes metric</rdfs:label>
@@ -1230,7 +1143,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1244,7 +1156,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
@@ -1256,7 +1167,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#NumberOfPropertiesMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfPropertiesMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1278,7 +1188,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -1296,7 +1205,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -1312,7 +1220,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1330,7 +1237,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#OperabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OperabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <QualityModel:hasSubCharacteristic rdf:resource="https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic"/>
@@ -1345,7 +1251,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Physical satisfaction</obo:IAO_0000115>
@@ -1357,7 +1262,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#PortabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PortabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree in which an Ontology or one part of the ontology can be transferred from one hardware or software environment to another.</obo:IAO_0000115>
@@ -1367,7 +1271,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#PrecisionCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PrecisionCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -1379,7 +1282,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#PropertiesRichnessMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PropertiesRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <obo:IAO_0000115 xml:lang="en">Number of usages of object and data properties divided by the number of subclassof relations and properties PROnto=∑|PCi| ∕∑(|RCi| + ∑|PCi|) </obo:IAO_0000115>
@@ -1390,7 +1292,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#QualityInUseCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#QualityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -1412,7 +1313,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#RedundancyCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#RedundancyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to be informative</obo:IAO_0000115>
@@ -1423,7 +1323,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ReferenceOntologyCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ReferenceOntologyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which the ontology can be used as a reference resource for the particular domain the ontology is built for.</obo:IAO_0000115>
@@ -1433,7 +1332,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#RelationshipRichnessMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#RelationshipRichnessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1453,7 +1351,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#RelationshipsPerClassMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#RelationshipsPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
@@ -1470,7 +1367,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ReplaceabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can be used in place of another specified Ontology for the same purpose in the same environment.</obo:IAO_0000115>
@@ -1480,7 +1376,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ResponseForAClassMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ResponseForAClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1500,7 +1395,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ResultsRepresentationCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to analize complex results such as microarrays experiments.</obo:IAO_0000115>
@@ -1511,7 +1405,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ReusabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which an asset (part of) the ontology can be used in more than one ontology, or in building other assets.</obo:IAO_0000115>
@@ -1521,7 +1414,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#SatisfactionInUseCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -1536,7 +1428,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which ontology provide a common data model that can be applied to reconciliation and integration.</obo:IAO_0000115>
@@ -1546,7 +1437,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#SimilarityCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SimilarityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -1558,7 +1448,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#StructuralAccuracyCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree of the correctness of the terms used in the ontology.</obo:IAO_0000115>
@@ -1568,7 +1457,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#StructuralCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#StructuralCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -1589,7 +1477,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -1605,7 +1492,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#SynonymsPerClassMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1623,7 +1509,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#SynonymsPerDataPropertyMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerDataPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -1639,7 +1524,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1657,7 +1541,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#SynonymsPerPropertyMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerPropertyMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
@@ -1674,7 +1557,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#SystematicNamingMetric -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <QualityModel:measuresCharacteristic rdf:resource="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
@@ -1687,7 +1569,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#Tangledness2Metric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#Tangledness2Metric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1702,7 +1583,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#TanglednessCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TanglednessCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">This measures the distribution of multiple parent categories, so that it is related to the existence of multiple inheritance.</obo:IAO_0000115>
@@ -1712,7 +1592,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#TanglednessMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TanglednessMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1727,7 +1606,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#TestabilityCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology modified can be validated.</obo:IAO_0000115>
@@ -1738,7 +1616,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#TextAnalysisCharacteristic -->
 
-
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the structure of the ontology to helps detecting associations between words or concepts and classifying word types.</obo:IAO_0000115>
@@ -1748,7 +1625,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#TransferabilityCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TransferabilityCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -1761,7 +1637,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#UsabilityInUseCharacteristic -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#UsabilityInUseCharacteristic">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
@@ -1777,7 +1652,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetric -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1798,7 +1672,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetric2 -->
-
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric2">
         <rdf:type rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1826,19 +1699,17 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant">
-        <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
         <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
-        <rdfs:label xml:lang="en">Time instant</rdfs:label>
-        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
-        <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
         <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
+        <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
+        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
+        <rdfs:label xml:lang="en">Time instant</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 5.1.10.2019-03-12T22:31:15Z) https://github.com/owlcs/owlapi/ -->
-
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
