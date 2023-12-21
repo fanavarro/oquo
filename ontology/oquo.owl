@@ -12,7 +12,8 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:QualityModel="http://purl.org/net/QualityModel#">
     <owl:Ontology rdf:about="https://purl.archive.org/oquo">
         <owl:imports rdf:resource="http://vocab.linkeddata.es/eval/EvaluationResultOntology.owl"/>
         <owl:imports rdf:resource="http://vocab.linkeddata.es/qmo/QualityModelOntology.owl"/>
@@ -28,10 +29,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
         <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
@@ -47,6 +50,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
         <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
@@ -58,6 +62,7 @@
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
@@ -93,6 +98,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -106,6 +112,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
@@ -122,6 +129,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -137,6 +145,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.cropontology.org/rdf/acronym -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.cropontology.org/rdf/acronym">
         <rdfs:label>acronym</rdfs:label>
     </owl:AnnotationProperty>
@@ -144,6 +153,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
         <oboInOwl:hasDbXref>
@@ -155,6 +165,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDefinition -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDefinition">
         <oboInOwl:hasDbXref>
@@ -170,6 +181,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
         <oboInOwl:hasDbXref>
@@ -191,6 +203,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
+
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
         <rdfs:label>comment</rdfs:label>
     </rdf:Description>
@@ -198,6 +211,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
         <rdfs:comment>The defininition of the subject resource.</rdfs:comment>
@@ -209,6 +223,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
+
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:comment>A human-readable name for the subject.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
@@ -218,6 +233,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
@@ -235,10 +251,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/net/QualityModel#measuresCharacteristic -->
+
 
     <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#measuresCharacteristic"/>
     
@@ -252,10 +270,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/net/QualityModel#DerivedMeasure -->
+
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#DerivedMeasure"/>
     
@@ -263,15 +283,16 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.org/net/QualityModel#QualityCharacteristic -->
 
+
     <owl:Class rdf:about="http://purl.org/net/QualityModel#QualityCharacteristic"/>
     
 
 
     <!-- https://purl.archive.org/oquo#AdaptabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#TransferabilityCharacteristic"/>
-        <owl:disjointWith rdf:resource="https://purl.archive.org/oquo#PortabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can be adapted for different specified environments (languages, expresivity levels) without applying actions or means other than those provided for this purpose for the Ontology considered.</obo:IAO_0000115>
         <rdfs:label>adaptability characteristic</rdfs:label>
     </owl:Class>
@@ -280,8 +301,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#AnalysabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#MaintainabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can be diagnosed for deficiencies or causes of failures (inconsistences), or for the parts to be modified to be identified.</obo:IAO_0000115>
         <rdfs:label>analysability characteristic</rdfs:label>
     </owl:Class>
@@ -290,16 +312,18 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#AncestorsPerClassMetric -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#AncestorsPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <obo:IAO_0000115 xml:lang="en">Mean number of direct ancestor per class POnto=∑|SupCi| /∑|Ci| </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POnto</rdf1:acronym>
+        <rdf1:acronym>POnto</rdf1:acronym>
         <rdfs:label>ancestors per class metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -339,6 +363,23 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of annotation properties lacking a description in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>APWND</rdf1:acronym>
         <rdfs:label>annotation properties with no description metric</rdfs:label>
@@ -347,6 +388,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -380,6 +422,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of annotation properties lacking a name in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>APWNN</rdf1:acronym>
         <rdfs:label>annotation properties with no name metric</rdfs:label>
@@ -388,6 +446,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -421,6 +480,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of annotation properties lacking a synonym in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>APWNS</rdf1:acronym>
         <rdfs:label>annotation properties with no synonym metric</rdfs:label>
@@ -429,6 +504,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#AnnotationRichnessMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationRichnessMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -462,8 +538,25 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClusteringCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of annotation properties per class ANOnto=∑|ACi| /∑|Ci|; where Ci is the i-th class in the ontology </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANOnto</rdf1:acronym>
+        <rdf1:acronym>ANOnto</rdf1:acronym>
+        <rdfs:comment>Mean number of annotation properties per class.</rdfs:comment>
         <rdfs:label>annotation richness metric</rdfs:label>
     </owl:Class>
     
@@ -471,8 +564,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#OperabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the Ontology enables users to recognise whether it is appropriate for their needs.</obo:IAO_0000115>
         <rdfs:label>appropriateness recognisability characteristic</rdfs:label>
     </owl:Class>
@@ -480,6 +574,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#AttributeRichnessMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#AttributeRichnessMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -531,8 +626,28 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#GuidanceCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of restrictions of the ontology per classes AROnto=∑|AttCi| / ∑|Ci |; where AttCi, is the set of Attributes of the Ci </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AROnto</rdf1:acronym>
+        <rdf1:acronym>AROnto</rdf1:acronym>
+        <rdfs:comment>Number of restrictions of the ontology per classes.</rdfs:comment>
         <rdfs:label>attribute richness metric</rdfs:label>
     </owl:Class>
     
@@ -540,8 +655,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ChangeabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#MaintainabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The Ontology enables a specified modification to be implemented. The ease with which a The ontology can be modified.</obo:IAO_0000115>
         <rdfs:label>changeability characteristic</rdfs:label>
     </owl:Class>
@@ -549,6 +665,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ClassRichnessMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#ClassRichnessMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -564,14 +681,29 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#InferenceCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of individuals per class CROnto=∑| ICi| / ∑|Ci |; where ICi, is the set ofindividuals of the Ci </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CROnto</rdf1:acronym>
+        <rdf1:acronym>CROnto</rdf1:acronym>
+        <rdfs:comment>Mean number of individuals per class.</rdfs:comment>
         <rdfs:label>class richness metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#ClassesWithNoDescriptionMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#ClassesWithNoDescriptionMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -611,6 +743,23 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of classes lacking a description in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>CWND</rdf1:acronym>
         <rdfs:label>classes with no description metric</rdfs:label>
@@ -619,6 +768,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ClassesWithNoNameMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#ClassesWithNoNameMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -652,6 +802,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of classes lacking a name in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>CWNN</rdf1:acronym>
         <rdfs:label>classes with no name metric</rdfs:label>
@@ -660,6 +826,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ClassesWithNoSynonymMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#ClassesWithNoSynonymMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -693,6 +860,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of classes lacking a synonym in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>CWNS</rdf1:acronym>
         <rdfs:label>classes with no synonym metric</rdfs:label>
@@ -702,8 +885,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which ontology Instances can be recognized as member of a certain class.</obo:IAO_0000115>
         <rdfs:label>classifying instances characteristic</rdfs:label>
     </owl:Class>
@@ -712,8 +896,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ClusteringCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ClusteringCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which the annotations of data with respect to ontology terms can be used for clustering such data against the aspects of the ontology.</obo:IAO_0000115>
         <rdfs:label>clustering characteristic</rdfs:label>
     </owl:Class>
@@ -722,8 +907,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Cognitive satisfaction</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">Likability characteristic</oboInOwl:hasExactSynonym>
         <rdfs:label>cognitive satisfaction characteristic</rdfs:label>
@@ -733,8 +919,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#CohesionCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#CohesionCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">An ontology has a high cohesion if the classes are strongly related.</obo:IAO_0000115>
         <rdfs:label>cohesion characteristic</rdfs:label>
     </owl:Class>
@@ -743,8 +930,34 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#CompatibilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#CompatibilityCharacteristic">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#InteroperabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#InteroperabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The ability of two or more software components to exchange information and/or to perform their required functions while sharing the same hardware or software environment.</obo:IAO_0000115>
         <rdfs:label>compatibility characteristic</rdfs:label>
     </owl:Class>
@@ -753,8 +966,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ConsistencyCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ConsistencyCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree of the consistency of the ontology.</obo:IAO_0000115>
         <rdfs:label>consistency characteristic</rdfs:label>
     </owl:Class>
@@ -763,8 +977,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree which the formal model and structure of the ontology provide a semantic context to evaluate which are the data wanted by the users, allowing better querying and searching methods.</obo:IAO_0000115>
         <rdfs:label>consistent search and query characteristic</rdfs:label>
     </owl:Class>
@@ -773,9 +988,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ContextConformityInUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic"/>
-        <owl:disjointWith rdf:resource="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which usability in use meets requirements in all the intended contexts of use.</obo:IAO_0000115>
         <rdfs:label>context conformity in use characteristic</rdfs:label>
     </owl:Class>
@@ -784,8 +999,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree of usability in use in contexts beyond those initially intended.</obo:IAO_0000115>
         <rdfs:label>context extendibility in use characteristic</rdfs:label>
     </owl:Class>
@@ -794,8 +1010,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ControlledVocabularyCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to avoid heterogeneity of the terms.</obo:IAO_0000115>
         <rdfs:label>controlled vocabulary characteristic</rdfs:label>
     </owl:Class>
@@ -803,6 +1020,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#CouplingBetweenObjectsMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#CouplingBetweenObjectsMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -854,8 +1072,28 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of related classes. Number of direct ancestor of classes divided by the number of classes minus subclasses of Thing CBOOnto=∑|SupCi|/(∑|Ci| -| RThing|) </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CBOOnto</rdf1:acronym>
+        <rdf1:acronym>CBOOnto</rdf1:acronym>
+        <rdfs:comment>Number of related classes. Number of direct ancestor of classes divided by the number of classes minus subclasses of Thing.</rdfs:comment>
         <rdfs:label>coupling between objects metric</rdfs:label>
     </owl:Class>
     
@@ -863,8 +1101,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#CyclesCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#CyclesCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The existence of cycles through a particular semantic relation is usually a sign of bad design, since they may lead to inconsistencies.</obo:IAO_0000115>
         <rdfs:label>cycles characteristic</rdfs:label>
     </owl:Class>
@@ -872,6 +1111,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -911,6 +1151,23 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of data properties lacking a description in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>DPWND</rdf1:acronym>
         <rdfs:label>data properties with no description metric</rdfs:label>
@@ -919,6 +1176,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#DataPropertiesWithNoNameMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoNameMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -952,6 +1210,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of data properties lacking a name in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>DPWNN</rdf1:acronym>
         <rdfs:label>data properties with no name metric</rdfs:label>
@@ -960,6 +1234,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -993,6 +1268,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of data properties lacking a synonym in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>DPWNS</rdf1:acronym>
         <rdfs:label>data properties with no synonym metric</rdfs:label>
@@ -1002,8 +1293,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#DecisionTreesCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to be used building Decision trees.</obo:IAO_0000115>
         <rdfs:label>decision trees characteristic</rdfs:label>
     </owl:Class>
@@ -1011,6 +1303,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1050,14 +1343,33 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Length of the largest path from Thing to a leaf class DITOnto=Max (∑D|Ci|), where Ci are the classes and D|Ci| is the length of the path from the i-thleaf class of the ontology to Thing </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DITOnto</rdf1:acronym>
+        <rdf1:acronym>DITOnto</rdf1:acronym>
+        <rdfs:comment>Length of the largest path from Thing to a leaf class.</rdfs:comment>
         <rdfs:label>depth of subsumption hierarchy metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1097,14 +1409,33 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with annotation properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>DxAP</rdf1:acronym>
+        <rdfs:comment>The total number of annotation property descriptions over the total number of annotation properties.</rdfs:comment>
         <rdfs:label>descriptions per annotation property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerClassMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DescriptionsPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1144,14 +1475,33 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with classes, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>DxC</rdf1:acronym>
+        <rdfs:comment>The total number of class descriptions over the total number of classes.</rdfs:comment>
         <rdfs:label>descriptions per class metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1191,14 +1541,33 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with data type properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>DxDP</rdf1:acronym>
+        <rdfs:comment>The total number of data property descriptions over the total number of data properties.</rdfs:comment>
         <rdfs:label>descriptions per data property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1238,14 +1607,33 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with object properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>DxOP</rdf1:acronym>
+        <rdfs:comment>The total number of object property descriptions over the total number of object properties.</rdfs:comment>
         <rdfs:label>descriptions per object property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#DescriptionsPerPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DescriptionsPerPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1285,6 +1673,23 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>DxP</rdf1:acronym>
         <rdfs:label>descriptions per property metric</rdfs:label>
@@ -1294,8 +1699,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#DomainCoverageCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#DomainCoverageCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology cover the specified domain</obo:IAO_0000115>
         <rdfs:label>domain coverage characteristic</rdfs:label>
     </owl:Class>
@@ -1304,8 +1710,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#EaseOfUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#OperabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology makes it easy for users to operate and control it.</obo:IAO_0000115>
         <rdfs:label>ease of use characteristic</rdfs:label>
     </owl:Class>
@@ -1314,8 +1721,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#EffectivenessInUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#UsabilityInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which specified users can achieve specified goals with accuracy and completeness in a specified context of use.</obo:IAO_0000115>
         <rdfs:label>effectiveness in use characteristic</rdfs:label>
     </owl:Class>
@@ -1324,8 +1732,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#EfficiencyInUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#UsabilityInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which specified users expend appropriate amounts of resources in relation to the effectiveness achieved in a specified context of use.</obo:IAO_0000115>
         <rdfs:label>efficiency in use characteristic</rdfs:label>
     </owl:Class>
@@ -1334,8 +1743,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Emotional satisfaction</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">Pleasure characteristic</oboInOwl:hasExactSynonym>
         <rdfs:label>emotional satisfaction characteristic</rdfs:label>
@@ -1345,9 +1755,34 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#FlexibilityInUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#QualityInUseCharacteristic"/>
-        <owl:disjointWith rdf:resource="https://purl.archive.org/oquo#UsabilityInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>flexibility in use characteristic</rdfs:label>
     </owl:Class>
     
@@ -1355,8 +1790,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#FormalRelationSupportCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to represent relations supported for formal theories different to the formal support for taxonomy.</obo:IAO_0000115>
         <rdfs:label>formal relation support characteristic</rdfs:label>
     </owl:Class>
@@ -1365,8 +1801,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#FormalisationCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#FormalisationCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to support reasoning</obo:IAO_0000115>
         <rdfs:label>formalisation characteristic</rdfs:label>
     </owl:Class>
@@ -1375,8 +1812,132 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ClusteringCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#GuidanceCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#InferenceCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#PrecisionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ReferenceOntologyCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClusteringCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#GuidanceCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#InferenceCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#PrecisionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReferenceOntologyCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The capability of the ontologies to provide concrete functions.</obo:IAO_0000115>
         <rdfs:label>functional adequacy characteristic</rdfs:label>
     </owl:Class>
@@ -1385,8 +1946,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#GuidanceCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#GuidanceCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to guide the specification of domain theories.</obo:IAO_0000115>
         <rdfs:label>guidance characteristic</rdfs:label>
     </owl:Class>
@@ -1395,8 +1957,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#HelpfulnessCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#OperabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the Ontology provides help when users need assistance.</obo:IAO_0000115>
         <rdfs:label>helpfulness characteristic</rdfs:label>
     </owl:Class>
@@ -1405,8 +1968,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which the classes defined in the ontology can act as indexes for quick information retrieval.</obo:IAO_0000115>
         <rdfs:label>indexing and linking characteristic</rdfs:label>
     </owl:Class>
@@ -1415,8 +1979,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#InferenceCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#InferenceCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The formal model of the ontology can be used by reasoners to make implicit knowledge explicit.</obo:IAO_0000115>
         <rdfs:label>inference characteristic</rdfs:label>
     </owl:Class>
@@ -1425,9 +1990,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#InteroperabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#InteroperabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#CompatibilityCharacteristic"/>
-        <owl:disjointWith rdf:resource="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology can be cooperatively operable combining its knowledge with one or more other ontologies.</obo:IAO_0000115>
         <rdfs:label>interoperability characteristic</rdfs:label>
     </owl:Class>
@@ -1436,8 +2001,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the Ontology to represent the knowledge acquired.</obo:IAO_0000115>
         <rdfs:label>knowledge acquisition representation characteristic</rdfs:label>
     </owl:Class>
@@ -1446,8 +2012,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#KnowledgeReuseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology knowledge can be used to build other ontologies.</obo:IAO_0000115>
         <rdfs:label>knowledge reuse characteristic</rdfs:label>
     </owl:Class>
@@ -1455,6 +2022,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#LackOfCohesionInMethodsMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#LackOfCohesionInMethodsMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1488,8 +2056,25 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#CohesionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Semantic and conceptual relatedness of classes. It can be used to measure the separation of responsibilities and independence of components of ontologies LCOMOnto=∑Lenght(path(|C(leaf)i|))/m , where Lenght(path|C(leaf)i|) is the length of the path from the leaf class i to Thing, and m is the total number of paths in the ontology </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCOMOnto</rdf1:acronym>
+        <rdf1:acronym>LCOMOnto</rdf1:acronym>
+        <rdfs:comment>Semantic and conceptual relatedness of classes.</rdfs:comment>
         <rdfs:label>lack of cohesion in methods metric</rdfs:label>
     </owl:Class>
     
@@ -1497,8 +2082,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#LearnabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#OperabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology enables users to learn its application.</obo:IAO_0000115>
         <rdfs:label>learnability characteristic</rdfs:label>
     </owl:Class>
@@ -1506,6 +2092,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1521,8 +2108,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric is related to the design principle of the same name, which we interpret as follows: what is expressed in natural language for humans should be expressed as logical axioms for the machine. It is calculated as the ratio in which an LR class is semantically related to other classes exhibiting its lexical regularity. Here, two classes are semantically related if there exist a path of an arbitrary length between them through the axioms in the ontology (i.e. subclass of, equivalency, or domain/range property). For computational reasons, we limited the length of the path between classes up to 5 steps; thus, classes semantically related between them through longer paths will be considered as not semantically related. In this case, positive cases are classes exhibiting a lexical regularity and that are semantically linked with the corresponding LR class. Negative cases are classes exhibiting a lexical regularity and that are not semantically linked with the corresponding LR class. The value of the metric is calculated by dividing the positive cases by the total number of cases. This metric is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LSLD</rdf1:acronym>
+        <rdf1:acronym>LSLD</rdf1:acronym>
+        <rdfs:comment>The degree in which LR classes are semantically linked to the classes exhibiting the corresponding lexical regularity.</rdfs:comment>
         <rdfs:label>lexically suggest logically define metric</rdfs:label>
     </owl:Class>
     
@@ -1530,8 +2131,62 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#MaintainabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#MaintainabilityCharacteristic">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModularityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The capability of ontologies to be modified for changes in environments, in requirements or in functional specifications.</obo:IAO_0000115>
         <rdfs:label>maintainability characteristic</rdfs:label>
     </owl:Class>
@@ -1540,8 +2195,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ModificaionStabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#MaintainabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can avoid unexpected effects from modifications of the software or knowledge.</obo:IAO_0000115>
         <rdfs:label>modificaion stability characteristic</rdfs:label>
     </owl:Class>
@@ -1550,8 +2206,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ModularityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#MaintainabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology is composed of discrete components such that a change to one component has minimal impact on other components.</obo:IAO_0000115>
         <rdfs:label>modularity characteristic</rdfs:label>
     </owl:Class>
@@ -1559,6 +2216,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1592,14 +2250,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with annotation properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are annotation properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are annotation properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
         <rdf1:acronym>NxAP</rdf1:acronym>
+        <rdfs:comment>The total number of annotation property names over the total number of annotation properties.</rdfs:comment>
         <rdfs:label>names per annotation property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#NamesPerClassMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#NamesPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1633,14 +2309,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with classes, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are classes without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are classes with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
         <rdf1:acronym>NxC</rdf1:acronym>
+        <rdfs:comment>The total number of class names over the total number of classes.</rdfs:comment>
         <rdfs:label>names per class metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#NamesPerDataPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#NamesPerDataPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1674,14 +2368,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with data type properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are data type properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are data type properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
         <rdf1:acronym>NxDP</rdf1:acronym>
+        <rdfs:comment>The total number of data property names over the total number of data properties.</rdfs:comment>
         <rdfs:label>names per data property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#NamesPerObjectPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#NamesPerObjectPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1715,14 +2427,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with object properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are object properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are object properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
         <rdf1:acronym>NxOP</rdf1:acronym>
+        <rdfs:comment>The total number of object property names over the total number of object properties.</rdfs:comment>
         <rdfs:label>names per object property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#NamesPerPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#NamesPerPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1762,6 +2492,23 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with properties, which can also be provided by using different annotation properties used by the community to include names (rdfs:label, skos:prefLabel, foaf:name, etc.). This metric is calculated as the total number of names associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>DxP</rdf1:acronym>
         <rdfs:label>names per property metric</rdfs:label>
@@ -1771,6 +2518,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#NumberOfAncestorClassesMetric -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfAncestorClassesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -1779,14 +2527,28 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of ancestor classes per leaf class. It is the number of direct superclasses per leaf class NACOnto=∑|SupC(Leaf)i|/∑|C(leaf)i)| </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NACOnto</rdf1:acronym>
+        <rdf1:acronym>NACOnto</rdf1:acronym>
+        <rdfs:comment>Mean number of ancestor classes per leaf class.</rdfs:comment>
         <rdfs:label>number of ancestor classes metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#NumberOfChildrenClassesMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfChildrenClassesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1820,14 +2582,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of the direct subclasses divided by the number of classes minus the number of leaf classes NOCOnto=∑|RCi|/(∑|Ci| - ∑|C(leaf)i)|) </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOCOnto</rdf1:acronym>
+        <rdf1:acronym>NOCOnto</rdf1:acronym>
+        <rdfs:comment>Number of the direct subclasses divided by the number of classes minus the number of leaf classes</rdfs:comment>
         <rdfs:label>number of children classes metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#NumberOfClassesMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfClassesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#BaseMeasure"/>
@@ -1840,6 +2620,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
@@ -1848,14 +2629,28 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric examines the names of the ontology classes, stabished by using &apos;rdfs:label&apos;, and identifies the number of lexical regularities appearing in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>NLR</rdf1:acronym>
+        <rdfs:comment>The number of lexical regularities found in the ontology.</rdfs:comment>
         <rdfs:label>number of lexical regularities metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1865,14 +2660,28 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric returns the number of ontology classes whose complete name, set by using &apos;rdfs:label&apos;, is a lexical regularity.</obo:IAO_0000115>
         <rdf1:acronym>NLRC</rdf1:acronym>
+        <rdfs:comment>The number of ontology classes whose name is a lexical regularity.</rdfs:comment>
         <rdfs:label>number of lexical regularity classes metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#NumberOfPropertiesMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#NumberOfPropertiesMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1930,14 +2739,36 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of properties per class. Mean number of object and data property usages per class NOMOnto=∑| PCi|∕∑|Ci| </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOMOnto</rdf1:acronym>
+        <rdf1:acronym>NOMOnto</rdf1:acronym>
+        <rdfs:comment>Number of properties per class. Mean number of object and data property usages per class.</rdfs:comment>
         <rdfs:label>number of properties metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -1977,6 +2808,23 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of object properties lacking a description in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>OPWND</rdf1:acronym>
         <rdfs:label>object properties with no description metric</rdfs:label>
@@ -1985,6 +2833,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2018,6 +2867,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of object properties lacking a name in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>OPWNN</rdf1:acronym>
         <rdfs:label>object properties with no name metric</rdfs:label>
@@ -2026,6 +2891,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2059,6 +2925,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of object properties lacking a synonym in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>OPWNS</rdf1:acronym>
         <rdfs:label>object properties with no synonym metric</rdfs:label>
@@ -2068,8 +2950,48 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#OperabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#OperabilityCharacteristic">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Effort needed for use, and on the individual assessment of such use, by a stated or implied set of users.</obo:IAO_0000115>
         <rdfs:label>operability characteristic</rdfs:label>
     </owl:Class>
@@ -2078,8 +3000,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Physical satisfaction</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">Comfort characteristic</oboInOwl:hasExactSynonym>
         <rdfs:label>physical satisfaction characteristic</rdfs:label>
@@ -2089,8 +3012,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#PortabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#PortabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#TransferabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree in which an Ontology or one part of the ontology can be transferred from one hardware or software environment to another.</obo:IAO_0000115>
         <rdfs:label>portability characteristic</rdfs:label>
     </owl:Class>
@@ -2099,8 +3023,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#PrecisionCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#PrecisionCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology provides the right or specified results with the needed degree of accuracy.</obo:IAO_0000115>
         <rdfs:label>precision characteristic</rdfs:label>
     </owl:Class>
@@ -2109,10 +3034,12 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#PropertiesRichnessMetric -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#PropertiesRichnessMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <obo:IAO_0000115 xml:lang="en">Number of usages of object and data properties divided by the number of subclassof relations and properties PROnto=∑|PCi| ∕∑(|RCi| + ∑|PCi|) </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROnto</rdf1:acronym>
+        <rdf1:acronym>PROnto</rdf1:acronym>
+        <rdfs:comment>Number of usages of object and data properties divided by the number of subclassof relations and properties</rdfs:comment>
         <rdfs:label>properties richness metric</rdfs:label>
     </owl:Class>
     
@@ -2120,8 +3047,90 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#QualityInUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#QualityInUseCharacteristic">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#UsabilityInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#UsabilityInUseCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Quality in a particular context of use. Quality in use is the degree to which a product used by specific users meets their needs to achieve specific goals.</obo:IAO_0000115>
         <rdfs:label>quality in use characteristic</rdfs:label>
     </owl:Class>
@@ -2130,8 +3139,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#RedundancyCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#RedundancyCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to be informative</obo:IAO_0000115>
         <rdfs:label>redundancy characteristic</rdfs:label>
     </owl:Class>
@@ -2140,8 +3150,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ReferenceOntologyCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ReferenceOntologyCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which the ontology can be used as a reference resource for the particular domain the ontology is built for.</obo:IAO_0000115>
         <rdfs:label>reference ontology characteristic</rdfs:label>
     </owl:Class>
@@ -2149,6 +3160,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#RelationshipRichnessMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#RelationshipRichnessMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2194,14 +3206,34 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#InferenceCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of subclassof relationships divided by the number of subclassof relationships and properties RROnto=∑|RCi| ∕∑(|RCi| + ∑|PCi|) </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RROnto</rdf1:acronym>
+        <rdf1:acronym>RROnto</rdf1:acronym>
+        <rdfs:comment>Number of subclassof relationships divided by the number of subclassof relationships and properties.</rdfs:comment>
         <rdfs:label>relationship richness metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#RelationshipsPerClassMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#RelationshipsPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2235,8 +3267,25 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#GuidanceCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of subclasses per class INROnto=∑| RCi| /∑|Ci| </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INROnto</rdf1:acronym>
+        <rdf1:acronym>INROnto</rdf1:acronym>
+        <rdfs:comment>Mean number of subclasses per class</rdfs:comment>
         <rdfs:label>relationships per class metric</rdfs:label>
     </owl:Class>
     
@@ -2244,8 +3293,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ReplaceabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#CompatibilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can be used in place of another specified Ontology for the same purpose in the same environment.</obo:IAO_0000115>
         <rdfs:label>replaceability characteristic</rdfs:label>
     </owl:Class>
@@ -2253,6 +3303,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#ResponseForAClassMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#ResponseForAClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2298,8 +3349,27 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of properties that can be directly accessed from the class. number of usages of object and data properties and superclasses divided by the number of classes RFCOnto=(∑|PCi|+∑|SupCi|/(∑|Ci| </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RFCOnto</rdf1:acronym>
+        <rdf1:acronym>RFCOnto</rdf1:acronym>
+        <rdfs:comment>Number of properties that can be directly accessed from the class.</rdfs:comment>
         <rdfs:label>response for a class metric</rdfs:label>
     </owl:Class>
     
@@ -2307,8 +3377,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ResultsRepresentationCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the ontology to analize complex results such as microarrays experiments.</obo:IAO_0000115>
         <rdfs:label>results representation characteristic</rdfs:label>
     </owl:Class>
@@ -2317,8 +3388,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#ReusabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#MaintainabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which an asset (part of) the ontology can be used in more than one ontology, or in building other assets.</obo:IAO_0000115>
         <rdfs:label>reusability characteristic</rdfs:label>
     </owl:Class>
@@ -2327,8 +3399,41 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#SatisfactionInUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#UsabilityInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The degree to which users are satisfied in a especified context of use.</obo:IAO_0000115>
         <rdfs:label>satisfaction in use characteristic</rdfs:label>
     </owl:Class>
@@ -2337,8 +3442,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree in which ontology provide a common data model that can be applied to reconciliation and integration.</obo:IAO_0000115>
         <rdfs:label>schema and value reconciliation characteristic</rdfs:label>
     </owl:Class>
@@ -2347,8 +3453,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#SimilarityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#SimilarityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the component of the ontology to be compared for similarity.</obo:IAO_0000115>
         <rdfs:label>similarity characteristic</rdfs:label>
     </owl:Class>
@@ -2357,8 +3464,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#StructuralAccuracyCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Degree of the correctness of the terms used in the ontology.</obo:IAO_0000115>
         <rdfs:label>structural accuracy characteristic</rdfs:label>
     </owl:Class>
@@ -2367,8 +3475,83 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#StructuralCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#StructuralCharacteristic">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#CohesionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ConsistencyCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#CyclesCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#DomainCoverageCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#FormalisationCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#RedundancyCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#CohesionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistencyCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#CyclesCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#DomainCoverageCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#FormalisationCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RedundancyCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The structural characteristic accounts for ontology quality factors such as consistency, formalisation, redundancy or tangledness.</obo:IAO_0000115>
         <rdfs:label>structural characteristic</rdfs:label>
     </owl:Class>
@@ -2376,6 +3559,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2409,14 +3593,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with annotation properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>SxAP</rdf1:acronym>
+        <rdfs:comment>The total number of annotation property synonyms over the total number of annotation properties.</rdfs:comment>
         <rdfs:label>synonyms per annotation property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#SynonymsPerClassMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#SynonymsPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2450,14 +3652,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with classes, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>SxC</rdf1:acronym>
+        <rdfs:comment>The total number of class synonyms over the total number of classes.</rdfs:comment>
         <rdfs:label>synonyms per class metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#SynonymsPerDataPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#SynonymsPerDataPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2491,14 +3711,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with data type properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>SxDP</rdf1:acronym>
+        <rdfs:comment>The total number of data property synonyms over the total number of data properties.</rdfs:comment>
         <rdfs:label>synonyms per data property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2532,14 +3770,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with object properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>SxOP</rdf1:acronym>
+        <rdfs:comment>The total number of object property synonyms over the total number of object properties.</rdfs:comment>
         <rdfs:label>synonyms per object property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#SynonymsPerPropertyMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#SynonymsPerPropertyMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2573,14 +3829,32 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>SxC</rdf1:acronym>
+        <rdfs:comment>The total number of property synonyms over the total number of properties, including data, object and annotation properties.</rdfs:comment>
         <rdfs:label>synonyms per property metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#SystematicNamingMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2596,14 +3870,29 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric is related to the ontology design principle that states that classes in the same taxonomy should share part of their name, since subclasses are specializations of the parent class. In other words, class names should follow a genus-differentia style. This metric is calculated as the ratio of subclasses of an LR class that exhibit the lexical regularity of the parent class. This requires to calculate how many subclasses of a given LR class exhibit the lexical regularity in their name (positive cases) and how many do not (negative cases). The value of the metric is calculated by dividing the positive cases by the total number of cases. It is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
         <rdf1:acronym>SYSNAM</rdf1:acronym>
+        <rdfs:comment>The degree in which hierarchies under LR classes exhibit the lexical regularity of the parent class.</rdfs:comment>
         <rdfs:label>systematic naming metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#Tangledness2Metric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#Tangledness2Metric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2619,8 +3908,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of direct ancestor of classes with more than 1 direct ancestor. TMOnto2=∑|SUP(CDP)i|/∑|CDPi|; where Ci is the i-th class in the ontology and SUP(CDP)i is the supperclass of the thei-th class in the ontology with more than one direct parent </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMOnto2</rdf1:acronym>
+        <rdf1:acronym>TMOnto2</rdf1:acronym>
+        <rdfs:comment>Mean number of direct ancestor of classes with more than 1 direct ancestor.</rdfs:comment>
         <rdfs:label>tangledness 2 metric</rdfs:label>
     </owl:Class>
     
@@ -2628,8 +3931,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#TanglednessCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#TanglednessCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">This measures the distribution of multiple parent categories, so that it is related to the existence of multiple inheritance.</obo:IAO_0000115>
         <rdfs:label>tangledness characteristic</rdfs:label>
     </owl:Class>
@@ -2637,6 +3941,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
     <!-- https://purl.archive.org/oquo#TanglednessMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#TanglednessMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2652,8 +3957,22 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of classes with more than 1 direct ancestor TMOnto=∑|C(DP)i|/∑|Ci|-1; where Ci is the i-th class in the ontology and C(DP)i is thei-th class in the ontology with more than one direct parent </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMOnto</rdf1:acronym>
+        <rdf1:acronym>TMOnto</rdf1:acronym>
+        <rdfs:comment>Mean number of classes with more than 1 direct ancestor</rdfs:comment>
         <rdfs:label>tangledness metric</rdfs:label>
     </owl:Class>
     
@@ -2661,8 +3980,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#TestabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#MaintainabilityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology modified can be validated.</obo:IAO_0000115>
         <rdfs:label>testability characteristic</rdfs:label>
     </owl:Class>
@@ -2671,8 +3991,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#TextAnalysisCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">Capability of the structure of the ontology to helps detecting associations between words or concepts and classifying word types.</obo:IAO_0000115>
         <rdfs:label>text analysis characteristic</rdfs:label>
     </owl:Class>
@@ -2681,8 +4002,34 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#TransferabilityCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#TransferabilityCharacteristic">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#PortabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#PortabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The degree to which the software product can be transferred from one environment to another.</obo:IAO_0000115>
         <rdfs:label>transferability characteristic</rdfs:label>
     </owl:Class>
@@ -2691,14 +4038,69 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- https://purl.archive.org/oquo#UsabilityInUseCharacteristic -->
 
+
     <owl:Class rdf:about="https://purl.archive.org/oquo#UsabilityInUseCharacteristic">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#QualityInUseCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>usability in use characteristic</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetric -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2756,14 +4158,36 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean length of the path from Thing to a leaf class WMCOnto=∑Lenght(path(|C(leaf)i|))/∑|C(leaf)i|, where Lenght(path|C(leaf)i|) is the length of the path from the leaf class i to Thing </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WMCOnto</rdf1:acronym>
+        <rdf1:acronym>WMCOnto</rdf1:acronym>
+        <rdfs:comment>Mean length of the path from Thing to a leaf class.</rdfs:comment>
         <rdfs:label>weigth method per class metric</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetric2 -->
+
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric2">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
@@ -2821,8 +4245,29 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#measuresCharacteristic"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of path from Thing to a leaf class per leaf class WMCOnto2=∑path(|C(leaf)i|)/∑|C(leaf)i| , where path|C(leaf)i| is the number of the path from the leaf class i to Thing </obo:IAO_0000115>
-        <rdf1:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WMCOnto2</rdf1:acronym>
+        <rdf1:acronym>WMCOnto2</rdf1:acronym>
+        <rdfs:comment>Mean number of path from Thing to a leaf class per leaf class.</rdfs:comment>
         <rdfs:label>weigth method per class metric 2</rdfs:label>
     </owl:Class>
     
@@ -2836,150 +4281,19 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant">
-        <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
-        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
         <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
-        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
+        <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
         <rdfs:label xml:lang="en">Time instant</rdfs:label>
+        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
         <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#AncestorsPerClassMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnnotationRichnessMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#AttributeRichnessMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClassRichnessMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#CouplingBetweenObjectsMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerClassMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#LackOfCohesionInMethodsMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerClassMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerDataPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerObjectPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfAncestorClassesMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfChildrenClassesMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfPropertiesMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#PropertiesRichnessMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#RelationshipRichnessMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#RelationshipsPerClassMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ResponseForAClassMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerClassMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerDataPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#Tangledness2Metric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric2"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClusteringCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#GuidanceCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#InferenceCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#PrecisionCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReferenceOntologyCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#CohesionCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistencyCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#CyclesCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#DomainCoverageCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#FormalisationCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#RedundancyCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#CompatibilityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#MaintainabilityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#OperabilityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#QualityInUseCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#StructuralCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#TransferabilityCharacteristic"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
-        </owl:members>
+        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 5.1.10.2019-03-12T22:31:15Z) https://github.com/owlcs/owlapi/ -->
+
 
