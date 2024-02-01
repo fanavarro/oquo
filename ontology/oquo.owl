@@ -3041,55 +3041,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3104,15 +3056,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#UsabilityInUseCharacteristic"/>
                         </owl:unionOf>
                     </owl:Class>
@@ -4026,12 +3970,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4039,18 +3977,6 @@ We also have the outstanding issue of how to aim different definitions to differ
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4065,11 +3991,8 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
                         </owl:unionOf>
                     </owl:Class>
@@ -4203,8 +4126,8 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant">
         <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
-        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
         <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
+        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
         <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
         <rdfs:label xml:lang="en">Time instant</rdfs:label>
         <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
