@@ -288,7 +288,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -359,7 +359,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -439,7 +439,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -512,7 +512,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -585,7 +585,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -669,7 +669,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -784,7 +784,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -837,7 +837,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -917,7 +917,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -990,7 +990,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -1189,7 +1189,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -1294,7 +1294,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -1374,7 +1374,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -1447,7 +1447,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -1555,7 +1555,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -1625,7 +1625,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -1706,7 +1706,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -1787,7 +1787,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -1868,7 +1868,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -1949,7 +1949,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -2361,7 +2361,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -2435,7 +2435,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -2488,7 +2488,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -2541,7 +2541,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -2677,7 +2677,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -2751,7 +2751,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -2825,7 +2825,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -2899,7 +2899,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -2973,7 +2973,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -3053,7 +3053,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -3126,7 +3126,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -3195,7 +3195,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -3241,7 +3241,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -3315,7 +3315,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -3403,7 +3403,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -3483,7 +3483,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -3556,7 +3556,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
@@ -3709,7 +3709,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -3812,7 +3812,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -3900,7 +3900,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -3994,7 +3994,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -4258,7 +4258,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -4332,7 +4332,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -4406,7 +4406,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -4480,7 +4480,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -4554,7 +4554,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -4628,7 +4628,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -4681,7 +4681,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -4744,7 +4744,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
@@ -4921,7 +4921,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
                                 <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
