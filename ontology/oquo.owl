@@ -295,17 +295,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#RawScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -352,6 +342,22 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#AncestorsPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of direct ancestor per class POnto=∑|SupCi| /∑|Ci| </obo:IAO_0000115>
         <rdf1:acronym>POnto</rdf1:acronym>
         <rdfs:label>ancestors per class metric</rdfs:label>
@@ -1202,7 +1208,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -1568,7 +1574,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -2374,7 +2380,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -3076,7 +3082,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -3338,7 +3344,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -4017,7 +4023,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -4704,7 +4710,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -4767,7 +4773,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -4944,7 +4950,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -5023,6 +5029,22 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric2">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of path from Thing to a leaf class per leaf class WMCOnto2=∑path(|C(leaf)i|)/∑|C(leaf)i| , where path|C(leaf)i| is the number of the path from the leaf class i to Thing </obo:IAO_0000115>
         <rdf1:acronym>WMCOnto2</rdf1:acronym>
         <rdfs:comment>Mean number of path from Thing to a leaf class per leaf class.</rdfs:comment>
@@ -5040,12 +5062,12 @@ We also have the outstanding issue of how to aim different definitions to differ
      -->
 
     <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant">
-        <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
         <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
-        <rdfs:label xml:lang="en">Time instant</rdfs:label>
-        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
-        <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
         <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
+        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
+        <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
+        <rdfs:label xml:lang="en">Time instant</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale">
         <rdfs:label xml:lang="en">cardinal scale</rdfs:label>
@@ -5063,14 +5085,14 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label xml:lang="en">ratio scale</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure">
-        <rdfs:comment xml:lang="en">A unit of measure is a definite magnitude of a quantity, defined and adopted by convention and/or by law. It is used as a standard for measurement of the same quantity, where any other value of the quantity can be expressed as a simple multiple of the unit of measure. For example, length is a quantity; the metre is a unit of length that represents a definite predetermined length. When we say 10 metre (or 10 m), we actually mean 10 times the definite predetermined length called &quot;metre&quot;.</rdfs:comment>
         <rdfs:label xml:lang="en">unit of measure</rdfs:label>
         <om-1:alternative_label xml:lang="en">unit</om-1:alternative_label>
+        <rdfs:comment xml:lang="en">A unit of measure is a definite magnitude of a quantity, defined and adopted by convention and/or by law. It is used as a standard for measurement of the same quantity, where any other value of the quantity can be expressed as a simple multiple of the unit of measure. For example, length is a quantity; the metre is a unit of length that represents a definite predetermined length. When we say 10 metre (or 10 m), we actually mean 10 times the definite predetermined length called &quot;metre&quot;.</rdfs:comment>
         <om-1:alternative_label xml:lang="en">unit of measurement</om-1:alternative_label>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
