@@ -248,6 +248,80 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasMeasurement -->
+
+    <owl:ObjectProperty rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasMeasurement">
+        <owl:inverseOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measurementFor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
+        <rdfs:range rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hasMeasurement property gives the measurements of the observed entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">has measurement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasValue -->
+
+    <owl:ObjectProperty rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasValue">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
+        <rdfs:range rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue"/>
+        <rdfs:comment>The hasValue property gives the value of the measurement.</rdfs:comment>
+        <rdfs:label xml:lang="en">has value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measurementFor -->
+
+    <owl:ObjectProperty rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measurementFor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
+        <rdfs:range rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
+        <rdfs:comment>The measurementFor property gives the observation (observed entitiy) that a measurement is associated with. Each measurement is for exactly one observation. </rdfs:comment>
+        <rdfs:label xml:lang="en">measurement for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic -->
+
+    <owl:ObjectProperty rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
+        <rdfs:range rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic"/>
+        <rdfs:comment>The ofCharacteristic property gives the entity characteristic measured by a measurement.</rdfs:comment>
+        <rdfs:label xml:lang="en">of characteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofEntity -->
+
+    <owl:ObjectProperty rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofEntity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
+        <rdfs:range rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ofEntity property gives the observed entity of an observation.</rdfs:comment>
+        <rdfs:label xml:lang="en">of entity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#hasPart">
+        <rdfs:label>has part</rdfs:label>
+        <skos:definition xml:lang="201209091213  my childhood is part of my life  this title is part of this book">&apos;has part&apos; (inverser: &apos;part of&apos;)  relates a spatiotemporally qualified entity with another spatiotemporally qualified entity it is part of
+
+Example: 
+
+MyMitralValve@201209091213 is part of my heart</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://purl.archive.org/oquo#lexicalRegularityExhibitedBy -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#lexicalRegularityExhibitedBy">
@@ -286,6 +360,89 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic -->
+
+    <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic">
+        <owl:equivalentClass rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity -->
+
+    <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity">
+        <owl:equivalentClass rdf:resource="http://purl.org/net/EvaluationResult#EvaluationSubject"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity is an object (e.g., a tree, a community, an ecological process). Entities constitute the foci of observations, i.e., every observation is of exactly one entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue -->
+
+    <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue">
+        <owl:equivalentClass rdf:resource="http://purl.org/net/EvaluationResult#QualityValue"/>
+        <rdfs:comment>A measurement value is a quantitative or qualitative result of a measurement. Measurement values can contain a coded representation of the result, e.g., as a number or string.</rdfs:comment>
+        <rdfs:label xml:lang="en">Measurement Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement -->
+
+    <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measurementFor"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement is an assertion that a characteristic of an entity had a particular value with respect to an observation event.  A measurement is comprised of a characteristic, a value, a measurement standard, and a protocol. Measurements can also have precision as well as a description of the methods used. Measurements can encapsulate characteristics that were recorded, but not necessarily measured in a physical sense.  For example, the name of a location and a taxon can be captured through measurements.</rdfs:comment>
+        <rdfs:label xml:lang="en">Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation -->
+
+    <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#ofEntity"/>
+                <owl:someValuesFrom rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> An observation is an assertion that an entity (e.g., biological organisms, geographic locations, or environmental features, among others) was observed by an observer. An observation primarily serves to group a set of measurements together into a single &quot;observation event&quot;. Observations are often made within a broader context. The context of an observation is given by other observations, implying that an observed entity (and specifically each corresponding measurement) contextualizes another observed entity (and its corresponding measurements). For example, an observation associated with a location may serve as context for an observation associated with an organism. In this case, the observed characteristic values of the location (such as humidity) are assumed constant for the corresponding measurements of the organism.</rdfs:comment>
+        <rdfs:label xml:lang="en">Observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#EvaluationSubject -->
+
+    <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#EvaluationSubject"/>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#QualityValue -->
+
+    <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#QualityValue"/>
     
 
 
@@ -5063,8 +5220,8 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant">
         <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
-        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
         <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
+        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
         <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
         <rdfs:label xml:lang="en">Time instant</rdfs:label>
         <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
