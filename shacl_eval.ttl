@@ -92,7 +92,7 @@ oquo:QualityValueShape
     sh:property [
         sh:path res:isMeasuredOnScale ;       
         sh:minCount 1 ;
-        sh:class res:MeasurementScale ;
+        sh:class om:Measurement_scale ;
         sh:severity sh:Violation ;
     ] ;
     
@@ -119,7 +119,7 @@ oquo:QualityValueShape
 
 oquo:MeasurementScaleShape
     a sh:NodeShape ;
-    sh:targetClass om:MeasurementScale ;  
+    sh:targetClass om:Measurement_scale ;  
     sh:property [
         sh:path qm:hasRankigFunction ;       
         sh:minCount 1 ;
@@ -212,7 +212,7 @@ oquo:MeasurementValueShape
     sh:property [
         sh:path res:isMeasuredOnScale ;       
         sh:minCount 1 ;
-        sh:class res:MeasurementScale ;
+        sh:class om:Measurement_scale ;
         sh:severity sh:Violation ;
     ] ;
     
