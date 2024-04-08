@@ -259,7 +259,7 @@ oquo:AssetShape
         sh:severity sh:Violation ;
     ] ;
     
-    sh:closed true ;
+    sh:closed false ; # Here we allow extra properties as the asset could be anything.
     sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
     .
 
