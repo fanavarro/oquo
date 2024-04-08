@@ -57,6 +57,13 @@ oquo:EvaluationShape
         sh:severity sh:Violation ;
     ] ;
     
+    sh:property [ 
+        sh:path oquo:hasDetectedIssue ;
+        sh:class ipo:Issue ;
+        sh:minCount 0 ;
+        sh:severity sh:Violation ;
+    ] ;
+    
     sh:closed true ;
     sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
     .
@@ -164,6 +171,12 @@ oquo:ObservationShape
         sh:class time:Instant ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
+        sh:severity sh:Violation ;
+    ] ;
+    sh:property [ 
+        sh:path oquo:hasDetectedIssue ;
+        sh:class ipo:Issue ;
+        sh:minCount 0 ;
         sh:severity sh:Violation ;
     ] ;
     
