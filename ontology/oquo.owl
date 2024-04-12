@@ -229,6 +229,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    
+
+
     <!-- http://www.wurvoc.org/vocabularies/om-1.8/alternative_label -->
 
     <owl:AnnotationProperty rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/alternative_label">
@@ -309,19 +315,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.org/biotop/btl2.owl#hasPart -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#hasPart">
-        <rdfs:label>has part</rdfs:label>
-        <skos:definition xml:lang="201209091213  my childhood is part of my life  this title is part of this book">&apos;has part&apos; (inverser: &apos;part of&apos;)  relates a spatiotemporally qualified entity with another spatiotemporally qualified entity it is part of
-
-Example: 
-
-MyMitralValve@201209091213 is part of my heart</skos:definition>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/ipo/core#assetOf -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/ipo/core#assetOf">
@@ -392,21 +385,49 @@ This property can be used to relate a person with a disease whose the person is 
     
 
 
+    <!-- http://purl.org/ipo/core#indicatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ipo/core#indicatedBy">
+        <owl:inverseOf rdf:resource="http://purl.org/ipo/core#indicates"/>
+        <rdfs:comment xml:lang="en">Indicates a Symptom of this Issue.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/ipo/core"/>
+        <rdfs:label xml:lang="en">indicatedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ipo/core#indicates -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ipo/core#indicates">
+        <rdfs:domain rdf:resource="http://purl.org/ipo/core#Symptom"/>
+        <rdfs:range rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:comment xml:lang="en">This property relates a Issue indicated by this Symptom.
+A Symptom may indicate many Issues, such as a Symptom of fever can indicate many diseases.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/ipo/core"/>
+        <rdfs:label xml:lang="en">indicates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://purl.archive.org/oquo#hasDetectedIssue -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasDetectedIssue">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
-                    <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#Evaluation"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#Evaluation"/>
         <rdfs:range rdf:resource="http://purl.org/ipo/core#Issue"/>
         <oboInOwl:hasExactSynonym>has detected problem</oboInOwl:hasExactSynonym>
         <rdfs:comment>Links evaluations or observations to the issues that have been detected.</rdfs:comment>
         <rdfs:label>has detected issue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasObservation -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasObservation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
+        <rdfs:comment>Relates something with an observation</rdfs:comment>
+        <rdfs:label>has observation</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -444,6 +465,27 @@ This property can be used to relate a person with a disease whose the person is 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.omg.org/spec/Commons/TextDatatype/hasTextValue -->
+
+    <owl:DatatypeProperty rdf:about="https://www.omg.org/spec/Commons/TextDatatype/hasTextValue">
+        <rdfs:label>has text value</rdfs:label>
+        <skos:definition>provides a string value for something, with or without a language tag</skos:definition>
+        <skos:note>Note that although the intended range for this property is Text, we have left the range undefined so that it can be used with tools that do not support rdf:langString.</skos:note>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -455,7 +497,6 @@ This property can be used to relate a person with a disease whose the person is 
     <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic -->
 
     <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic">
-        <owl:equivalentClass rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A characteristic represents a property of an entity that can be measured (e.g., height, length, or color).  A characteristic of an entity is observed through a measurement, which further asserts a value of the characteristic for the entity. A characteristic type (e.g., &quot;height&quot;) can be associated with many different entities, whereas an individual characteristic (a particular occurrence of the &quot;height&quot; characteristic) is associated to exactly one entity.</rdfs:comment>
         <rdfs:label xml:lang="en">Characteristic</rdfs:label>
     </owl:Class>
@@ -465,7 +506,6 @@ This property can be used to relate a person with a disease whose the person is 
     <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity -->
 
     <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity">
-        <owl:equivalentClass rdf:resource="http://purl.org/ipo/core#Asset"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity is an object (e.g., a tree, a community, an ecological process). Entities constitute the foci of observations, i.e., every observation is of exactly one entity.</rdfs:comment>
         <rdfs:label xml:lang="en">Entity</rdfs:label>
     </owl:Class>
@@ -475,7 +515,6 @@ This property can be used to relate a person with a disease whose the person is 
     <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue -->
 
     <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue">
-        <owl:equivalentClass rdf:resource="http://purl.org/net/EvaluationResult#QualityValue"/>
         <rdfs:comment>A measurement value is a quantitative or qualitative result of a measurement. Measurement values can contain a coded representation of the result, e.g., as a number or string.</rdfs:comment>
         <rdfs:label xml:lang="en">Measurement Value</rdfs:label>
     </owl:Class>
@@ -528,6 +567,18 @@ This property can be used to relate a person with a disease whose the person is 
     <!-- http://purl.org/ipo/core#Asset -->
 
     <owl:Class rdf:about="http://purl.org/ipo/core#Asset">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hostAssetOf"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.org/ipo/core#Issue"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
         <rdfs:comment xml:lang="en">Any &quot;thing&quot; that a IssueEntity is related. 
 For example, a problem (disease) diagnosed in a patient, can have a virus and the patient as Asset, since the virus is the causative agent of the problem and the patient is the host in which the problem manifests itself.
 An Asset can be a person, an object, a report, a document, etc.</rdfs:comment>
@@ -540,11 +591,48 @@ An Asset can be a person, an object, a report, a document, etc.</rdfs:comment>
     <!-- http://purl.org/ipo/core#Issue -->
 
     <owl:Class rdf:about="http://purl.org/ipo/core#Issue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#IssueEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ipo/core#indicatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ipo/core#Symptom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.org/ipo/core#Symptom"/>
         <rdfs:comment xml:lang="en">A problem or issue to be resolved. For example, something that is not operating normally or a hindrance to performing some task.
 A Issue can be cause and/or caused, directly or indirectly, by another Issue, the same that the Issue A can depend on the Issue B, needing that the Issue B be solved before solving Issue A.
 The Issue can have a set of Actions (Procedures) that will fix it and also a Issue can be indicated by several Symptoms, where a set of Symptoms can identify a Issue.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/ipo/core"/>
         <rdfs:label xml:lang="en">Issue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ipo/core#IssueEntity -->
+
+    <owl:Class rdf:about="http://purl.org/ipo/core#IssueEntity">
+        <rdfs:comment xml:lang="en">A generic class representing the three main concepts within the domain of ontology: Symptom, Problem and Action.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/ipo/core"/>
+        <rdfs:label xml:lang="en">IssueEntity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ipo/core#Symptom -->
+
+    <owl:Class rdf:about="http://purl.org/ipo/core#Symptom">
+        <rdfs:subClassOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#IssueEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ipo/core#indicates"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ipo/core#Issue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Represents a sign or indication of one or more Issues. Something that is perceived when a problem occurs.
+</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/ipo/core"/>
+        <rdfs:label xml:lang="en">Symptom</rdfs:label>
     </owl:Class>
     
 
@@ -559,7 +647,9 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <!-- http://purl.org/net/EvaluationResult#QualityValue -->
 
-    <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#QualityValue"/>
+    <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#QualityValue">
+        <rdfs:subClassOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue"/>
+    </rdf:Description>
     
 
 
@@ -578,7 +668,17 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <!-- http://purl.org/net/QualityModel#QualityCharacteristic -->
 
-    <owl:Class rdf:about="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+    <owl:Class rdf:about="http://purl.org/net/QualityModel#QualityCharacteristic">
+        <rdfs:subClassOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#QualityMeasure -->
+
+    <rdf:Description rdf:about="http://purl.org/net/QualityModel#QualityMeasure">
+        <rdfs:subClassOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
+    </rdf:Description>
     
 
 
@@ -1637,6 +1737,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#CriticalIssue">
         <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:comment>A critical incident with very high impact</rdfs:comment>
+        <rdfs:label>critical issue</rdfs:label>
     </owl:Class>
     
 
@@ -2437,6 +2539,33 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- https://purl.archive.org/oquo#EvaluationConfigurationData -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#EvaluationConfigurationData">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/EvaluationResult#EvaluationData"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/TextDatatype/hasTextValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://purl.archive.org/oquo#EvaluationInputData"/>
+        <rdfs:comment>Class to specify the configuration used for an evaluation. This configuration is stored as plain text through &apos;hasLiteralValue&apos;. The ontology user should decide the format to store its configuration data (xml, json, etc...).</rdfs:comment>
+        <rdfs:label>evaluation configuration data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#EvaluationInputData -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#EvaluationInputData">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/EvaluationResult#EvaluationData"/>
+        <obo:IAO_0000115>Input data used for an evaluation (i.e. an ontology, a free text corpus, etc.).</obo:IAO_0000115>
+        <rdfs:label>evaluation input data</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#FlexibilityInUseCharacteristic -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic">
@@ -3104,6 +3233,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#MajorIssue">
         <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:comment>A major incident with significant impact</rdfs:comment>
+        <rdfs:label>major issue</rdfs:label>
     </owl:Class>
     
 
@@ -3112,6 +3243,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#MinorIssue">
         <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:comment>A minor incident with low impact</rdfs:comment>
+        <rdfs:label>minor issue</rdfs:label>
     </owl:Class>
     
 
@@ -5334,6 +5467,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#TrivialIssue">
         <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:comment>The defect does not affect functionality or data. It does not even need a workaround. It does not impact productivity or efficiency. It is merely an inconvenience.</rdfs:comment>
+        <rdfs:label>trivial issue</rdfs:label>
     </owl:Class>
     
 
@@ -5560,17 +5695,33 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic"/>
             <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
+            <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue"/>
             <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
             <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
-            <rdf:Description rdf:about="http://purl.org/ipo/core#Issue"/>
             <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#Evaluation"/>
             <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#EvaluationData"/>
-            <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#QualityValue"/>
             <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#SubjectCategory"/>
             <rdf:Description rdf:about="http://purl.org/net/QualityModel#OrdinalScaleItem"/>
-            <rdf:Description rdf:about="http://purl.org/net/QualityModel#QualityCharacteristic"/>
-            <rdf:Description rdf:about="http://purl.org/net/QualityModel#QualityMeasure"/>
+            <rdf:Description rdf:about="http://purl.org/net/QualityModel#RankingFunction"/>
+            <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant"/>
+            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic"/>
+            <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
+            <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue"/>
+            <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
+            <rdf:Description rdf:about="http://purl.org/ipo/core#IssueEntity"/>
+            <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#Evaluation"/>
+            <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#EvaluationData"/>
+            <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#SubjectCategory"/>
+            <rdf:Description rdf:about="http://purl.org/net/QualityModel#OrdinalScaleItem"/>
             <rdf:Description rdf:about="http://purl.org/net/QualityModel#RankingFunction"/>
             <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant"/>
             <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>

@@ -30,8 +30,9 @@ oquo:EvaluationShape
         sh:severity sh:Violation ;
     ] ;
     sh:property [
-        sh:path btl2:hasPart ;       
+        sh:path oquo:hasObservation ;       
         sh:minCount 1 ;
+        sh:maxCount 1 ;
         sh:class oboe:Observation ;
         sh:severity sh:Violation ;
     ] ;
@@ -54,6 +55,7 @@ oquo:EvaluationShape
         sh:path res:producedQualityValue ;
         sh:class res:QualityValue ;
         sh:minCount 1 ;
+        sh:maxCount 1 ;
         sh:severity sh:Violation ;
     ] ;
     
@@ -115,7 +117,7 @@ oquo:QualityValueShape
         sh:path res:forMeasure ;       
         sh:minCount 1 ;
         sh:maxCount 1 ;
-        #sh:class res:QualityMeasure ;
+        sh:class res:QualityMeasure ;
         sh:severity sh:Violation ;
     ] ;
     
@@ -173,10 +175,10 @@ oquo:ObservationShape
         sh:maxCount 1 ;
         sh:severity sh:Violation ;
     ] ;
-    sh:property [ 
-        sh:path oquo:hasDetectedIssue ;
-        sh:class ipo:Issue ;
+    sh:property [
+        sh:path ipo:indicates ;
         sh:minCount 0 ;
+        sh:class ipo:Issue ;
         sh:severity sh:Violation ;
     ] ;
     
@@ -214,9 +216,9 @@ oquo:MeasurementShape
     .
 
 
-oquo:MeasurementValueShape
+oquo:MeasuredValueShape
     a sh:NodeShape ;
-    sh:targetClass oboe:MeasurementValue ;  
+    sh:targetClass oboe:MeasuredValue ;  
     sh:property [
         sh:path res:hasLiteralValue ;       
         sh:minCount 1 ;
@@ -255,6 +257,7 @@ oquo:AssetShape
     sh:targetClass ipo:Asset ;  
     sh:property [
         sh:path ipo:hostAssetOf ;
+        sh:minCount 1 ;
         sh:class ipo:Issue ;
         sh:severity sh:Violation ;
     ] ;
@@ -266,7 +269,13 @@ oquo:AssetShape
 
 oquo:IssueShape
     a sh:NodeShape ;
-    sh:targetClass ipo:Issue ;  
+    sh:targetClass ipo:Issue ;
+    sh:property [
+        sh:path ipo:indicatedBy ;
+        sh:minCount 1 ;
+        sh:class ipo:Symptom ;
+        sh:severity sh:Violation ;
+    ] ;
     sh:property [
         sh:path ipo:hasHostAsset ;
         sh:class ipo:Asset ;
@@ -278,6 +287,48 @@ oquo:IssueShape
         sh:minCount 1 ;
         sh:maxCount 1 ;
         sh:datatype xsd:string ;
+        sh:severity sh:Violation ;
+    ] ;
+    
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
+    .
+    
+oquo:SymptomShape
+    a sh:NodeShape ;
+    sh:targetClass ipo:Symptom ;
+    sh:property [
+        sh:path ipo:indicates ;
+        sh:minCount 1 ;
+        sh:class ipo:Issue ;
+        sh:severity sh:Violation ;
+    ] ;
+    sh:property [
+        sh:path oboe:ofEntity ;       
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class oboe:Entity ;
+        sh:severity sh:Violation ;
+    ] ;
+    sh:property [
+        sh:path oboe:ofEntity ;       
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class res:EvaluationSubject ;
+        sh:severity sh:Violation ;
+    ] ;
+    sh:property [
+        sh:path oboe:hasMeasurement ;       
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class oboe:Measurement ;
+        sh:severity sh:Violation ;
+    ] ;
+    sh:property [ 
+        sh:path res:performedOn ;
+        sh:class time:Instant ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
         sh:severity sh:Violation ;
     ] ;
     
