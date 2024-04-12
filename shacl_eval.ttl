@@ -12,6 +12,7 @@
 @prefix om: <http://www.wurvoc.org/vocabularies/om-1.8/> .
 @prefix ipo: <http://purl.org/ipo/core#> .
 
+
 oquo:EvaluationShape
     a sh:NodeShape ;
     sh:targetClass res:Evaluation ;  # Applies to all evaluations
@@ -44,7 +45,7 @@ oquo:EvaluationShape
     ] ;
 
     sh:property [ 
-        sh:path res:performedOn ;       # constrains the values of res:performedOn
+        sh:path time:hasTime ;       # constrains the values of time:hasTime
         sh:class time:Instant ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
@@ -117,7 +118,7 @@ oquo:QualityValueShape
         sh:path res:forMeasure ;       
         sh:minCount 1 ;
         sh:maxCount 1 ;
-        sh:class res:QualityMeasure ;
+        sh:class qm:QualityMeasure ;
         sh:severity sh:Violation ;
     ] ;
     
@@ -162,13 +163,6 @@ oquo:ObservationShape
         sh:severity sh:Violation ;
     ] ;
     sh:property [
-        sh:path oboe:ofEntity ;       
-        sh:minCount 1 ;
-        sh:maxCount 1 ;
-        sh:class ipo:Asset ;
-        sh:severity sh:Violation ;
-    ] ;
-    sh:property [
         sh:path oboe:hasMeasurement ;       
         sh:minCount 1 ;
         sh:maxCount 1 ;
@@ -176,7 +170,7 @@ oquo:ObservationShape
         sh:severity sh:Violation ;
     ] ;
     sh:property [ 
-        sh:path res:performedOn ;
+        sh:path time:hasTime ;
         sh:class time:Instant ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
@@ -250,7 +244,7 @@ oquo:MeasuredValueShape
         sh:path res:forMeasure ;       
         sh:minCount 1 ;
         sh:maxCount 1 ;
-        sh:class res:QualityMeasure ;
+        sh:class qm:QualityMeasure ;
         sh:severity sh:Violation ;
     ] ;
     
@@ -285,12 +279,6 @@ oquo:IssueShape
     ] ;
     sh:property [
         sh:path ipo:hasHostAsset ;
-        sh:minCount 1 ;
-        sh:class ipo:Asset ;
-        sh:severity sh:Violation ;
-    ] ;
-    sh:property [
-        sh:path ipo:hasAsset ;
         sh:minCount 1 ;
         sh:class ipo:Asset ;
         sh:severity sh:Violation ;
@@ -346,7 +334,7 @@ oquo:SymptomShape
         sh:severity sh:Violation ;
     ] ;
     sh:property [ 
-        sh:path res:performedOn ;
+        sh:path time:hasTime ;
         sh:class time:Instant ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
