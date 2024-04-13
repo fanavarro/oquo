@@ -285,6 +285,13 @@ oquo:IssueShape
     ] ;
     
     sh:property [
+        sh:path ipo:hasAsset ;
+        sh:minCount 1 ;
+        sh:class ipo:Asset ;
+        sh:severity sh:Violation ;
+    ] ;
+    
+    sh:property [
         sh:path rdfs:comment ;       
         sh:minCount 1 ;
         sh:maxCount 1 ;
