@@ -15,10 +15,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:QualityModel="http://purl.org/net/QualityModel#">
-    <owl:Ontology rdf:about="https://purl.archive.org/oquo">
-        <owl:imports rdf:resource="http://vocab.linkeddata.es/eval/EvaluationResultOntology.owl"/>
-        <owl:imports rdf:resource="http://vocab.linkeddata.es/qmo/QualityModelOntology.owl"/>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="https://purl.archive.org/oquo"/>
     
 
 
@@ -137,6 +134,48 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
     <!-- http://www.cropontology.org/rdf/acronym -->
 
     <owl:AnnotationProperty rdf:about="http://www.cropontology.org/rdf/acronym">
@@ -194,6 +233,8 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:comment>A description of the subject resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <rdfs:label>comment</rdfs:label>
     </rdf:Description>
     
@@ -241,7 +282,22 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.w3.org/2004/02/skos/core#note -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">note</rdfs:label>
+        <skos:definition xml:lang="en">A general note, for any purpose.</skos:definition>
+        <skos:scopeNote xml:lang="en">This property may be used directly, or as a super-property for more specific note types.</skos:scopeNote>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">scope note</rdfs:label>
+        <skos:definition xml:lang="en">A note that helps to clarify the meaning and/or the use of a concept.</skos:definition>
+    </owl:AnnotationProperty>
     
 
 
@@ -419,6 +475,258 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
     
 
 
+    <!-- http://purl.org/net/EvaluationResult#belongsToCategory -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#belongsToCategory">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#EvaluationSubject"/>
+        <rdfs:range rdf:resource="http://purl.org/net/EvaluationResult#SubjectCategory"/>
+        <rdfs:comment>Denotes a category of an evaluation subject.</rdfs:comment>
+        <rdfs:label>belongsToCategory</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#evaluatedSubject -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#evaluatedSubject">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#Evaluation"/>
+        <rdfs:range rdf:resource="http://purl.org/net/EvaluationResult#EvaluationSubject"/>
+        <rdfs:comment>Denotes an evaluation subject that is evaluated.</rdfs:comment>
+        <rdfs:label>evaluatedSubject</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#forMeasure -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#forMeasure">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#QualityValue"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:comment>Denotes a quality measure for which a quality value is produced.</rdfs:comment>
+        <rdfs:label>forMeasure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#hasSubCategory -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#hasSubCategory">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#SubjectCategory"/>
+        <rdfs:range rdf:resource="http://purl.org/net/EvaluationResult#SubjectCategory"/>
+        <rdfs:comment>Denotes a subcategory of a category.</rdfs:comment>
+        <rdfs:label>hasSubCategory</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#inputData -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#inputData">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#Evaluation"/>
+        <rdfs:range rdf:resource="http://purl.org/net/EvaluationResult#EvaluationData"/>
+        <rdfs:comment>Denotes inout data that is used in an evaluation.</rdfs:comment>
+        <rdfs:label>inputData</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#isMeasuredInUnit -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#isMeasuredInUnit">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#QualityValue"/>
+        <rdfs:range rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure"/>
+        <rdfs:comment>Denotes a unit of measure in which a quality value is measured.</rdfs:comment>
+        <rdfs:label>isMeasuredInUnit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#isMeasuredOnScale -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#isMeasuredOnScale">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#QualityValue"/>
+        <rdfs:range rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:comment>Denotes a scale on which a quality value is measured on.</rdfs:comment>
+        <rdfs:label>isMeasuredOnScale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#obtainedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#obtainedFrom">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#QualityValue"/>
+        <rdfs:range rdf:resource="http://purl.org/net/EvaluationResult#Evaluation"/>
+        <rdfs:comment>Denotes a quality evaluation from which a quality value is obtained.</rdfs:comment>
+        <rdfs:label>obtainedFrom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#performedOn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#performedOn">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#Evaluation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <rdfs:comment>Denotes a time of a quality evaluation.</rdfs:comment>
+        <rdfs:label>performedOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#producedQualityValue -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/EvaluationResult#producedQualityValue">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#Evaluation"/>
+        <rdfs:range rdf:resource="http://purl.org/net/EvaluationResult#QualityValue"/>
+        <rdfs:comment>Denotes a quality value produced in a quality evaluation.</rdfs:comment>
+        <rdfs:label>producedQualityValue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#collaboratesWith -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#collaboratesWith">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:comment>Denotes a relationship between two quality measures in which increasing the value of this measure implies increasing the value of another measure.</rdfs:comment>
+        <rdfs:label>collaboratesWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#damages -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#damages">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:comment>Denotes a relationship between two quality measures in which increasing the value of this measure implies decreasing the value of another measure.</rdfs:comment>
+        <rdfs:label>damages</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#dependsOn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#dependsOn">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:comment>Denotes a relationship between two quality measures which implies that the values of this measure require that another measure fulfills some conditions.</rdfs:comment>
+        <rdfs:label>dependendsOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#hasOrdinalScaleItem -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#hasOrdinalScaleItem">
+        <rdfs:domain rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#OrdinalScaleItem"/>
+        <rdfs:comment>Denotes an item of an ordinal scale.</rdfs:comment>
+        <rdfs:label>hasOrdinalScaleItem</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#hasRankigFunction -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#hasRankigFunction">
+        <rdfs:domain rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#RankingFunction"/>
+        <rdfs:comment>Denotes a ranking function of a scale.</rdfs:comment>
+        <rdfs:label>hasRankingFunction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#hasScale -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#hasScale">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:range rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:comment>Denotes a scale a quality measure can be measured on.</rdfs:comment>
+        <rdfs:label>hasScale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#hasSubCharacteristic -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#hasSubCharacteristic">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:comment>Denotes a subcharacteristic of a quality characteristic.</rdfs:comment>
+        <rdfs:label>hasSubCharacteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#hasUnitOfMeasurement -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#hasUnitOfMeasurement">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:range rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure"/>
+        <rdfs:comment>Denotes a unit of measurement of a quality measure.</rdfs:comment>
+        <rdfs:label>hasUnitOfMeasurement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#isCharacteristicOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#isCharacteristicOf">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:range rdf:resource="http://purl.org/net/EvaluationResult#SubjectCategory"/>
+        <rdfs:comment>Denotes a category of a product, services or actions (e.g., cars, web browsers, investment option) of which this quality characteristic is a characeristic.</rdfs:comment>
+        <rdfs:label>isCharacteristicOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#isMeasuredWith -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#isMeasuredWith">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:comment>Denotes a quality measure that is used for measuring a quality characteristic.</rdfs:comment>
+        <rdfs:label>isMeasuredWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#isUsedToObtain -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#isUsedToObtain">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:comment>Denotes a quality measure that is used to obtain (calculate) this quality measure.</rdfs:comment>
+        <rdfs:label>isUsedToObtain</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#measuresCharacteristic -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#measuresCharacteristic">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:range rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
+        <rdfs:comment>Denotes a quality characteristic that is measured with a quality measure.</rdfs:comment>
+        <rdfs:label>measuresCharacteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:comment>The object property that relates every two individuals.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+        <rdfs:label>topObjectProperty</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.w3.org/2006/time#hasTime -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasTime">
@@ -496,6 +804,91 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#hasLiteralValue -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/EvaluationResult#hasLiteralValue">
+        <rdfs:domain rdf:resource="http://purl.org/net/EvaluationResult#QualityValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>Denotes a literal value of a quality value.</rdfs:comment>
+        <rdfs:label>hasLiteralValue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#hasLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/QualityModel#hasLabel">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/net/QualityModel#OrdinalScaleItem"/>
+                    <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Denotes a label of a nominal scale or of an ordinal scale item.</rdfs:comment>
+        <rdfs:label>hasLabel</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#hasLowerBoundary -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/QualityModel#hasLowerBoundary">
+        <rdfs:domain rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Denotes a lower limit of a scale (e.g., -273 on Kelvin scale).</rdfs:comment>
+        <rdfs:label>hasLowerBoundary</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#hasOrder -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/QualityModel#hasOrder">
+        <rdfs:domain rdf:resource="http://purl.org/net/QualityModel#OrdinalScaleItem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Denotes an order of an ordinal scale item in relation to a set of items of an ordinal scale.</rdfs:comment>
+        <rdfs:label>hasOrder</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#hasUpperBoundary -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/QualityModel#hasUpperBoundary">
+        <rdfs:domain rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Denotes an upper limit of a scale.</rdfs:comment>
+        <rdfs:label>hasUpperBoundary</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#symbol -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/QualityModel#symbol">
+        <rdfs:domain rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Denotes a symbol of a unit of measure.</rdfs:comment>
+        <rdfs:label>symbol</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -663,31 +1056,84 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- http://purl.org/net/EvaluationResult#Evaluation -->
+
+    <owl:Class rdf:about="http://purl.org/net/EvaluationResult#Evaluation">
+        <rdfs:comment>Evaluation. A process of quality measurement.</rdfs:comment>
+        <rdfs:label>Evaluation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#EvaluationData -->
+
+    <owl:Class rdf:about="http://purl.org/net/EvaluationResult#EvaluationData">
+        <rdfs:comment>Evaluation data is any data that is used as an input in an evaluation process.</rdfs:comment>
+        <rdfs:label>EvaluationData</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/EvaluationResult#EvaluationSubject -->
 
-    <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#EvaluationSubject">
+    <owl:Class rdf:about="http://purl.org/net/EvaluationResult#EvaluationSubject">
         <rdfs:subClassOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
-    </rdf:Description>
+        <rdfs:comment>Evaluation subject is any product, service or action (e.g., Seat Ibiza, Chrome, corn crops) that is evaluated in an evaluation process.</rdfs:comment>
+        <rdfs:label>EvaluationSubject</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.org/net/EvaluationResult#QualityValue -->
 
-    <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#QualityValue">
+    <owl:Class rdf:about="http://purl.org/net/EvaluationResult#QualityValue">
         <rdfs:subClassOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue"/>
-    </rdf:Description>
+        <rdfs:comment>Quality value is a value obtained in a quality evaluation.</rdfs:comment>
+        <rdfs:label>QualityValue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/EvaluationResult#SubjectCategory -->
+
+    <owl:Class rdf:about="http://purl.org/net/EvaluationResult#SubjectCategory">
+        <rdfs:comment>Subject category is a category or type of an evaluation subject (eg., a car, web browser, investment).</rdfs:comment>
+        <rdfs:label>SubjectCategory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#BaseMeasure -->
+
+    <owl:Class rdf:about="http://purl.org/net/QualityModel#BaseMeasure">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:comment>Base measure is a quality measure for which, in the process of evaluation, the results are obtained in an individual test and are related to direct outputs of the evaluation. </rdfs:comment>
+        <rdfs:label>BaseMeasure</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.org/net/QualityModel#DerivedMeasure -->
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#DerivedMeasure">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#RawScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>Derived measure is a measure that is obtained in an individual evaluation test by combining base measures.</rdfs:comment>
+        <rdfs:label>DerivedMeasure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#OrdinalScaleItem -->
+
+    <owl:Class rdf:about="http://purl.org/net/QualityModel#OrdinalScaleItem">
+        <rdfs:comment>Ordinal scale item is an item that belongs to a particular ordinal scale. Ordinal scale item is described with a label (e.g., &quot;Excellent&quot;/&quot;Good&quot;/...) and an order on the scale (e.g., 1/2/...).</rdfs:comment>
+        <rdfs:label>OrdinalScaleItem</rdfs:label>
     </owl:Class>
     
 
@@ -696,49 +1142,136 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#QualityCharacteristic">
         <rdfs:subClassOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic"/>
+        <rdfs:comment>Quality characteristic is a characteristic of a product, service or action that can be measured in an evaluation using quality measures.</rdfs:comment>
+        <rdfs:label>QualityCharacteristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#QualityIndicator -->
+
+    <owl:Class rdf:about="http://purl.org/net/QualityModel#QualityIndicator">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityMeasure"/>
+        <rdfs:comment>Quality indicator is a quality measure that is obtained by combining base and/or derived measures. Unlike base and derived measures, quality indicators are related to a set of tests in the evaluation.</rdfs:comment>
+        <rdfs:label>QualityIndicator</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.org/net/QualityModel#QualityMeasure -->
 
-    <rdf:Description rdf:about="http://purl.org/net/QualityModel#QualityMeasure">
+    <owl:Class rdf:about="http://purl.org/net/QualityModel#QualityMeasure">
         <rdfs:subClassOf rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
-    </rdf:Description>
+        <rdfs:comment>Quality measure is any measure that captures information about a specific quality characteristic related to a specific product, service or action.</rdfs:comment>
+        <rdfs:label>QualityMeasure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#RankingFunction -->
+
+    <owl:Class rdf:about="http://purl.org/net/QualityModel#RankingFunction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/net/QualityModel#HigherBest"/>
+                    <rdf:Description rdf:about="http://purl.org/net/QualityModel#LowerBest"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Ranking function is a function which denotes how two values of a measurement scale can be ranked, i.e., if higher or lower value is better.</rdfs:comment>
+        <rdfs:label>RankingFunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment>The class of OWL individuals.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+        <rdfs:label>Thing</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://www.w3.org/2006/time#Instant -->
 
-    <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant">
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Instant">
         <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
         <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
         <rdfs:label xml:lang="en">Time instant</rdfs:label>
         <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
         <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
         <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale -->
+
+    <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale">
+        <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:label xml:lang="en">cardinal scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wurvoc.org/vocabularies/om-1.8/Interval_scale -->
+
+    <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Interval_scale">
+        <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale"/>
+        <owl:disjointWith rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdfs:label xml:lang="en">interval scale</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale -->
 
-    <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale">
+    <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale">
         <rdfs:comment xml:lang="en">Measurement scales are concepts used for the expression of quantities. Four types of measurement scales are: nominal scales, ordinal scales, interval scales and ratio scales. The latter two scales are also called cardinal scales. An example of a scale is the Celsius scale, a temperature scale.</rdfs:comment>
         <rdfs:label xml:lang="en">measurement scale</rdfs:label>
         <om-1:alternative_label xml:lang="en">scale</om-1:alternative_label>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale -->
+
+    <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale">
+        <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:label xml:lang="en">nominal scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale -->
+
+    <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale">
+        <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:label xml:lang="en">ordinal scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale -->
+
+    <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale">
+        <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale"/>
+        <rdfs:label xml:lang="en">ratio scale</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure -->
 
-    <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure">
+    <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure">
         <rdfs:comment xml:lang="en">A unit of measure is a definite magnitude of a quantity, defined and adopted by convention and/or by law. It is used as a standard for measurement of the same quantity, where any other value of the quantity can be expressed as a simple multiple of the unit of measure. For example, length is a quantity; the metre is a unit of length that represents a definite predetermined length. When we say 10 metre (or 10 m), we actually mean 10 times the definite predetermined length called &quot;metre&quot;.</rdfs:comment>
         <rdfs:label xml:lang="en">unit of measure</rdfs:label>
         <om-1:alternative_label xml:lang="en">unit</om-1:alternative_label>
         <om-1:alternative_label xml:lang="en">unit of measurement</om-1:alternative_label>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -3724,15 +4257,17 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicNegatively"/>
-                                <owl:allValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-                            </owl:Restriction>
-                        </owl:unionOf>
-                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicNegatively"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+                                    <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
                         <owl:allValuesFrom>
@@ -5687,25 +6222,73 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/QualityModel#HigherBest -->
+
+    <owl:Thing rdf:about="http://purl.org/net/QualityModel#HigherBest">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.org/net/QualityModel#RankingFunction"/>
+        <rdfs:comment>A ranking function that denotes that a higher value is better.</rdfs:comment>
+        <rdfs:label>HigherBest</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/net/QualityModel#LowerBest -->
+
+    <owl:Thing rdf:about="http://purl.org/net/QualityModel#LowerBest">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.org/net/QualityModel#RankingFunction"/>
+        <rdfs:comment>A ranking function that denotes that a lower value is better.</rdfs:comment>
+        <rdfs:label>LowerBest</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Annotations
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale">
-        <rdfs:label xml:lang="en">cardinal scale</rdfs:label>
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:label>seeAlso</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+        <rdfs:comment>Further information about the subject resource.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Interval_scale">
-        <rdfs:label xml:lang="en">interval scale</rdfs:label>
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#backwardCompatibleWith">
+        <rdfs:comment>The annotation property that indicates that a given ontology is backward compatible with another ontology.</rdfs:comment>
+        <rdfs:label>backwardCompatibleWith</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale">
-        <rdfs:label xml:lang="en">nominal scale</rdfs:label>
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
+        <rdfs:label>deprecated</rdfs:label>
+        <rdfs:comment>The annotation property that indicates that a given entity has been deprecated.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale">
-        <rdfs:label xml:lang="en">ordinal scale</rdfs:label>
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
+        <rdfs:comment>The annotation property that indicates that a given ontology is incompatible with another ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+        <rdfs:label>incompatibleWith</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale">
-        <rdfs:label xml:lang="en">ratio scale</rdfs:label>
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#priorVersion">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+        <rdfs:comment>The annotation property that indicates the predecessor ontology of a given ontology.</rdfs:comment>
+        <rdfs:label>priorVersion</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+        <rdfs:comment>The annotation property that provides version information for an ontology or another OWL construct.</rdfs:comment>
+        <rdfs:label>versionInfo</rdfs:label>
     </rdf:Description>
     
 
@@ -5752,6 +6335,144 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
             <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant"/>
             <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
             <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/net/QualityModel#BaseMeasure"/>
+            <rdf:Description rdf:about="http://purl.org/net/QualityModel#DerivedMeasure"/>
+            <rdf:Description rdf:about="http://purl.org/net/QualityModel#QualityIndicator"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale"/>
+            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale"/>
+            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AdaptabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AppropriatenessRecognisabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AvailabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClassifyingInstancesCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClusteringCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#CognitiveSatisfactionCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#CohesionCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#CompatibilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistencyCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistentSearchAndQueryCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ContextConformityInUseCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ContextExtendibilityInUseCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ControlledVocabularyCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#CyclesCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DecisionTreesCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DomainCoverageCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#EaseOfUseCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#EffectivenessInUseCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#EfficiencyInUseCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#EmotionalSatisfactionCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#FlexibilityInUseCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#FormalRelationSupportCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#FormalisationCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#FunctionalAdequacyCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#GuidanceCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#IndexingAndLinkingCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#InferenceCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#InteroperabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#MaintainabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#OperabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#PortabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#PrecisionCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#QualityInUseCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#RecoverabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#RedundancyCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReferenceOntologyCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReliabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ResultsRepresentationCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SatisfactionInUseCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SchemaAndValueReconciliationCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SimilarityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#StructuralAccuracyCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#StructuralCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#TransferabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#UsabilityInUseCharacteristic"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AncestorsPerClassMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AnnotationRichnessMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#AttributeRichnessMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClassRichnessMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClassesWithNoDescriptionMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClassesWithNoNameMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ClassesWithNoSynonymMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ConsistencyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#CouplingBetweenObjectsMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoNameMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerClassMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#DescriptionsPerPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#FormalDegreeMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#LackOfCohesionInMethodsMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#LexicalRegularitiesPerClassMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#LexicalRegularityClassPercentageMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerClassMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerDataPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerObjectPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NamesPerPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfAncestorClassesMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfChildrenClassesMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#NumberOfPropertiesMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#PropertiesRichnessMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#RelationshipRichnessMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#RelationshipsPerClassMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ResponseForAClassMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerClassMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerDataPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerPropertyMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#Tangledness2Metric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric2"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
