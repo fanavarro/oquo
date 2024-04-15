@@ -44,6 +44,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
@@ -1222,8 +1236,16 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Interval_scale">
         <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale"/>
         <owl:disjointWith rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <obo:IAO_0000112>Celsius and Fahrenheit are examples of interval scales. Each point on these scales differs from neighboring points by intervals of exactly one degree. The difference between 20 and 21 degrees is identical to the difference between 225 and 226 degrees. However, these scales have arbitrary zero points – zero degrees isn’t the lowest possible temperature.</obo:IAO_0000112>
+        <rdfs:comment>Interval data is measured along a numerical scale that has equal distances between adjacent values. These distances are called intervals. There is no true zero on an interval scale, which is what distinguishes it from a ratio scale. On an interval scale, zero is an arbitrary point, not a complete absence of the variable.</rdfs:comment>
         <rdfs:label xml:lang="en">interval scale</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Interval_scale"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Interval data is measured along a numerical scale that has equal distances between adjacent values. These distances are called intervals. There is no true zero on an interval scale, which is what distinguishes it from a ratio scale. On an interval scale, zero is an arbitrary point, not a complete absence of the variable.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.scribbr.com/statistics/interval-data/</rdfs:isDefinedBy>
+    </owl:Axiom>
     
 
 
@@ -1259,8 +1281,16 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale">
         <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale"/>
+        <obo:IAO_0000112>Length, area, and population are examples of ratio scales.</obo:IAO_0000112>
+        <rdfs:comment>A ratio scale is a quantitative scale where there is a true zero and equal intervals between neighboring points. Unlike on an interval scale, a zero on a ratio scale means there is a total absence of the variable you are measuring.</rdfs:comment>
         <rdfs:label xml:lang="en">ratio scale</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>A ratio scale is a quantitative scale where there is a true zero and equal intervals between neighboring points. Unlike on an interval scale, a zero on a ratio scale means there is a total absence of the variable you are measuring.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.scribbr.com/statistics/ratio-data/</rdfs:isDefinedBy>
+    </owl:Axiom>
     
 
 
@@ -6075,6 +6105,34 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- https://purl.archive.org/oquo#WeigthMethodPerClass2Metric -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClass2Metric">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
+                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Mean number of path from Thing to a leaf class per leaf class WMCOnto2=∑path(|C(leaf)i|)/∑|C(leaf)i| , where path|C(leaf)i| is the number of the path from the leaf class i to Thing </obo:IAO_0000115>
+        <rdf1:acronym>WMCOnto2</rdf1:acronym>
+        <rdfs:comment>Mean number of path from Thing to a leaf class per leaf class.</rdfs:comment>
+        <rdfs:label>weigth method per class 2 metric</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetric -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric">
@@ -6191,34 +6249,6 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
-    <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetric2 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric2">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#RawScale"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasRankigFunction"/>
-                                <owl:hasValue rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mean number of path from Thing to a leaf class per leaf class WMCOnto2=∑path(|C(leaf)i|)/∑|C(leaf)i| , where path|C(leaf)i| is the number of the path from the leaf class i to Thing </obo:IAO_0000115>
-        <rdf1:acronym>WMCOnto2</rdf1:acronym>
-        <rdfs:comment>Mean number of path from Thing to a leaf class per leaf class.</rdfs:comment>
-        <rdfs:label>weigth method per class metric 2</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -6271,8 +6301,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
-        <rdfs:label>deprecated</rdfs:label>
         <rdfs:comment>The annotation property that indicates that a given entity has been deprecated.</rdfs:comment>
+        <rdfs:label>deprecated</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
@@ -6471,8 +6501,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
             <rdf:Description rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#Tangledness2Metric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClass2Metric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric2"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
