@@ -200,6 +200,7 @@ oquo:ObservationShape
     sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
     .
 
+
 oquo:MeasurementShape
     a sh:NodeShape ;
     sh:targetClass oboe:Measurement ;  
@@ -222,6 +223,12 @@ oquo:MeasurementShape
         sh:minCount 1 ;
         sh:maxCount 1 ;
         sh:class res:QualityValue ;
+        sh:severity sh:Violation ;
+    ] ;
+    sh:property [
+        sh:path qm:hasScale ;
+        sh:minCount 1 ;
+        sh:class om:Measurement_scale ;
         sh:severity sh:Violation ;
     ] ;
     
