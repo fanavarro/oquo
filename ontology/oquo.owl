@@ -341,7 +341,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
         <rdfs:range rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hasMeasurement property gives the measurements of the observed entity.</rdfs:comment>
+        <rdfs:comment>The hasMeasurement property gives the measurements of the observed entity.</rdfs:comment>
         <rdfs:label xml:lang="en">has measurement</rdfs:label>
     </owl:ObjectProperty>
     
@@ -389,7 +389,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
         <rdfs:range rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ofEntity property gives the observed entity of an observation.</rdfs:comment>
+        <rdfs:comment>The ofEntity property gives the observed entity of an observation.</rdfs:comment>
         <rdfs:label xml:lang="en">of entity</rdfs:label>
     </owl:ObjectProperty>
     
@@ -930,7 +930,7 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
     <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic -->
 
     <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A characteristic represents a property of an entity that can be measured (e.g., height, length, or color).  A characteristic of an entity is observed through a measurement, which further asserts a value of the characteristic for the entity. A characteristic type (e.g., &quot;height&quot;) can be associated with many different entities, whereas an individual characteristic (a particular occurrence of the &quot;height&quot; characteristic) is associated to exactly one entity.</rdfs:comment>
+        <rdfs:comment>A characteristic represents a property of an entity that can be measured (e.g., height, length, or color).  A characteristic of an entity is observed through a measurement, which further asserts a value of the characteristic for the entity. A characteristic type (e.g., &quot;height&quot;) can be associated with many different entities, whereas an individual characteristic (a particular occurrence of the &quot;height&quot; characteristic) is associated to exactly one entity.</rdfs:comment>
         <rdfs:label xml:lang="en">Characteristic</rdfs:label>
     </owl:Class>
     
@@ -939,7 +939,7 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
     <!-- http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity -->
 
     <owl:Class rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity is an object (e.g., a tree, a community, an ecological process). Entities constitute the foci of observations, i.e., every observation is of exactly one entity.</rdfs:comment>
+        <rdfs:comment>An entity is an object (e.g., a tree, a community, an ecological process). Entities constitute the foci of observations, i.e., every observation is of exactly one entity.</rdfs:comment>
         <rdfs:label xml:lang="en">Entity</rdfs:label>
     </owl:Class>
     
@@ -976,7 +976,7 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
                 <owl:onClass rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement is an assertion that a characteristic of an entity had a particular value with respect to an observation event.  A measurement is comprised of a characteristic, a value, a measurement standard, and a protocol. Measurements can also have precision as well as a description of the methods used. Measurements can encapsulate characteristics that were recorded, but not necessarily measured in a physical sense.  For example, the name of a location and a taxon can be captured through measurements.</rdfs:comment>
+        <rdfs:comment>A measurement is an assertion that a characteristic of an entity had a particular value with respect to an observation event.  A measurement is comprised of a characteristic, a value, a measurement standard, and a protocol. Measurements can also have precision as well as a description of the methods used. Measurements can encapsulate characteristics that were recorded, but not necessarily measured in a physical sense.  For example, the name of a location and a taxon can be captured through measurements.</rdfs:comment>
         <rdfs:label xml:lang="en">Measurement</rdfs:label>
     </owl:Class>
     
@@ -991,7 +991,7 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
                 <owl:someValuesFrom rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> An observation is an assertion that an entity (e.g., biological organisms, geographic locations, or environmental features, among others) was observed by an observer. An observation primarily serves to group a set of measurements together into a single &quot;observation event&quot;. Observations are often made within a broader context. The context of an observation is given by other observations, implying that an observed entity (and specifically each corresponding measurement) contextualizes another observed entity (and its corresponding measurements). For example, an observation associated with a location may serve as context for an observation associated with an organism. In this case, the observed characteristic values of the location (such as humidity) are assumed constant for the corresponding measurements of the organism.</rdfs:comment>
+        <rdfs:comment> An observation is an assertion that an entity (e.g., biological organisms, geographic locations, or environmental features, among others) was observed by an observer. An observation primarily serves to group a set of measurements together into a single &quot;observation event&quot;. Observations are often made within a broader context. The context of an observation is given by other observations, implying that an observed entity (and specifically each corresponding measurement) contextualizes another observed entity (and its corresponding measurements). For example, an observation associated with a location may serve as context for an observation associated with an organism. In this case, the observed characteristic values of the location (such as humidity) are assumed constant for the corresponding measurements of the organism.</rdfs:comment>
         <rdfs:label xml:lang="en">Observation</rdfs:label>
     </owl:Class>
     
@@ -1345,6 +1345,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#AncestorsPerClassMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of direct ancestor per class POnto=∑|SupCi| /∑|Ci| </obo:IAO_0000115>
         <rdf1:acronym>POnto</rdf1:acronym>
         <rdfs:label>ancestors per class metric</rdfs:label>
@@ -1425,6 +1431,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of annotation properties lacking a description in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>APWND</rdf1:acronym>
         <rdfs:label>annotation properties with no description metric</rdfs:label>
@@ -1498,6 +1510,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of annotation properties lacking a name in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>APWNN</rdf1:acronym>
         <rdfs:label>annotation properties with no name metric</rdfs:label>
@@ -1569,6 +1587,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of annotation properties lacking a synonym in the ontology.</obo:IAO_0000115>
@@ -1649,6 +1673,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#AnnotationRichnessMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of annotation properties per class ANOnto=∑|ACi| /∑|Ci|; where Ci is the i-th class in the ontology </obo:IAO_0000115>
@@ -1756,6 +1786,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#AttributeRichnessMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of restrictions of the ontology per classes AROnto=∑|AttCi| / ∑|Ci |; where AttCi, is the set of Attributes of the Ci </obo:IAO_0000115>
         <rdf1:acronym>AROnto</rdf1:acronym>
         <rdfs:comment>Number of restrictions of the ontology per classes.</rdfs:comment>
@@ -1827,6 +1863,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#ClassRichnessMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of individuals per class CROnto=∑| ICi| / ∑|Ci |; where ICi, is the set ofindividuals of the Ci </obo:IAO_0000115>
@@ -1910,6 +1952,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#ClassesWithNoDescriptionMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of classes lacking a description in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>CWND</rdf1:acronym>
         <rdfs:label>classes with no description metric</rdfs:label>
@@ -1983,6 +2031,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#ClassesWithNoNameMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of classes lacking a name in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>CWNN</rdf1:acronym>
         <rdfs:label>classes with no name metric</rdfs:label>
@@ -2054,6 +2108,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#ClassesWithNoSynonymMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of classes lacking a synonym in the ontology.</obo:IAO_0000115>
@@ -2274,7 +2334,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2305,13 +2365,19 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#CouplingBetweenObjectsMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of related classes. Number of direct ancestor of classes divided by the number of classes minus subclasses of Thing CBOOnto=∑|SupCi|/(∑|Ci| -| RThing|) </obo:IAO_0000115>
@@ -2415,6 +2481,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of data properties lacking a description in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>DPWND</rdf1:acronym>
         <rdfs:label>data properties with no description metric</rdfs:label>
@@ -2488,6 +2560,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#DataPropertiesWithNoNameMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of data properties lacking a name in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>DPWNN</rdf1:acronym>
         <rdfs:label>data properties with no name metric</rdfs:label>
@@ -2559,6 +2637,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of data properties lacking a synonym in the ontology.</obo:IAO_0000115>
@@ -2665,6 +2749,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Length of the largest path from Thing to a leaf class DITOnto=Max (∑D|Ci|), where Ci are the classes and D|Ci| is the length of the path from the i-thleaf class of the ontology to Thing </obo:IAO_0000115>
         <rdf1:acronym>DITOnto</rdf1:acronym>
         <rdfs:comment>Length of the largest path from Thing to a leaf class.</rdfs:comment>
@@ -2744,6 +2834,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with annotation properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
@@ -2827,6 +2923,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#DescriptionsPerClassMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with classes, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>DxC</rdf1:acronym>
         <rdfs:comment>The total number of class descriptions over the total number of classes.</rdfs:comment>
@@ -2906,6 +3008,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with data type properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
@@ -2989,6 +3097,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with object properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>DxOP</rdf1:acronym>
         <rdfs:comment>The total number of object property descriptions over the total number of object properties.</rdfs:comment>
@@ -3068,6 +3182,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#DescriptionsPerPropertyMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of descriptions associated with properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
@@ -3568,6 +3688,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#LackOfCohesionInMethodsMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Semantic and conceptual relatedness of classes. It can be used to measure the separation of responsibilities and independence of components of ontologies LCOMOnto=∑Lenght(path(|C(leaf)i|))/m , where Lenght(path|C(leaf)i|) is the length of the path from the leaf class i to Thing, and m is the total number of paths in the ontology </obo:IAO_0000115>
         <rdf1:acronym>LCOMOnto</rdf1:acronym>
         <rdfs:comment>Semantic and conceptual relatedness of classes.</rdfs:comment>
@@ -3629,6 +3755,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#LexicalRegularitiesPerClassMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric measures the proportion between the total number of lexical regularities appearing in the ontology and the total number of classes. This metric can measure whether the ontology is using genus-differentia naming style.</obo:IAO_0000115>
@@ -3694,6 +3826,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#LexicalRegularityClassPercentageMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The percentage of classes in the ontology that are LR classes. In other words, the percentage of classes whose complete name is a lexical regularity.</obo:IAO_0000115>
         <rdf1:acronym>LRClassPCT</rdf1:acronym>
         <rdfs:comment>The percentage of classes in the ontology that are LR classes.</rdfs:comment>
@@ -3747,6 +3885,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric is related to the design principle of the same name, which we interpret as follows: what is expressed in natural language for humans should be expressed as logical axioms for the machine. It is calculated as the ratio in which an LR class is semantically related to other classes exhibiting its lexical regularity. Here, two classes are semantically related if there exist a path of an arbitrary length between them through the axioms in the ontology (i.e. subclass of, equivalency, or domain/range property). For computational reasons, we limited the length of the path between classes up to 5 steps; thus, classes semantically related between them through longer paths will be considered as not semantically related. In this case, positive cases are classes exhibiting a lexical regularity and that are semantically linked with the corresponding LR class. Negative cases are classes exhibiting a lexical regularity and that are not semantically linked with the corresponding LR class. The value of the metric is calculated by dividing the positive cases by the total number of cases. This metric is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
         <rdf1:acronym>LSLD</rdf1:acronym>
         <rdfs:comment>The degree in which LR classes are semantically linked to the classes exhibiting the corresponding lexical regularity.</rdfs:comment>
@@ -3774,7 +3918,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasSubCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3803,7 +3947,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
@@ -3838,12 +3982,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
-    <!-- https://purl.archive.org/oquo#ModificaionStabilityCharacteristic -->
+    <!-- https://purl.archive.org/oquo#ModificationStabilityCharacteristic -->
 
-    <owl:Class rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic">
+    <owl:Class rdf:about="https://purl.archive.org/oquo#ModificationStabilityCharacteristic">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which The ontology can avoid unexpected effects from modifications of the software or knowledge.</obo:IAO_0000115>
-        <rdfs:label>modificaion stability characteristic</rdfs:label>
+        <rdfs:label>modification stability characteristic</rdfs:label>
     </owl:Class>
     
 
@@ -3924,6 +4068,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with annotation properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are annotation properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are annotation properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
         <rdf1:acronym>NxAP</rdf1:acronym>
         <rdfs:comment>The total number of annotation property names over the total number of annotation properties.</rdfs:comment>
@@ -3996,6 +4146,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NamesPerClassMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with classes, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are classes without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are classes with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
@@ -4072,6 +4228,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NamesPerDataPropertyMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with data type properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are data type properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are data type properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
         <rdf1:acronym>NxDP</rdf1:acronym>
         <rdfs:comment>The total number of data property names over the total number of data properties.</rdfs:comment>
@@ -4144,6 +4306,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NamesPerObjectPropertyMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with object properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are object properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are object properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.</obo:IAO_0000115>
@@ -4227,6 +4395,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NamesPerPropertyMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of names associated with properties, which can also be provided by using different annotation properties used by the community to include names (rdfs:label, skos:prefLabel, foaf:name, etc.). This metric is calculated as the total number of names associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>DxP</rdf1:acronym>
         <rdfs:label>names per property metric</rdfs:label>
@@ -4272,6 +4446,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NumberOfAncestorClassesMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of ancestor classes per leaf class. It is the number of direct superclasses per leaf class NACOnto=∑|SupC(Leaf)i|/∑|C(leaf)i)| </obo:IAO_0000115>
         <rdf1:acronym>NACOnto</rdf1:acronym>
         <rdfs:comment>Mean number of ancestor classes per leaf class.</rdfs:comment>
@@ -4304,7 +4484,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                             <owl:Class>
                                 <owl:unionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
-                                    <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                                    <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
                                 </owl:unionOf>
                             </owl:Class>
@@ -4350,13 +4530,19 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NumberOfChildrenClassesMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of the direct subclasses divided by the number of classes minus the number of leaf classes NOCOnto=∑|RCi|/(∑|Ci| - ∑|C(leaf)i)|) </obo:IAO_0000115>
@@ -4416,6 +4602,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric examines the names of the ontology classes, stabished by using &apos;rdfs:label&apos;, and identifies the number of lexical regularities appearing in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>NLR</rdf1:acronym>
         <rdfs:comment>The number of lexical regularities found in the ontology.</rdfs:comment>
@@ -4462,6 +4654,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric returns the number of ontology classes whose complete name, set by using &apos;rdfs:label&apos;, is a lexical regularity.</obo:IAO_0000115>
         <rdf1:acronym>NLRC</rdf1:acronym>
         <rdfs:comment>The number of ontology classes whose name is a lexical regularity.</rdfs:comment>
@@ -4491,7 +4689,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-                                    <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                                    <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
@@ -4557,7 +4755,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4576,6 +4774,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#NumberOfPropertiesMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of properties per class. Mean number of object and data property usages per class NOMOnto=∑| PCi|∕∑|Ci| </obo:IAO_0000115>
@@ -4659,6 +4863,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of object properties lacking a description in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>OPWND</rdf1:acronym>
         <rdfs:label>object properties with no description metric</rdfs:label>
@@ -4732,6 +4942,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of object properties lacking a name in the ontology.</obo:IAO_0000115>
         <rdf1:acronym>OPWNN</rdf1:acronym>
         <rdfs:label>object properties with no name metric</rdfs:label>
@@ -4803,6 +5019,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Percentage of object properties lacking a synonym in the ontology.</obo:IAO_0000115>
@@ -4910,6 +5132,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#PropertiesRichnessMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of usages of object and data properties divided by the number of subclassof relations and properties PROnto=∑|PCi| ∕∑(|RCi| + ∑|PCi|) </obo:IAO_0000115>
@@ -5082,6 +5310,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#RelationshipRichnessMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of subclassof relationships divided by the number of subclassof relationships and properties RROnto=∑|RCi| ∕∑(|RCi| + ∑|PCi|) </obo:IAO_0000115>
         <rdf1:acronym>RROnto</rdf1:acronym>
         <rdfs:comment>Number of subclassof relationships divided by the number of subclassof relationships and properties.</rdfs:comment>
@@ -5154,6 +5388,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#RelationshipsPerClassMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of subclasses per class INROnto=∑| RCi| /∑|Ci| </obo:IAO_0000115>
@@ -5243,7 +5483,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5268,12 +5508,18 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
                             <rdf:Description rdf:about="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#ResponseForAClassMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Number of properties that can be directly accessed from the class. number of usages of object and data properties and superclasses divided by the number of classes RFCOnto=(∑|PCi|+∑|SupCi|/(∑|Ci| </obo:IAO_0000115>
@@ -5526,6 +5772,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with annotation properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>SxAP</rdf1:acronym>
         <rdfs:comment>The total number of annotation property synonyms over the total number of annotation properties.</rdfs:comment>
@@ -5598,6 +5850,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#SynonymsPerClassMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with classes, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
@@ -5674,6 +5932,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#SynonymsPerDataPropertyMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with data type properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>SxDP</rdf1:acronym>
         <rdfs:comment>The total number of data property synonyms over the total number of data properties.</rdfs:comment>
@@ -5746,6 +6010,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with object properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
@@ -5822,6 +6092,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#SynonymsPerPropertyMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric accounts for the number of synonyms associated with properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.</obo:IAO_0000115>
         <rdf1:acronym>SxC</rdf1:acronym>
         <rdfs:comment>The total number of property synonyms over the total number of properties, including data, object and annotation properties.</rdfs:comment>
@@ -5875,6 +6151,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#SystematicNamingMetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">This metric is related to the ontology design principle that states that classes in the same taxonomy should share part of their name, since subclasses are specializations of the parent class. In other words, class names should follow a genus-differentia style. This metric is calculated as the ratio of subclasses of an LR class that exhibit the lexical regularity of the parent class. This requires to calculate how many subclasses of a given LR class exhibit the lexical regularity in their name (positive cases) and how many do not (negative cases). The value of the metric is calculated by dividing the positive cases by the total number of cases. It is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.</obo:IAO_0000115>
         <rdf1:acronym>SYSNAM</rdf1:acronym>
         <rdfs:comment>The degree in which hierarchies under LR classes exhibit the lexical regularity of the parent class.</rdfs:comment>
@@ -5926,6 +6208,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#Tangledness2MetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of direct ancestor of classes with more than 1 direct ancestor. TMOnto2=∑|SUP(CDP)i|/∑|CDPi|; where Ci is the i-th class in the ontology and SUP(CDP)i is the supperclass of the thei-th class in the ontology with more than one direct parent </obo:IAO_0000115>
@@ -5989,6 +6277,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#TanglednessMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of classes with more than 1 direct ancestor TMOnto=∑|C(DP)i|/∑|Ci|-1; where Ci is the i-th class in the ontology and C(DP)i is thei-th class in the ontology with more than one direct parent </obo:IAO_0000115>
@@ -6125,6 +6419,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#WeigthMethodPerClass2MetricScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of path from Thing to a leaf class per leaf class WMCOnto2=∑path(|C(leaf)i|)/∑|C(leaf)i| , where path|C(leaf)i| is the number of the path from the leaf class i to Thing </obo:IAO_0000115>
         <rdf1:acronym>WMCOnto2</rdf1:acronym>
         <rdfs:comment>Mean number of path from Thing to a leaf class per leaf class.</rdfs:comment>
@@ -6153,7 +6453,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#AnalysabilityCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#ChangeabilityCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
-                                    <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                                    <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#ReplaceabilityCharacteristic"/>
                                     <rdf:Description rdf:about="https://purl.archive.org/oquo#ReusabilityCharacteristic"/>
@@ -6214,7 +6514,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6239,6 +6539,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#TestabilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#WeigthMethodPerClassMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean length of the path from Thing to a leaf class WMCOnto=∑Lenght(path(|C(leaf)i|))/∑|C(leaf)i|, where Lenght(path|C(leaf)i|) is the length of the path from the leaf class i to Thing </obo:IAO_0000115>
@@ -6279,6 +6585,618 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:comment>A ranking function that denotes that a lower value is better.</rdfs:comment>
         <rdfs:label>LowerBest</rdfs:label>
     </owl:Thing>
+    
+
+
+    <!-- https://purl.archive.org/oquo#AncestorsPerClassMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AncestorsPerClassMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>Mean number of direct ancestor per class</obo:IAO_0000115>
+        <rdfs:label>ancestors per class metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of annotation properties lacking a description over the number of the annotation properties considered.</obo:IAO_0000115>
+        <rdfs:label>annotation properties with no description metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The numberof annotation properties lacking a name over the number of annotation properties considered.</obo:IAO_0000115>
+        <rdfs:label>annotation properties with no name metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of annotation properties lacking synonyms over the annotation properties considered.</obo:IAO_0000115>
+        <rdfs:label>annotation properties with no synonym metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#AnnotationRichnessMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationRichnessMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>Mean number of annotation properties per class.</obo:IAO_0000115>
+        <rdfs:label>annotation richness metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#AttributeRichnessMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AttributeRichnessMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>Number of restrictions of the ontology per classes.</obo:IAO_0000115>
+        <rdfs:label>attribute richness metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ClassRichnessMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassRichnessMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>Mean number of individuals per class.</obo:IAO_0000115>
+        <rdfs:label>class richness metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ClassesWithNoDescriptionMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoDescriptionMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of classes lacking a description over the number of classes considered.</obo:IAO_0000115>
+        <rdfs:label>classes with no description metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ClassesWithNoNameMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoNameMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of classes lacking a name over the number of classes considered.</obo:IAO_0000115>
+        <rdfs:label>classes with no name metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ClassesWithNoSynonymMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoSynonymMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of classes lacking synonyms over the number of classes considered.</obo:IAO_0000115>
+        <rdfs:label>classes with no synonym metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#CouplingBetweenObjectsMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CouplingBetweenObjectsMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Number of related classes. Number of direct ancestor of classes divided by the number of classes minus subclasses of Thing.</obo:IAO_0000115>
+        <rdfs:label>coupling between objects metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of data properties lacking a description over the number of data properties considered.</obo:IAO_0000115>
+        <rdfs:label>data properties with no description metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DataPropertiesWithNoNameMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoNameMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of data properties lacking a name over the number of data properties considered.</obo:IAO_0000115>
+        <rdfs:label>data properties with no name metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of data properties lacking synonyms over the number of data properties considered.</obo:IAO_0000115>
+        <rdfs:label>data properties with no synonym metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DepthOfSubsumptionHierarchyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Length of the largest path from Thing to a leaf class.</obo:IAO_0000115>
+        <rdfs:label>depth of subsumption hierarchy metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of annotation property descriptions over the total number of annotation properties.</obo:IAO_0000115>
+        <rdfs:label>descriptions per annotation property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DescriptionsPerClassMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerClassMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of class descriptions over the total number of classes.</obo:IAO_0000115>
+        <rdfs:label>descriptions per class metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of data property descriptions over the total number of data properties.</obo:IAO_0000115>
+        <rdfs:label>descriptions per data property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of object property descriptions over the total number of object properties.</obo:IAO_0000115>
+        <rdfs:label>descriptions per object property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DescriptionsPerPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total property descriptions over the total number of properties.</obo:IAO_0000115>
+        <rdfs:label>descriptions per property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#LackOfCohesionInMethodsMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LackOfCohesionInMethodsMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Semantic and conceptual relatedness of classes.</obo:IAO_0000115>
+        <rdfs:label>lack of cohesion in methods metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#LexicalRegularitiesPerClassMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LexicalRegularitiesPerClassMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The number of lexical regularities appearing in the ontology over the number of classes.</obo:IAO_0000115>
+        <rdfs:label>lexical regularities per class metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#LexicalRegularityClassPercentageMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LexicalRegularityClassPercentageMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The percentage of classes in the ontology that are LR classes.</obo:IAO_0000115>
+        <rdfs:label>lexical resularity class percentage metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The degree in which LR classes are semantically linked to the classes exhibiting the corresponding lexical regularity.</obo:IAO_0000115>
+        <rdfs:label>lexically suggest logically define metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of annotation property names over the total number of annotation properties.</obo:IAO_0000115>
+        <rdfs:label>names per annotation property metrics scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NamesPerClassMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerClassMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of class names over the total number of classes.</obo:IAO_0000115>
+        <rdfs:label>names per class metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NamesPerDataPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerDataPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of data property names over the total number of data properties.</obo:IAO_0000115>
+        <rdfs:label>names per data property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NamesPerObjectPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerObjectPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of object property names over the total number of object properties.</obo:IAO_0000115>
+        <rdfs:label>names per object property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NamesPerPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of property names over the total number of properties.</obo:IAO_0000115>
+        <rdfs:label>names per property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NumberOfAncestorClassesMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfAncestorClassesMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Mean number of ancestor classes per leaf class.</obo:IAO_0000115>
+        <rdfs:label>number of ancestor classes metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NumberOfChildrenClassesMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfChildrenClassesMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>Number of the direct subclasses divided by the number of classes minus the number of leaf classes</obo:IAO_0000115>
+        <rdfs:label>number of children classes metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The number of lexical regularities found in the ontology.</obo:IAO_0000115>
+        <rdfs:label>number of lexical regularities metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The number of ontology classes whose name is a lexical regularity.</obo:IAO_0000115>
+        <rdfs:label>number of lexical regularity classes metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#NumberOfPropertiesMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfPropertiesMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Number of properties per class. Mean number of object and data property usages per class.</obo:IAO_0000115>
+        <rdfs:label>number of properties metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number  of object properties lacking a description over the number of object properties considered.</obo:IAO_0000115>
+        <rdfs:label>object properties with no description metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of object properties lacking a name over the number of object properties considered.</obo:IAO_0000115>
+        <rdfs:label>object properties with no name metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of object properties lacking a synonym over the number of object properties considered.</obo:IAO_0000115>
+        <rdfs:label>object properties with no synonym metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#PropertiesRichnessMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PropertiesRichnessMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>Number of usages of object and data properties divided by the number of subclassof relations and properties</obo:IAO_0000115>
+        <rdfs:label>properties richness metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#RelationshipRichnessMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#RelationshipRichnessMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>Number of subclassof relationships divided by the number of subclassof relationships and properties.</obo:IAO_0000115>
+        <rdfs:label>relationship richness metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#RelationshipsPerClassMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#RelationshipsPerClassMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>Mean number of subclasses per class</obo:IAO_0000115>
+        <rdfs:label>relationsships per class metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ResponseForAClassMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ResponseForAClassMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Number of properties that can be directly accessed from the class.</obo:IAO_0000115>
+        <rdfs:label>response for a class metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of annotation property synonyms over the total number of annotation properties.</obo:IAO_0000115>
+        <rdfs:label>synonyms per annotation property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#SynonymsPerClassMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerClassMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of class synonyms over the total number of classes.</obo:IAO_0000115>
+        <rdfs:label>synonyms per class metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#SynonymsPerDataPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerDataPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of data property synonyms over the total number of data properties.</obo:IAO_0000115>
+        <rdfs:label>synonyms per data property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of object property synonyms over the total number of object properties.</obo:IAO_0000115>
+        <rdfs:label>synonyms per object property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#SynonymsPerPropertyMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerPropertyMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of property synonyms over the total number of properties, including data, object and annotation properties.</obo:IAO_0000115>
+        <rdfs:label>synonyms per property metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#SystematicNamingMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SystematicNamingMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The degree in which hierarchies under LR classes exhibit the lexical regularity of the parent class.</obo:IAO_0000115>
+        <rdfs:label>systematic naming metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#Tangledness2MetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#Tangledness2MetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Mean number of direct ancestor of classes with more than 1 direct ancestor.</obo:IAO_0000115>
+        <rdfs:label>tangledness2 metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#TanglednessMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#TanglednessMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Mean number of classes with more than 1 direct ancestor</obo:IAO_0000115>
+        <rdfs:label>tangledness metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#WeigthMethodPerClass2MetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClass2MetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Mean number of path from Thing to a leaf class per leaf class.</obo:IAO_0000115>
+        <rdfs:label>weigth method per class 2 metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>Mean length of the path from Thing to a leaf class.</obo:IAO_0000115>
+        <rdfs:label>weigth method per class metric scale</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
@@ -6421,7 +7339,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
             <rdf:Description rdf:about="https://purl.archive.org/oquo#KnowledgeReuseCharacteristic"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#LearnabilityCharacteristic"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#MaintainabilityCharacteristic"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificaionStabilityCharacteristic"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ModificationStabilityCharacteristic"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#ModularityCharacteristic"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#OperabilityCharacteristic"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic"/>
