@@ -6960,6 +6960,17 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- https://purl.archive.org/oquo#NumberOfClassesMetricScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfClassesMetricScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <obo:IAO_0000115>The number of classes in the ontology.</obo:IAO_0000115>
+        <rdfs:label>number of classes metric scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetricScale -->
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetricScale">
