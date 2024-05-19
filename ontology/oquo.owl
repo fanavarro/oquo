@@ -150,7 +150,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:label>creator</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -168,25 +170,33 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.org/dc/terms/created -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created">
+        <rdfs:label>created</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.org/dc/terms/license -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
+        <rdfs:label>license</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix">
+        <rdfs:label>preferred namespace prefix</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri">
+        <rdfs:label>preferred namespace uri</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -757,6 +767,17 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
     
 
 
+    <!-- http://www.wurvoc.org/vocabularies/om-1.8/element -->
+
+    <owl:ObjectProperty rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/element">
+        <rdfs:domain rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">element</rdfs:label>
+        <om-1:alternative_label xml:lang="en">has element</om-1:alternative_label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://purl.archive.org/oquo#hasDetectedIssue -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasDetectedIssue">
@@ -769,6 +790,63 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
     
 
 
+    <!-- https://purl.archive.org/oquo#hasInputCardinalInterval -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasInputCardinalInterval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#ScalePointMapping"/>
+        <rdfs:range rdf:resource="https://purl.archive.org/oquo#Interval"/>
+        <rdfs:comment>The input cardinal interval of an scale point mapping.</rdfs:comment>
+        <rdfs:label>has input cardinal interval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasInputScale -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasInputScale">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#ScaleConversion"/>
+        <rdfs:range rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:label>has input scale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasIntervalBoundType -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasIntervalBoundType">
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#Interval"/>
+        <rdfs:range rdf:resource="https://purl.archive.org/oquo#IntervalBoundType"/>
+        <rdfs:label>has interval bound type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasIntervalLowerBoundType -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasIntervalLowerBoundType">
+        <rdfs:subPropertyOf rdf:resource="https://purl.archive.org/oquo#hasIntervalBoundType"/>
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#Interval"/>
+        <rdfs:range rdf:resource="https://purl.archive.org/oquo#IntervalBoundType"/>
+        <rdfs:label>has interval lower bound type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasIntervalUpperBoundType -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasIntervalUpperBoundType">
+        <rdfs:subPropertyOf rdf:resource="https://purl.archive.org/oquo#hasIntervalBoundType"/>
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#Interval"/>
+        <rdfs:range rdf:resource="https://purl.archive.org/oquo#IntervalBoundType"/>
+        <rdfs:label>has interval upper bound type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://purl.archive.org/oquo#hasObservation -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasObservation">
@@ -776,6 +854,41 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
         <rdfs:range rdf:resource="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
         <rdfs:comment>Relates something with an observation</rdfs:comment>
         <rdfs:label>has observation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasOutputScale -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasOutputScale">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#ScaleConversion"/>
+        <rdfs:range rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:label>has output scale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasOutputScaleCategory -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasOutputScaleCategory">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#ScalePointMapping"/>
+        <rdfs:range rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale_category"/>
+        <rdfs:comment>The output category of a scale point mapping.</rdfs:comment>
+        <rdfs:label>has output scale category</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasScalePointMapping -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#hasScalePointMapping">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#ScaleConversion"/>
+        <rdfs:range rdf:resource="https://purl.archive.org/oquo#ScalePointMapping"/>
+        <rdfs:comment>Relation between an scale conversion and its point mappings.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -902,6 +1015,54 @@ A Symptom may indicate many Issues, such as a Symptom of fever can indicate many
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Denotes a symbol of a unit of measure.</rdfs:comment>
         <rdfs:label>symbol</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.wurvoc.org/vocabularies/om-1.8/rank -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/rank">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ordered_measurement_scale_category"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">rank</rdfs:label>
+        <om-1:alternative_label xml:lang="en">has rank</om-1:alternative_label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasIntervalLowerValue -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/oquo#hasIntervalLowerValue">
+        <rdfs:subPropertyOf rdf:resource="https://purl.archive.org/oquo#hasIntervalValue"/>
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#Interval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000112>The number 1 in the interval [1, 5]</obo:IAO_0000112>
+        <rdfs:comment>The lower value of an interval</rdfs:comment>
+        <rdfs:label>has interval lower value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasIntervalUpperValue -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/oquo#hasIntervalUpperValue">
+        <rdfs:subPropertyOf rdf:resource="https://purl.archive.org/oquo#hasIntervalValue"/>
+        <rdfs:domain rdf:resource="https://purl.archive.org/oquo#Interval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000112>The number 5 in the interval [1, 5]</obo:IAO_0000112>
+        <rdfs:comment>The upper value of an interval</rdfs:comment>
+        <rdfs:label>has interval upper value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://purl.archive.org/oquo#hasIntervalValue -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/oquo#hasIntervalValue">
+        <obo:IAO_0000112>The numbers 1 and 5 in the interval [1, 5]</obo:IAO_0000112>
+        <rdfs:comment>The values of an interval</rdfs:comment>
+        <rdfs:label>has interval value</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1146,6 +1307,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     <!-- http://purl.org/net/QualityModel#OrdinalScaleItem -->
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#OrdinalScaleItem">
+        <owl:equivalentClass rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ordered_measurement_scale_category"/>
+        <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale_category"/>
         <rdfs:comment>Ordinal scale item is an item that belongs to a particular ordinal scale. Ordinal scale item is described with a label (e.g., &quot;Excellent&quot;/&quot;Good&quot;/...) and an order on the scale (e.g., 1/2/...).</rdfs:comment>
         <rdfs:label>OrdinalScaleItem</rdfs:label>
     </owl:Class>
@@ -1259,11 +1422,35 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale_category -->
+
+    <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale_category">
+        <rdfs:comment xml:lang="en">A measurement scale category is an element of a nominal or ordinal scale, for example, the category number 10 of the Beaufort scale, indicating storm.</rdfs:comment>
+        <rdfs:label xml:lang="en">measurement scale category</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale -->
 
     <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale">
         <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/element"/>
+                <owl:allValuesFrom rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale_category"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">nominal scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wurvoc.org/vocabularies/om-1.8/Ordered_measurement_scale_category -->
+
+    <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ordered_measurement_scale_category">
+        <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale_category"/>
+        <rdfs:label xml:lang="en">ordered measurement scale category</rdfs:label>
     </owl:Class>
     
 
@@ -1272,6 +1459,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <owl:Class rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale">
         <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/element"/>
+                <owl:allValuesFrom rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ordered_measurement_scale_category"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ordinal scale</rdfs:label>
     </owl:Class>
     
@@ -1806,6 +1999,110 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#QualityCharacteristic"/>
         <obo:IAO_0000115 xml:lang="en">The degree to which an ontology, or part of it, is operational and available when required for use with different applications.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">availability characteristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#CardinalToNominalScaleConversion -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#CardinalToNominalScaleConversion">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#ScaleConversion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasInputScale"/>
+                <owl:someValuesFrom rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasOutputScale"/>
+                <owl:someValuesFrom rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasScalePointMapping"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#CardinalToNominalScalePointMapping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Defines how to convert a cardinal scale into a nominal scale.</rdfs:comment>
+        <rdfs:label>cardinal to nominal scale conversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#CardinalToNominalScalePointMapping -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#CardinalToNominalScalePointMapping">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#ScalePointMapping"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasInputCardinalInterval"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://purl.archive.org/oquo#Interval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasOutputScaleCategory"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale_category"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Represents the mapping between a cardinal value in one scale and a nominal value in another scale.</rdfs:comment>
+        <rdfs:label>cardinal to nominal scale point mapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#CardinalToOrdinalScaleConversion -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#CardinalToOrdinalScaleConversion">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#ScaleConversion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasInputScale"/>
+                <owl:someValuesFrom rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasOutputScale"/>
+                <owl:someValuesFrom rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasScalePointMapping"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#CardinalToOrdinalScalePointMapping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Defines how to convert a cardinal scale into an ordinal scale.</rdfs:comment>
+        <rdfs:label>cardinal to ordinal scale conversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#CardinalToOrdinalScalePointMapping -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#CardinalToOrdinalScalePointMapping">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#ScalePointMapping"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasInputCardinalInterval"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://purl.archive.org/oquo#Interval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasOutputScaleCategory"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/net/QualityModel#OrdinalScaleItem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Represents the mapping between a cardinal value in one scale and a ordinal value in another scale.</rdfs:comment>
+        <rdfs:label>cardinal to ordinal scale point mapping</rdfs:label>
     </owl:Class>
     
 
@@ -3581,6 +3878,60 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- https://purl.archive.org/oquo#Interval -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#Interval">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasIntervalLowerBoundType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://purl.archive.org/oquo#IntervalBoundType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasIntervalUpperBoundType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://purl.archive.org/oquo#IntervalBoundType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasIntervalLowerValue"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasIntervalUpperValue"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Class for representing numeric intervals, such as [1, 5).</rdfs:comment>
+        <rdfs:label>interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#IntervalBoundType -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#IntervalBoundType">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#ClosedIntervalBound"/>
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#OpenIntervalBound"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>The interval bounds, which can be open () or closed [].</rdfs:comment>
+        <rdfs:label>interval bound type</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#KnowledgeAcquisitionRepresentationCharacteristic">
@@ -5083,6 +5434,27 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- https://purl.archive.org/oquo#OquareFiveCategoriesCategory -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#OquareFiveCategoriesCategory">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#OquareCategory1"/>
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#OquareCategory2"/>
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#OquareCategory3"/>
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#OquareCategory4"/>
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#OquareCategory5"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ordered_measurement_scale_category"/>
+        <rdfs:comment>Class to classify the 5 points of the oquare scale.</rdfs:comment>
+        <rdfs:label>oquare five categories category</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#PhysicalSatisfactionCharacteristic">
@@ -5588,6 +5960,42 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The degree to which users are satisfied in a especified context of use.</obo:IAO_0000115>
         <rdfs:label>satisfaction in use characteristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ScaleConversion -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#ScaleConversion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasInputScale"/>
+                <owl:someValuesFrom rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasOutputScale"/>
+                <owl:someValuesFrom rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/oquo#hasScalePointMapping"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/oquo#ScalePointMapping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Defines how to convert one scale into another.</rdfs:comment>
+        <rdfs:label>scale conversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ScalePointMapping -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#ScalePointMapping">
+        <rdfs:comment>Represents the mapping between points in different scales.</rdfs:comment>
+        <rdfs:label>scale point mapping</rdfs:label>
     </owl:Class>
     
 
@@ -6708,6 +7116,15 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- https://purl.archive.org/oquo#ClosedIntervalBound -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClosedIntervalBound">
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#IntervalBoundType"/>
+        <rdfs:label>closed interval bound</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.archive.org/oquo#CouplingBetweenObjectsMetricScale -->
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#CouplingBetweenObjectsMetricScale">
@@ -7043,6 +7460,84 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- https://purl.archive.org/oquo#OpenIntervalBound -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OpenIntervalBound">
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#IntervalBoundType"/>
+        <rdfs:label>open interval bound</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#OquareCategory1 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OquareCategory1">
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#OquareFiveCategoriesCategory"/>
+        <om-1:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</om-1:rank>
+        <obo:IAO_0000115>Not acceptable</obo:IAO_0000115>
+        <rdfs:label>oquare category 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#OquareCategory2 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OquareCategory2">
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#OquareFiveCategoriesCategory"/>
+        <om-1:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</om-1:rank>
+        <obo:IAO_0000115>Insufficient</obo:IAO_0000115>
+        <rdfs:label>oquare category 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#OquareCategory3 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OquareCategory3">
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#OquareFiveCategoriesCategory"/>
+        <om-1:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</om-1:rank>
+        <obo:IAO_0000115>Minimally acceptable</obo:IAO_0000115>
+        <rdfs:label>oquare category 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#OquareCategory4 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OquareCategory4">
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#OquareFiveCategoriesCategory"/>
+        <om-1:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</om-1:rank>
+        <obo:IAO_0000115>Acceptable</obo:IAO_0000115>
+        <rdfs:label>oquare category 4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#OquareCategory5 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OquareCategory5">
+        <rdf:type rdf:resource="https://purl.archive.org/oquo#OquareFiveCategoriesCategory"/>
+        <om-1:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</om-1:rank>
+        <obo:IAO_0000115>Exceeds the requirements</obo:IAO_0000115>
+        <rdfs:label>oquare category 5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.archive.org/oquo#OquareFiveCategoriesScale -->
+
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OquareFiveCategoriesScale">
+        <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale"/>
+        <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory1"/>
+        <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory2"/>
+        <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory3"/>
+        <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory4"/>
+        <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory5"/>
+        <rdfs:label>oquare five categories scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://purl.archive.org/oquo#PropertiesRichnessMetricScale -->
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#PropertiesRichnessMetricScale">
@@ -7219,6 +7714,12 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description">
+        <rdfs:label>description</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:label>title</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
         <rdfs:label>seeAlso</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
@@ -7230,8 +7731,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
-        <rdfs:comment>The annotation property that indicates that a given entity has been deprecated.</rdfs:comment>
         <rdfs:label>deprecated</rdfs:label>
+        <rdfs:comment>The annotation property that indicates that a given entity has been deprecated.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
@@ -7267,15 +7768,19 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
             <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
             <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue"/>
             <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
-            <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Observation"/>
+            <rdf:Description rdf:about="http://purl.org/ipo/core#IssueEntity"/>
             <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#Evaluation"/>
             <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#EvaluationData"/>
             <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#SubjectCategory"/>
-            <rdf:Description rdf:about="http://purl.org/net/QualityModel#OrdinalScaleItem"/>
             <rdf:Description rdf:about="http://purl.org/net/QualityModel#RankingFunction"/>
             <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant"/>
             <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale_category"/>
             <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#Interval"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#IntervalBoundType"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ScaleConversion"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ScalePointMapping"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -7285,15 +7790,18 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
             <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity"/>
             <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue"/>
             <rdf:Description rdf:about="http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement"/>
-            <rdf:Description rdf:about="http://purl.org/ipo/core#IssueEntity"/>
             <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#Evaluation"/>
             <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#EvaluationData"/>
             <rdf:Description rdf:about="http://purl.org/net/EvaluationResult#SubjectCategory"/>
-            <rdf:Description rdf:about="http://purl.org/net/QualityModel#OrdinalScaleItem"/>
             <rdf:Description rdf:about="http://purl.org/net/QualityModel#RankingFunction"/>
             <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant"/>
             <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale"/>
+            <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale_category"/>
             <rdf:Description rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#Interval"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#IntervalBoundType"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ScaleConversion"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#ScalePointMapping"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
