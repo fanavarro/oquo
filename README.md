@@ -25,7 +25,7 @@ The module oquo-huron ([https://purl.archive.org/oquo-huron](https://purl.archiv
 <img src="assets/oquo_example_names_per_class.png" width="1000">
 
 ### oquo-oquare
-The module oquo-oquare ([https://purl.archive.org/oquo-huron](https://purl.archive.org/oquo-huron)) contains the information about the metrics included in OQuaRE[^oquare]. The next figure shows an example of a result of applying the metric `LCOMOnto' to Gene Ontology.
+The module oquo-oquare ([https://purl.archive.org/oquo-oquare](https://purl.archive.org/oquo-oquare)) contains the information about the metrics included in OQuaRE[^oquare]. The next figure shows an example of a result of applying the metric `LCOMOnto' to Gene Ontology.
 
 <img src="assets/oquo_example_LCOMOnto.png" width="1000">
 
