@@ -34,67 +34,105 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>iao 0000115</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.cropontology.org/rdf/acronym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.cropontology.org/rdf/acronym"/>
+    <owl:AnnotationProperty rdf:about="http://www.cropontology.org/rdf/acronym">
+        <rdfs:label>acronym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:label>comment</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
     
 
 
     <!-- https://purl.archive.org/oquo#hasInputCardinalInterval -->
 
-    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasInputCardinalInterval"/>
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasInputCardinalInterval">
+        <rdfs:label>has input cardinal interval</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#hasInputScale -->
 
-    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasInputScale"/>
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasInputScale">
+        <rdfs:label>has input scale</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#hasIntervalLowerBoundType -->
 
-    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasIntervalLowerBoundType"/>
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasIntervalLowerBoundType">
+        <rdfs:label>has interval lower bound type</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#hasIntervalLowerValue -->
 
-    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasIntervalLowerValue"/>
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasIntervalLowerValue">
+        <rdfs:label>has interval lower value</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#hasIntervalUpperBoundType -->
 
-    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasIntervalUpperBoundType"/>
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasIntervalUpperBoundType">
+        <rdfs:label>has interval upper bound type</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#hasIntervalUpperValue -->
 
-    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasIntervalUpperValue"/>
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasIntervalUpperValue">
+        <rdfs:label>has interval upper value</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#hasOutputScale -->
 
-    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasOutputScale"/>
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasOutputScale">
+        <rdfs:label>has output scale</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#hasOutputScaleCategory -->
 
-    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasOutputScaleCategory"/>
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasOutputScaleCategory">
+        <rdfs:label>has output scale category</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#hasScalePointMapping -->
 
-    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasScalePointMapping"/>
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasScalePointMapping">
+        <rdfs:label>has scale point mapping</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -109,21 +147,35 @@
     
 
 
+    <!-- http://purl.org/net/QualityModel#hasRankigFunction -->
+
+    <rdf:Description rdf:about="http://purl.org/net/QualityModel#hasRankigFunction">
+        <rdfs:label>has rankig function</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.org/net/QualityModel#hasScale -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#hasScale"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/net/QualityModel#hasScale">
+        <rdfs:label>has scale</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#measuresCharacteristicNegatively -->
 
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#measuresCharacteristicNegatively"/>
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#measuresCharacteristicNegatively">
+        <rdfs:label>measures characteristic negatively</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
     <!-- https://purl.archive.org/oquo#measuresCharacteristicPositively -->
 
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#measuresCharacteristicPositively"/>
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/oquo#measuresCharacteristicPositively">
+        <rdfs:label>measures characteristic positively</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -147,6 +199,30 @@
     <!-- http://purl.org/net/QualityModel#DerivedMeasure -->
 
     <owl:Class rdf:about="http://purl.org/net/QualityModel#DerivedMeasure"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#AnnotationProperty -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Class -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#DatatypeProperty -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#ObjectProperty -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     
 
 
@@ -2801,6 +2877,308 @@
     
 
 
+    <!-- https://purl.archive.org/oquo-huron#AnnotationPropertyWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#AnnotationPropertyWithNoDescriptionIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue"/>
+        <rdfs:label>annotation property with no description issue</rdfs:label>
+        <skos:definition>The annotation property does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#AnnotationPropertyWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#AnnotationPropertyWithNoNameIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue"/>
+        <rdfs:label>annotation property with no name issue</rdfs:label>
+        <skos:definition>The annotation property does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#AnnotationPropertyWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#AnnotationPropertyWithNoSynonymsIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue"/>
+        <rdfs:label>annotation property with no synonyms issue</rdfs:label>
+        <skos:definition>The annotation property does not have any synonym.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#ClassWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#ClassWithNoDescriptionIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue"/>
+        <rdfs:label>class with no description issue</rdfs:label>
+        <skos:definition>The class does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#ClassWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#ClassWithNoNameIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue"/>
+        <rdfs:label>class with no name issue</rdfs:label>
+        <skos:definition>The class does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#ClassWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#ClassWithNoSynonymsIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue"/>
+        <rdfs:label>class with no synonyms issue</rdfs:label>
+        <skos:definition>The class does not have any synonym.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#DataPropertyWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#DataPropertyWithNoDescriptionIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue"/>
+        <rdfs:label>data property with no description issue</rdfs:label>
+        <skos:definition>The data property does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#DataPropertyWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#DataPropertyWithNoNameIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue"/>
+        <rdfs:label>data property with no name issue</rdfs:label>
+        <skos:definition>The data property does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#DataPropertyWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#DataPropertyWithNoSynonymsIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue"/>
+        <rdfs:label>data property with no synonyms issue</rdfs:label>
+        <skos:definition>The data property does not have any synonym.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:label>entity with no description issue</rdfs:label>
+        <skos:definition>The entity does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#EntityWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:label>entity with no name issue</rdfs:label>
+        <skos:definition>The entity does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:label>entity with no synonyms issue</rdfs:label>
+        <skos:definition>The entity does not have any synonym.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#LexicallySuggestLogicallyDefineIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#LexicallySuggestLogicallyDefineIssue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:label>lexically suggest logically define issue</rdfs:label>
+        <skos:definition>The name of the class A is exhibited by class B, but they are not semantically related.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#ObjectPropertyWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#ObjectPropertyWithNoDescriptionIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue"/>
+        <rdfs:label>object property with no description issue</rdfs:label>
+        <skos:definition>The object property does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#ObjectPropertyWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#ObjectPropertyWithNoNameIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue"/>
+        <rdfs:label>object property with no name issue</rdfs:label>
+        <skos:definition>The object property does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#ObjectPropertyWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#ObjectPropertyWithNoSynonymsIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue"/>
+        <rdfs:label>object property with no synonyms issue</rdfs:label>
+        <skos:definition>The object property does not have any synonym.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo-huron#SystematicNamingIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo-huron#SystematicNamingIssue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:label>systematic naming issue</rdfs:label>
+        <skos:definition>The class B is subclass of the class A, but class B does not exhibit the name of the class A.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2814,13 +3192,17 @@
 
     <!-- http://purl.org/net/QualityModel#HigherBest -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/net/QualityModel#HigherBest"/>
+    <owl:NamedIndividual rdf:about="http://purl.org/net/QualityModel#HigherBest">
+        <rdfs:label>higher best</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/net/QualityModel#LowerBest -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/net/QualityModel#LowerBest"/>
+    <owl:NamedIndividual rdf:about="http://purl.org/net/QualityModel#LowerBest">
+        <rdfs:label>lower best</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
@@ -2829,8 +3211,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoDescriptionMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of annotation properties lacking a description over the number of the annotation properties considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of annotation properties lacking a description over the number of the annotation properties considered.</obo:IAO_0000115>
         <rdfs:label>annotation properties with no description metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2841,8 +3223,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoNameMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The numberof annotation properties lacking a name over the number of annotation properties considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The numberof annotation properties lacking a name over the number of annotation properties considered.</obo:IAO_0000115>
         <rdfs:label>annotation properties with no name metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2853,8 +3235,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#AnnotationPropertiesWithNoSynonymMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of annotation properties lacking synonyms over the annotation properties considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of annotation properties lacking synonyms over the annotation properties considered.</obo:IAO_0000115>
         <rdfs:label>annotation properties with no synonym metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2865,8 +3247,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoDescriptionMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of classes lacking a description over the number of classes considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of classes lacking a description over the number of classes considered.</obo:IAO_0000115>
         <rdfs:label>classes with no description metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2877,8 +3259,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoNameMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of classes lacking a name over the number of classes considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of classes lacking a name over the number of classes considered.</obo:IAO_0000115>
         <rdfs:label>classes with no name metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2889,8 +3271,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ClassesWithNoSynonymMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of classes lacking synonyms over the number of classes considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of classes lacking synonyms over the number of classes considered.</obo:IAO_0000115>
         <rdfs:label>classes with no synonym metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2901,8 +3283,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoDescriptionMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of data properties lacking a description over the number of data properties considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of data properties lacking a description over the number of data properties considered.</obo:IAO_0000115>
         <rdfs:label>data properties with no description metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2913,8 +3295,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoNameMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of data properties lacking a name over the number of data properties considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of data properties lacking a name over the number of data properties considered.</obo:IAO_0000115>
         <rdfs:label>data properties with no name metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2925,8 +3307,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DataPropertiesWithNoSynonymMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of data properties lacking synonyms over the number of data properties considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of data properties lacking synonyms over the number of data properties considered.</obo:IAO_0000115>
         <rdfs:label>data properties with no synonym metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2937,8 +3319,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of annotation property descriptions over the total number of annotation properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of annotation property descriptions over the total number of annotation properties.</obo:IAO_0000115>
         <rdfs:label>descriptions per annotation property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2949,8 +3331,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerClassMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of class descriptions over the total number of classes.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of class descriptions over the total number of classes.</obo:IAO_0000115>
         <rdfs:label>descriptions per class metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2961,8 +3343,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerDataPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of data property descriptions over the total number of data properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of data property descriptions over the total number of data properties.</obo:IAO_0000115>
         <rdfs:label>descriptions per data property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2973,8 +3355,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerObjectPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of object property descriptions over the total number of object properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of object property descriptions over the total number of object properties.</obo:IAO_0000115>
         <rdfs:label>descriptions per object property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2985,8 +3367,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#DescriptionsPerPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total property descriptions over the total number of properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total property descriptions over the total number of properties.</obo:IAO_0000115>
         <rdfs:label>descriptions per property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2997,8 +3379,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LexicalRegularitiesPerClassMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of lexical regularities appearing in the ontology over the number of classes.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The number of lexical regularities appearing in the ontology over the number of classes.</obo:IAO_0000115>
         <rdfs:label>lexical regularities per class metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3009,8 +3391,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LexicalRegularityClassPercentageMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The percentage of classes in the ontology that are LR classes.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The percentage of classes in the ontology that are LR classes.</obo:IAO_0000115>
         <rdfs:label>lexical resularity class percentage metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3021,8 +3403,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The degree in which LR classes are semantically linked to the classes exhibiting the corresponding lexical regularity.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The degree in which LR classes are semantically linked to the classes exhibiting the corresponding lexical regularity.</obo:IAO_0000115>
         <rdfs:label>lexically suggest logically define metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3033,8 +3415,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerAnnotationPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of annotation property names over the total number of annotation properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of annotation property names over the total number of annotation properties.</obo:IAO_0000115>
         <rdfs:label>names per annotation property metrics scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3045,8 +3427,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerClassMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of class names over the total number of classes.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of class names over the total number of classes.</obo:IAO_0000115>
         <rdfs:label>names per class metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3057,8 +3439,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerDataPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of data property names over the total number of data properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of data property names over the total number of data properties.</obo:IAO_0000115>
         <rdfs:label>names per data property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3069,8 +3451,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerObjectPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of object property names over the total number of object properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of object property names over the total number of object properties.</obo:IAO_0000115>
         <rdfs:label>names per object property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3081,8 +3463,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NamesPerPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of property names over the total number of properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of property names over the total number of properties.</obo:IAO_0000115>
         <rdfs:label>names per property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3104,8 +3486,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularitiesMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of lexical regularities found in the ontology.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The number of lexical regularities found in the ontology.</obo:IAO_0000115>
         <rdfs:label>number of lexical regularities metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3116,8 +3498,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfLexicalRegularityClassesMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of ontology classes whose name is a lexical regularity.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The number of ontology classes whose name is a lexical regularity.</obo:IAO_0000115>
         <rdfs:label>number of lexical regularity classes metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3128,8 +3510,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoDescriptionMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number  of object properties lacking a description over the number of object properties considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number  of object properties lacking a description over the number of object properties considered.</obo:IAO_0000115>
         <rdfs:label>object properties with no description metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3140,8 +3522,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoNameMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of object properties lacking a name over the number of object properties considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of object properties lacking a name over the number of object properties considered.</obo:IAO_0000115>
         <rdfs:label>object properties with no name metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3152,8 +3534,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#ObjectPropertiesWithNoSynonymMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The number of object properties lacking a synonym over the number of object properties considered.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
+        <obo:IAO_0000115>The number of object properties lacking a synonym over the number of object properties considered.</obo:IAO_0000115>
         <rdfs:label>object properties with no synonym metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3164,8 +3546,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerAnnotationPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of annotation property synonyms over the total number of annotation properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of annotation property synonyms over the total number of annotation properties.</obo:IAO_0000115>
         <rdfs:label>synonyms per annotation property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3176,8 +3558,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerClassMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of class synonyms over the total number of classes.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of class synonyms over the total number of classes.</obo:IAO_0000115>
         <rdfs:label>synonyms per class metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3188,8 +3570,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerDataPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of data property synonyms over the total number of data properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of data property synonyms over the total number of data properties.</obo:IAO_0000115>
         <rdfs:label>synonyms per data property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3200,8 +3582,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of object property synonyms over the total number of object properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of object property synonyms over the total number of object properties.</obo:IAO_0000115>
         <rdfs:label>synonyms per object property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3212,8 +3594,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SynonymsPerPropertyMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The total number of property synonyms over the total number of properties, including data, object and annotation properties.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The total number of property synonyms over the total number of properties, including data, object and annotation properties.</obo:IAO_0000115>
         <rdfs:label>synonyms per property metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3224,8 +3606,8 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#SystematicNamingMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
-        <obo:IAO_0000115>The degree in which hierarchies under LR classes exhibit the lexical regularity of the parent class.</obo:IAO_0000115>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
+        <obo:IAO_0000115>The degree in which hierarchies under LR classes exhibit the lexical regularity of the parent class.</obo:IAO_0000115>
         <rdfs:label>systematic naming metric scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6392,6 +6774,43 @@
             <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerObjectPropertyMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#SynonymsPerPropertyMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#AnnotationPropertyWithNoDescriptionIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#ClassWithNoDescriptionIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#DataPropertyWithNoDescriptionIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#ObjectPropertyWithNoDescriptionIssue"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#AnnotationPropertyWithNoNameIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#ClassWithNoNameIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#DataPropertyWithNoNameIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#ObjectPropertyWithNoNameIssue"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#AnnotationPropertyWithNoSynonymsIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#ClassWithNoSynonymsIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#DataPropertyWithNoSynonymsIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#ObjectPropertyWithNoSynonymsIssue"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoDescriptionIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoNameIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#EntityWithNoSynonymsIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#LexicallySuggestLogicallyDefineIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo-huron#SystematicNamingIssue"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
