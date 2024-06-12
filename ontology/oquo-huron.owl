@@ -3323,6 +3323,7 @@
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#NumberOfClassesMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
         <obo:IAO_0000115>The number of classes in the ontology.</obo:IAO_0000115>
         <rdfs:label>number of classes metric scale</rdfs:label>
     </owl:NamedIndividual>
