@@ -158,6 +158,41 @@ oquo:MeasurementScaleShape
     .
 
 
+oquo:OrdinalScaleShape
+    a sh:NodeShape ;
+    sh:targetClass om:Ordinal_scale ;  
+    sh:property [
+        sh:path qm:hasRankigFunction ;       
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class qm:RankingFunction ;
+        sh:in ( qm:LowerBest qm:HigherBest ) ;
+        sh:severity sh:Violation ;
+    ] ;
+    sh:property [
+        sh:path iao:0000115 ;       
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation ;
+    ] ;
+    sh:property [
+        sh:path rdfs:label ;       
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation ;
+    ] ;
+    sh:property [
+        sh:path om:element ;       
+        sh:minCount 2 ;
+        sh:class om:Ordered_measurement_scale_category ;
+        sh:severity sh:Violation ;
+    ] ;
+
+    sh:closed false ;
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
+    .
+
+
 oquo:ObservationShape
     a sh:NodeShape ;
     sh:targetClass oboe:Observation ;  
