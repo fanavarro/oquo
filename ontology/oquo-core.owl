@@ -2194,6 +2194,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <obo:IAO_0000115 xml:lang="en">The degree to which the ontology enables users to learn its application.</obo:IAO_0000115>
         <rdfs:label>learnability characteristic</rdfs:label>
     </owl:Class>
+    
 
 
     <!-- https://purl.archive.org/oquo#MaintainabilityCharacteristic -->
@@ -2945,11 +2946,13 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#OquareFiveCategoriesScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale"/>
+        <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#HigherBest"/>
         <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory1"/>
         <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory2"/>
         <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory3"/>
         <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory4"/>
         <om-1:element rdf:resource="https://purl.archive.org/oquo#OquareCategory5"/>
+        <obo:IAO_0000115>Scale used by OQuaRE, consisting in five categories from 1 to 5, meaning not acceptable, insufficient, minimally acceptable, acceptable, and exceeds requirements, respectively.</obo:IAO_0000115>
         <rdfs:label>oquare five categories scale</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2980,8 +2983,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
-        <rdfs:label>deprecated</rdfs:label>
         <rdfs:comment>The annotation property that indicates that a given entity has been deprecated.</rdfs:comment>
+        <rdfs:label>deprecated</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
