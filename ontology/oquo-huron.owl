@@ -318,6 +318,69 @@
     
 
 
+    <!-- https://purl.archive.org/oquo#AnnotationPropertyWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationPropertyWithNoDescriptionIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
+        <rdfs:label>annotation property with no description issue</rdfs:label>
+        <skos:definition>The annotation property does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#AnnotationPropertyWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationPropertyWithNoNameIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
+        <rdfs:label>annotation property with no name issue</rdfs:label>
+        <skos:definition>The annotation property does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#AnnotationPropertyWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationPropertyWithNoSynonymsIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
+        <rdfs:label>annotation property with no synonyms issue</rdfs:label>
+        <skos:definition>The annotation property does not have any synonym.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#CardinalToOrdinalScaleConversion -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#CardinalToOrdinalScaleConversion"/>
@@ -327,6 +390,69 @@
     <!-- https://purl.archive.org/oquo#CardinalToOrdinalScalePointMapping -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#CardinalToOrdinalScalePointMapping"/>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ClassWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#ClassWithNoDescriptionIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
+        <rdfs:label>class with no description issue</rdfs:label>
+        <skos:definition>The class does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ClassWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#ClassWithNoNameIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
+        <rdfs:label>class with no name issue</rdfs:label>
+        <skos:definition>The class does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ClassWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#ClassWithNoSynonymsIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
+        <rdfs:label>class with no synonyms issue</rdfs:label>
+        <skos:definition>The class does not have any synonym.</skos:definition>
+    </owl:Class>
     
 
 
@@ -824,6 +950,69 @@
     
 
 
+    <!-- https://purl.archive.org/oquo#DataPropertyWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#DataPropertyWithNoDescriptionIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
+        <rdfs:label>data property with no description issue</rdfs:label>
+        <skos:definition>The data property does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DataPropertyWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#DataPropertyWithNoNameIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
+        <rdfs:label>data property with no name issue</rdfs:label>
+        <skos:definition>The data property does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#DataPropertyWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#DataPropertyWithNoSynonymsIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
+        <rdfs:label>data property with no synonyms issue</rdfs:label>
+        <skos:definition>The data property does not have any synonym.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#DescriptionsPerAnnotationPropertyMetric">
@@ -1270,6 +1459,36 @@
     
 
 
+    <!-- https://purl.archive.org/oquo#EntityWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByType"/>
+        <rdfs:label>entity with no description issue</rdfs:label>
+        <skos:definition>The entity does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#EntityWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByType"/>
+        <rdfs:label>entity with no name issue</rdfs:label>
+        <skos:definition>The entity does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#EntityWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByType"/>
+        <rdfs:label>entity with no synonyms issue</rdfs:label>
+        <skos:definition>The entity does not have any synonym.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#HelpfulnessCharacteristic -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#HelpfulnessCharacteristic"/>
@@ -1414,6 +1633,16 @@
         <rdf1:acronym>LRClassPCT</rdf1:acronym>
         <rdfs:comment>The percentage of classes in the ontology that are LR classes.</rdfs:comment>
         <rdfs:label>lexical regularity class percentage metric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineIssue">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByType"/>
+        <rdfs:label>lexically suggest logically define issue</rdfs:label>
+        <skos:definition>The name of the class A is exhibited by class B, but they are not semantically related.</skos:definition>
     </owl:Class>
     
 
@@ -2264,6 +2493,69 @@
     
 
 
+    <!-- https://purl.archive.org/oquo#ObjectPropertyWithNoDescriptionIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#ObjectPropertyWithNoDescriptionIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
+        <rdfs:label>object property with no description issue</rdfs:label>
+        <skos:definition>The object property does not have any description.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ObjectPropertyWithNoNameIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#ObjectPropertyWithNoNameIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
+        <rdfs:label>object property with no name issue</rdfs:label>
+        <skos:definition>The object property does not have any name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#ObjectPropertyWithNoSynonymsIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#ObjectPropertyWithNoSynonymsIssue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
+        <rdfs:label>object property with no synonyms issue</rdfs:label>
+        <skos:definition>The object property does not have any synonym.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#RawScale -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#RawScale"/>
@@ -2676,6 +2968,16 @@
     
 
 
+    <!-- https://purl.archive.org/oquo#SystematicNamingIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#SystematicNamingIssue">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByType"/>
+        <rdfs:label>systematic naming issue</rdfs:label>
+        <skos:definition>The class B is subclass of the class A, but class B does not exhibit the name of the class A.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#SystematicNamingMetric -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#SystematicNamingMetric">
@@ -2738,308 +3040,6 @@
     <!-- https://purl.archive.org/oquo#TextAnalysisCharacteristic -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#TextAnalysisCharacteristic"/>
-    
-
-
-    <!-- https://purl.archive.org/oquo#AnnotationPropertyWithNoDescriptionIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationPropertyWithNoDescriptionIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
-        <rdfs:label>annotation property with no description issue</rdfs:label>
-        <skos:definition>The annotation property does not have any description.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#AnnotationPropertyWithNoNameIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationPropertyWithNoNameIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
-        <rdfs:label>annotation property with no name issue</rdfs:label>
-        <skos:definition>The annotation property does not have any name.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#AnnotationPropertyWithNoSynonymsIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#AnnotationPropertyWithNoSynonymsIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
-        <rdfs:label>annotation property with no synonyms issue</rdfs:label>
-        <skos:definition>The annotation property does not have any synonym.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#ClassWithNoDescriptionIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#ClassWithNoDescriptionIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
-        <rdfs:label>class with no description issue</rdfs:label>
-        <skos:definition>The class does not have any description.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#ClassWithNoNameIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#ClassWithNoNameIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
-        <rdfs:label>class with no name issue</rdfs:label>
-        <skos:definition>The class does not have any name.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#ClassWithNoSynonymsIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#ClassWithNoSynonymsIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
-        <rdfs:label>class with no synonyms issue</rdfs:label>
-        <skos:definition>The class does not have any synonym.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#DataPropertyWithNoDescriptionIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#DataPropertyWithNoDescriptionIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
-        <rdfs:label>data property with no description issue</rdfs:label>
-        <skos:definition>The data property does not have any description.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#DataPropertyWithNoNameIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#DataPropertyWithNoNameIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
-        <rdfs:label>data property with no name issue</rdfs:label>
-        <skos:definition>The data property does not have any name.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#DataPropertyWithNoSynonymsIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#DataPropertyWithNoSynonymsIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
-        <rdfs:label>data property with no synonyms issue</rdfs:label>
-        <skos:definition>The data property does not have any synonym.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#EntityWithNoDescriptionIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
-        <rdfs:label>entity with no description issue</rdfs:label>
-        <skos:definition>The entity does not have any description.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#EntityWithNoNameIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
-        <rdfs:label>entity with no name issue</rdfs:label>
-        <skos:definition>The entity does not have any name.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#EntityWithNoSynonymsIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
-        <rdfs:label>entity with no synonyms issue</rdfs:label>
-        <skos:definition>The entity does not have any synonym.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#LexicallySuggestLogicallyDefineIssue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
-        <rdfs:label>lexically suggest logically define issue</rdfs:label>
-        <skos:definition>The name of the class A is exhibited by class B, but they are not semantically related.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#ObjectPropertyWithNoDescriptionIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#ObjectPropertyWithNoDescriptionIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
-        <rdfs:label>object property with no description issue</rdfs:label>
-        <skos:definition>The object property does not have any description.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#ObjectPropertyWithNoNameIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#ObjectPropertyWithNoNameIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
-        <rdfs:label>object property with no name issue</rdfs:label>
-        <skos:definition>The object property does not have any name.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#ObjectPropertyWithNoSynonymsIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#ObjectPropertyWithNoSynonymsIssue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/ipo/core#hasHostAsset"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
-        <rdfs:label>object property with no synonyms issue</rdfs:label>
-        <skos:definition>The object property does not have any synonym.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#SystematicNamingIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#SystematicNamingIssue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
-        <rdfs:label>systematic naming issue</rdfs:label>
-        <skos:definition>The class B is subclass of the class A, but class B does not exhibit the name of the class A.</skos:definition>
-    </owl:Class>
     
 
 

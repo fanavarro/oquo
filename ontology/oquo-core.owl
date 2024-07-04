@@ -1771,7 +1771,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     <!-- https://purl.archive.org/oquo#CriticalIssue -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#CriticalIssue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueBySeverity"/>
         <rdfs:comment>A critical incident with very high impact</rdfs:comment>
         <rdfs:label>critical issue</rdfs:label>
     </owl:Class>
@@ -2103,6 +2103,16 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- https://purl.archive.org/oquo#InfoIssue -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#InfoIssue">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueBySeverity"/>
+        <rdfs:comment>The defect does not affect functionality or data. It does not even need a workaround. It does not impact productivity or efficiency. It is merely an inconvenience.</rdfs:comment>
+        <rdfs:label>info issue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#InteroperabilityCharacteristic -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#InteroperabilityCharacteristic">
@@ -2163,6 +2173,24 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         </owl:equivalentClass>
         <rdfs:comment>The interval bounds, which can be open () or closed [].</rdfs:comment>
         <rdfs:label>interval bound type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#IssueBySeverity -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#IssueBySeverity">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:label>issue by severity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/oquo#IssueByType -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#IssueByType">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:label>issue by type</rdfs:label>
     </owl:Class>
     
 
@@ -2263,7 +2291,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     <!-- https://purl.archive.org/oquo#MajorIssue -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#MajorIssue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueBySeverity"/>
         <rdfs:comment>A major incident with significant impact</rdfs:comment>
         <rdfs:label>major issue</rdfs:label>
     </owl:Class>
@@ -2273,7 +2301,7 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     <!-- https://purl.archive.org/oquo#MinorIssue -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#MinorIssue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueBySeverity"/>
         <rdfs:comment>A minor incident with low impact</rdfs:comment>
         <rdfs:label>minor issue</rdfs:label>
     </owl:Class>
@@ -2785,16 +2813,6 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
-    <!-- https://purl.archive.org/oquo#TrivialIssue -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#TrivialIssue">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
-        <rdfs:comment>The defect does not affect functionality or data. It does not even need a workaround. It does not impact productivity or efficiency. It is merely an inconvenience.</rdfs:comment>
-        <rdfs:label>trivial issue</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://purl.archive.org/oquo#UsabilityInUseCharacteristic -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#UsabilityInUseCharacteristic">
@@ -3140,9 +3158,9 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="https://purl.archive.org/oquo#CriticalIssue"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#InfoIssue"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#MajorIssue"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#MinorIssue"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#TrivialIssue"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
