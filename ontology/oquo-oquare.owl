@@ -1435,10 +1435,10 @@
     
 
 
-    <!-- https://purl.archive.org/oquo#WeigthMethodPerClass2Metric -->
+    <!-- https://purl.archive.org/oquo#WeightMethodPerClass2Metric -->
 
 
-    <owl:Class rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClass2Metric">
+    <owl:Class rdf:about="https://purl.archive.org/oquo#WeightMethodPerClass2Metric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1459,21 +1459,21 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
-                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#WeigthMethodPerClass2MetricScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#WeightMethodPerClass2MetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean number of path from Thing to a leaf class per leaf class WMCOnto2=∑path(|C(leaf)i|)/∑|C(leaf)i| , where path|C(leaf)i| is the number of the path from the leaf class i to Thing </obo:IAO_0000115>
         <rdf1:acronym>WMCOnto2</rdf1:acronym>
         <rdfs:comment>Mean number of path from Thing to a leaf class per leaf class.</rdfs:comment>
-        <rdfs:label>weigth method per class 2 metric</rdfs:label>
+        <rdfs:label>weight method per class 2 metric</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetric -->
+    <!-- https://purl.archive.org/oquo#WeightMethodPerClassMetric -->
 
 
-    <owl:Class rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric">
+    <owl:Class rdf:about="https://purl.archive.org/oquo#WeightMethodPerClassMetric">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QualityModel#DerivedMeasure"/>
         <rdfs:subClassOf>
             <owl:Class>
@@ -1582,13 +1582,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/QualityModel#hasScale"/>
-                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#WeigthMethodPerClassMetricScale"/>
+                <owl:hasValue rdf:resource="https://purl.archive.org/oquo#WeightMethodPerClassMetricScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Mean length of the path from Thing to a leaf class WMCOnto=∑Lenght(path(|C(leaf)i|))/∑|C(leaf)i|, where Lenght(path|C(leaf)i|) is the length of the path from the leaf class i to Thing </obo:IAO_0000115>
         <rdf1:acronym>WMCOnto</rdf1:acronym>
         <rdfs:comment>Mean length of the path from Thing to a leaf class.</rdfs:comment>
-        <rdfs:label>weigth method per class metric</rdfs:label>
+        <rdfs:label>weight method per class metric</rdfs:label>
     </owl:Class>
     
 
@@ -1813,28 +1813,28 @@
     
 
 
-    <!-- https://purl.archive.org/oquo#WeigthMethodPerClass2MetricScale -->
+    <!-- https://purl.archive.org/oquo#WeightMethodPerClass2MetricScale -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClass2MetricScale">
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeightMethodPerClass2MetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
         <obo:IAO_0000115>Mean number of path from Thing to a leaf class per leaf class.</obo:IAO_0000115>
-        <rdfs:label>weigth method per class 2 metric scale</rdfs:label>
+        <rdfs:label>weight method per class 2 metric scale</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.archive.org/oquo#WeigthMethodPerClassMetricScale -->
+    <!-- https://purl.archive.org/oquo#WeightMethodPerClassMetricScale -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetricScale">
+    <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#WeightMethodPerClassMetricScale">
         <rdf:type rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale"/>
         <rdf:type rdf:resource="https://purl.archive.org/oquo#RawScale"/>
         <QualityModel:hasRankigFunction rdf:resource="http://purl.org/net/QualityModel#LowerBest"/>
         <obo:IAO_0000115>Mean length of the path from Thing to a leaf class.</obo:IAO_0000115>
-        <rdfs:label>weigth method per class metric scale</rdfs:label>
+        <rdfs:label>weight method per class metric scale</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3320,15 +3320,15 @@
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#scaleConversion-7dc31b64-21d2-4950-ba8f-32d6cf505f81">
         <rdf:type rdf:resource="https://purl.archive.org/oquo#CardinalToOrdinalScaleConversion"/>
-        <hasInputScale rdf:resource="https://purl.archive.org/oquo#WeigthMethodPerClass2MetricScale"/>
+        <hasInputScale rdf:resource="https://purl.archive.org/oquo#WeightMethodPerClass2MetricScale"/>
         <hasOutputScale rdf:resource="https://purl.archive.org/oquo#OquareFiveCategoriesScale"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-023f1f1b-b272-4eb9-a4a6-819956a440b1"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-13fde03b-9c80-4b0e-bb34-ee6689537f5d"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-7e957038-0c83-4bda-a207-eabe13a9d3b9"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-b733b380-ab50-441e-8e52-2e4818bdaa70"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-bf85b535-9bc7-44d8-b37e-6713316cc3cd"/>
-        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.archive.org/oquo#WeigthMethodPerClass2MetricScale&gt; and &lt;https://purl.archive.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
-        <rdfs:label>weigth method per class 2 metric scale to oquare five categories scale conversion</rdfs:label>
+        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.archive.org/oquo#WeightMethodPerClass2MetricScale&gt; and &lt;https://purl.archive.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
+        <rdfs:label>weight method per class 2 metric scale to oquare five categories scale conversion</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3338,15 +3338,15 @@
 
     <owl:NamedIndividual rdf:about="https://purl.archive.org/oquo#scaleConversion-89db538d-a002-4df3-adc6-ba541439b2f0">
         <rdf:type rdf:resource="https://purl.archive.org/oquo#CardinalToOrdinalScaleConversion"/>
-        <hasInputScale rdf:resource="https://purl.archive.org/oquo#WeigthMethodPerClassMetricScale"/>
+        <hasInputScale rdf:resource="https://purl.archive.org/oquo#WeightMethodPerClassMetricScale"/>
         <hasOutputScale rdf:resource="https://purl.archive.org/oquo#OquareFiveCategoriesScale"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-3ee13a0b-58a0-4782-87ca-1644a36eca46"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-8253062c-3037-4492-bea2-26ce231ea77a"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-b068ee09-f736-4bd2-a8a5-5fa69fc287ed"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-b755a5f1-f4f9-435d-88b4-818acb5161e0"/>
         <hasScalePointMapping rdf:resource="https://purl.archive.org/oquo#scalePointMapping-ce2a2b90-c91a-4dc2-9d7c-a1560e525f12"/>
-        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.archive.org/oquo#WeigthMethodPerClassMetricScale&gt; and &lt;https://purl.archive.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
-        <rdfs:label>weigth method per class metric scale to oquare five categories scale conversion</rdfs:label>
+        <rdfs:comment>The definition of the conversion between the scales &lt;https://purl.archive.org/oquo#WeightMethodPerClassMetricScale&gt; and &lt;https://purl.archive.org/oquo#OquareFiveCategoriesScale&gt;.</rdfs:comment>
+        <rdfs:label>weight method per class metric scale to oquare five categories scale conversion</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4533,8 +4533,8 @@
             <rdf:Description rdf:about="https://purl.archive.org/oquo#ResponseForAClassMetric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#Tangledness2Metric"/>
             <rdf:Description rdf:about="https://purl.archive.org/oquo#TanglednessMetric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClass2Metric"/>
-            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeigthMethodPerClassMetric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeightMethodPerClass2Metric"/>
+            <rdf:Description rdf:about="https://purl.archive.org/oquo#WeightMethodPerClassMetric"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
