@@ -2177,20 +2177,20 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
     
 
 
+    <!-- https://purl.archive.org/oquo#IssueByNonConformity -->
+
+    <owl:Class rdf:about="https://purl.archive.org/oquo#IssueByNonConformity">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
+        <rdfs:label>issue by non conformity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/oquo#IssueBySeverity -->
 
     <owl:Class rdf:about="https://purl.archive.org/oquo#IssueBySeverity">
         <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
         <rdfs:label>issue by severity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/oquo#IssueByType -->
-
-    <owl:Class rdf:about="https://purl.archive.org/oquo#IssueByType">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ipo/core#Issue"/>
-        <rdfs:label>issue by type</rdfs:label>
     </owl:Class>
     
 
