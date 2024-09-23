@@ -114,7 +114,7 @@ oquo:QualityValueShape
         sh:class res:Evaluation ;
         sh:severity sh:Violation ;
     ] ;
-    
+
     sh:property [
         sh:path rdfs:comment ;       
         sh:minCount 0 ;
@@ -286,6 +286,12 @@ oquo:MeasuredValueShape
         sh:maxCount 1 ;
         sh:severity sh:Violation ;
     ] ;
+    
+    sh:property [
+        sh:path rdfs:comment ;       
+        sh:minCount 0 ;
+    ] ;
+    
     sh:property [
         sh:path res:isMeasuredOnScale ;       
         sh:minCount 1 ;
