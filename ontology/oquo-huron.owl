@@ -335,6 +335,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
         <rdfs:label>annotation property with no description issue</rdfs:label>
         <skos:definition>The annotation property does not have any description.</skos:definition>
+        <hasRecommendation>Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.</hasRecommendation>
     </owl:Class>
     
 
@@ -356,6 +357,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
         <rdfs:label>annotation property with no name issue</rdfs:label>
         <skos:definition>The annotation property does not have any name.</skos:definition>
+        <hasRecommendation>Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.</hasRecommendation>
     </owl:Class>
     
 
@@ -377,6 +379,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
         <rdfs:label>annotation property with no synonyms issue</rdfs:label>
         <skos:definition>The annotation property does not have any synonym.</skos:definition>
+        <hasRecommendation>Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.</hasRecommendation>
     </owl:Class>
     
 
@@ -410,6 +413,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
         <rdfs:label>class with no description issue</rdfs:label>
         <skos:definition>The class does not have any description.</skos:definition>
+        <hasRecommendation>Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.</hasRecommendation>
     </owl:Class>
     
 
@@ -431,6 +435,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
         <rdfs:label>class with no name issue</rdfs:label>
         <skos:definition>The class does not have any name.</skos:definition>
+        <hasRecommendation>Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.</hasRecommendation>
     </owl:Class>
     
 
@@ -452,6 +457,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
         <rdfs:label>class with no synonyms issue</rdfs:label>
         <skos:definition>The class does not have any synonym.</skos:definition>
+        <hasRecommendation>Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.</hasRecommendation>
     </owl:Class>
     
 
@@ -967,6 +973,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
         <rdfs:label>data property with no description issue</rdfs:label>
         <skos:definition>The data property does not have any description.</skos:definition>
+        <hasRecommendation>Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.</hasRecommendation>
     </owl:Class>
     
 
@@ -988,6 +995,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
         <rdfs:label>data property with no name issue</rdfs:label>
         <skos:definition>The data property does not have any name.</skos:definition>
+        <hasRecommendation>Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.</hasRecommendation>
     </owl:Class>
     
 
@@ -1009,6 +1017,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
         <rdfs:label>data property with no synonyms issue</rdfs:label>
         <skos:definition>The data property does not have any synonym.</skos:definition>
+        <hasRecommendation>Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.</hasRecommendation>
     </owl:Class>
     
 
@@ -1465,6 +1474,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByNonConformity"/>
         <rdfs:label>entity with no description issue</rdfs:label>
         <skos:definition>The entity does not have any description.</skos:definition>
+        <hasRecommendation>Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.</hasRecommendation>
     </owl:Class>
     
 
@@ -1475,6 +1485,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByNonConformity"/>
         <rdfs:label>entity with no name issue</rdfs:label>
         <skos:definition>The entity does not have any name.</skos:definition>
+        <hasRecommendation>Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.</hasRecommendation>
     </owl:Class>
     
 
@@ -1485,6 +1496,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByNonConformity"/>
         <rdfs:label>entity with no synonyms issue</rdfs:label>
         <skos:definition>The entity does not have any synonym.</skos:definition>
+        <hasRecommendation>Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.</hasRecommendation>
     </owl:Class>
     
 
@@ -1643,6 +1655,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByNonConformity"/>
         <rdfs:label>lexically suggest logically define issue</rdfs:label>
         <skos:definition>The name of the class A is exhibited by class B, but they are not semantically related.</skos:definition>
+        <hasRecommendation>The information that can be inferred from the name must be formalized as logical axioms in the ontology. In other words, the human readable content and the machine readable content should be aligned. For example, the class &apos;juvenile osteochondrosis of foot&apos; should be semantically related to the &apos;osteochondrosis&apos; and &apos;foot&apos; ontology classes, if these exist.</hasRecommendation>
     </owl:Class>
     
 
@@ -2510,6 +2523,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoDescriptionIssue"/>
         <rdfs:label>object property with no description issue</rdfs:label>
         <skos:definition>The object property does not have any description.</skos:definition>
+        <hasRecommendation>Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.</hasRecommendation>
     </owl:Class>
     
 
@@ -2531,6 +2545,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoNameIssue"/>
         <rdfs:label>object property with no name issue</rdfs:label>
         <skos:definition>The object property does not have any name.</skos:definition>
+        <hasRecommendation>Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.</hasRecommendation>
     </owl:Class>
     
 
@@ -2552,6 +2567,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#EntityWithNoSynonymsIssue"/>
         <rdfs:label>object property with no synonyms issue</rdfs:label>
         <skos:definition>The object property does not have any synonym.</skos:definition>
+        <hasRecommendation>Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.</hasRecommendation>
     </owl:Class>
     
 
@@ -2974,6 +2990,7 @@
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/oquo#IssueByNonConformity"/>
         <rdfs:label>systematic naming issue</rdfs:label>
         <skos:definition>The class B is subclass of the class A, but class B does not exhibit the name of the class A.</skos:definition>
+        <hasRecommendation>The canonical name of a class must follow a systematic naming convention that defines the concept as much as possible. Class names should reflect the differentiation that distinguishes the class from its parent class. This rule suggests that the name of a class should follow the name of its parent classes, lexically indicating that the subclasses are specializations of the parent class, e.g. &apos;pancreatic disease&apos; as subclass of &apos;disease&apos;.</hasRecommendation>
     </owl:Class>
     
 

@@ -333,6 +333,15 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- https://purl.archive.org/oquo#hasRecommendation -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.archive.org/oquo#hasRecommendation">
+        <rdfs:comment>The recommendation for a given situation.</rdfs:comment>
+        <rdfs:label>has recommendation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3001,8 +3010,8 @@ The Issue can have a set of Actions (Procedures) that will fix it and also a Iss
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
-        <rdfs:comment>The annotation property that indicates that a given entity has been deprecated.</rdfs:comment>
         <rdfs:label>deprecated</rdfs:label>
+        <rdfs:comment>The annotation property that indicates that a given entity has been deprecated.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
