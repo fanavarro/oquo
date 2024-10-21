@@ -1,5 +1,5 @@
-# OQUare Ontology (OQUO)
-The OQUare Ontology (OQUO - [https://purl.archive.org/oquo](https://purl.archive.org/oquo)) is a modular ontology that contains the semantic definitions to represent quality models based on metrics, characteristics and subcharacteristics; in addition to the entities needed to represent ontology evaluations.
+# Ontology QUality Ontology (OQUO)
+The Ontology QUality Ontology (OQUO - [https://purl.archive.org/oquo](https://purl.archive.org/oquo)) is a modular ontology that contains the semantic definitions to represent quality models based on metrics, characteristics and subcharacteristics; in addition to the entities needed to represent ontology evaluations.
 
 The OQUO ontology is composed by 5 modules that follows the architecture described in the next figure:
 
