@@ -15,10 +15,10 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:QualityModel="http://purl.org/net/QualityModel#">
-    <owl:Ontology rdf:about="https://purl.archive.org/oquo">
-        <owl:imports rdf:resource="https://purl.archive.org/oquo-huron"/>
-        <owl:imports rdf:resource="https://purl.archive.org/oquo-ontoenrich"/>
-        <owl:imports rdf:resource="https://purl.archive.org/oquo-oquare"/>
+    <owl:Ontology rdf:about="https://semantics.inf.um.es/oquo">
+        <owl:imports rdf:resource="https://semantics.inf.um.es/oquo-huron"/>
+        <owl:imports rdf:resource="https://semantics.inf.um.es/oquo-ontoenrich"/>
+        <owl:imports rdf:resource="https://semantics.inf.um.es/oquo-oquare"/>
     </owl:Ontology>
 </rdf:RDF>
 
