@@ -8,7 +8,7 @@ The OQUO ontology is composed by 5 modules that follows the architecture describ
 ## Modules
 
 ### oquo-core
-The module oquo-core ([https://purl.archive.org/oquo-core](https://purl.archive.org/oquo-core)) contains the common entities needed to represent quality models and evaluations. the module oquo-core is the result of reusing and aligning 4 different ontologies:
+The module oquo-core ([https://purl.org/oquo-core](https://purl.archive.org/oquo-core)) contains the common entities needed to represent quality models and evaluations. the module oquo-core is the result of reusing and aligning 4 different ontologies:
 
   - The Quality Model Ontology - [http://purl.org/net/QualityModel](http://purl.org/net/QualityModel)
   - The Evaluation Result Ontology - [http://purl.org/net/EvaluationResult](http://purl.org/net/EvaluationResult)

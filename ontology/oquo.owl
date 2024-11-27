@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://purl.archive.org/oquo#"
-     xml:base="https://purl.archive.org/oquo"
+<rdf:RDF xmlns="https://purl.org/oquo#"
+     xml:base="https://purl.org/oquo"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -15,10 +15,10 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:QualityModel="http://purl.org/net/QualityModel#">
-    <owl:Ontology rdf:about="https://purl.archive.org/oquo">
-        <owl:imports rdf:resource="https://purl.archive.org/oquo-huron"/>
-        <owl:imports rdf:resource="https://purl.archive.org/oquo-ontoenrich"/>
-        <owl:imports rdf:resource="https://purl.archive.org/oquo-oquare"/>
+    <owl:Ontology rdf:about="https://purl.org/oquo">
+        <owl:imports rdf:resource="https://purl.org/oquo-huron"/>
+        <owl:imports rdf:resource="https://purl.org/oquo-ontoenrich"/>
+        <owl:imports rdf:resource="https://purl.org/oquo-oquare"/>
     </owl:Ontology>
 </rdf:RDF>
 
