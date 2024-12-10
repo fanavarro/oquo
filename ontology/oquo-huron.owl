@@ -96,43 +96,43 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#HelpfulnessCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -182,37 +182,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -261,37 +261,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -484,43 +484,43 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#HelpfulnessCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -570,37 +570,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -649,37 +649,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -734,43 +734,43 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#HelpfulnessCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -820,37 +820,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -899,37 +899,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -2284,43 +2284,43 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#HelpfulnessCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#LearnabilityCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -2370,37 +2370,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -2449,37 +2449,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EaseOfUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#EfficiencyInUseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#IndexingAndLinkingCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#KnowledgeReuseCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:someValuesFrom rdf:resource="https://purl.org/oquo#TextAnalysisCharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicNegatively"/>
+                <owl:onProperty rdf:resource="https://purl.org/oquo#measuresCharacteristicPositively"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
